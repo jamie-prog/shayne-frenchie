@@ -51,14 +51,6 @@
           "settings": {
           }
         },
-        "51587ac6-2599-4c7d-b84f-1721fc9cf00d": {
-          "type": "shopify:\/\/apps\/youpay-multiplayer-shopping\/blocks\/youpay-callout\/96cbed91-f0be-45a9-92ad-cc2d2e43f2b7",
-          "settings": {
-            "badgeTheme": "blue",
-            "modalTheme": "dark",
-            "modalIcon": "shirt"
-          }
-        },
         "7caaaec5-12e5-48f2-bba5-a4779c42d93f": {
           "type": "shopify:\/\/apps\/yotpo-subscriptions\/blocks\/app-block\/ef25e582-ada5-4bb0-b4e7-f94e97ab1bb4",
           "settings": {

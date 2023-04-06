@@ -46,14 +46,6 @@
           "settings": {
           }
         },
-        "3c5d9790-6534-4a4c-9c3c-1c50afd68a4b": {
-          "type": "shopify:\/\/apps\/youpay-multiplayer-shopping\/blocks\/youpay-callout\/96cbed91-f0be-45a9-92ad-cc2d2e43f2b7",
-          "settings": {
-            "badgeTheme": "blue",
-            "modalTheme": "dark",
-            "modalIcon": "shirt"
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {

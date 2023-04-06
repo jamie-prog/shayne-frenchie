@@ -46,14 +46,6 @@
           "settings": {
           }
         },
-        "787cf267-521c-4f7a-a1c8-1c63079c0137": {
-          "type": "shopify:\/\/apps\/youpay-multiplayer-shopping\/blocks\/youpay-callout\/96cbed91-f0be-45a9-92ad-cc2d2e43f2b7",
-          "settings": {
-            "badgeTheme": "blue",
-            "modalTheme": "dark",
-            "modalIcon": "adult-toys"
-          }
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
