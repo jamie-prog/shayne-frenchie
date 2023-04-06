@@ -1,0 +1,191 @@
+
+
+@font-face {
+  font-family: Rama Gothic C;
+  src: url(https://cdn.shopify.com/s/files/1/0351/0324/4426/files/RamaGothicC-Regular.ttf?v=1663061244);
+}
+/* 
+yotpo main container
+change background hex code to change background color
+*/
+.subscriptions-hiw{
+    background: #F4FDF0ff;
+    padding: 3.5rem 0rem;
+    text-align: center;
+}
+
+/* 
+headline
+*/
+
+.hiw-mobile-view {
+  display: none;
+}
+.hiw-headline{
+    font-family: Helvetica;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin: 10px auto 15px;
+    color:#294A80;
+}
+
+
+/* step title */
+.hiw-steps-title{
+    font-family: Rama Gothic C;
+    font-weight: 700;
+    font-size: 45px;
+    color: #FD495C;
+    position: relative;
+    padding: 12px 0;
+}
+
+/* .hiw-steps-title:before{
+    position: absolute;
+    content: "";
+    width: 103px;
+    height: 1px;
+    margin: 0 auto;
+    max-width: 100%;
+    left: 0; 
+    right: 0;
+    top: 0;
+}
+
+.hiw-steps-title:after{
+    position: absolute;
+    content: "";
+    width: 165px;
+    height: 1px;
+    margin: 0 auto;
+    max-width: 100%;
+    left: 0; 
+    right: 0;
+    bottom: 0;
+} */
+
+/* step description */
+.hiw-steps-description{
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 0;
+    line-height: 1.5;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    min-height: 0;
+    position: relative;
+    color: #294A80!important;
+    font-family: Helvetica;
+}
+
+/* step icon/image */
+.hiw-steps-icon{
+    max-width: 100%;
+    max-height: 100%;
+    height: 50px;
+    margin: auto;
+    position: relative;
+  object-fit: contain;
+    
+}
+
+.hiw-step-number{
+color: #fff;
+font-weight: 500;
+font-size: 40px;
+margin: 0 auto 15px;
+}
+
+
+/* how it works description */
+.hiw-description-text{
+    font-family: Helvetica;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.4;
+    margin: 0px auto 40px;
+    color: #294A80;
+}
+
+.hiw-steps-list-container{
+    display: flex;
+    flex-wrap: nowrap;
+    height: auto;
+    justify-content: space-around;
+    max-width: 1300px;
+    margin: auto;
+}
+
+.hiw-steps-item{
+    width: 32%;
+    max-width: 400px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 0;
+    margin: 15px auto 15px 5px;
+    position: relative;
+}
+.hiw-steps-list-container > div:nth-child(2) {
+    margin-bottom: 20px;
+}
+
+
+.hiw-step-holder-text {
+    position: absolute;
+    z-index: 5;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+}
+
+
+@media (max-width: 1023px) {
+    .subscriptions-hiw{
+        padding: 2rem 0;
+    }
+
+    .hiw-steps-item {
+        margin: 15px auto;
+        width: 90%;
+        max-width: unset;
+       
+    }
+    .hiw-step-number{
+        font-size: 30px
+    }
+    .hiw-steps-list-container {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        padding: 15px 0;
+        height: auto;
+    }
+    .hiw-step-holder-text {
+        left: 0 !important;
+        width: 98% !important;
+    }
+    .hiw-steps-list-container {
+      display: none;
+    }
+    .hiw-steps-list-container-mobile {
+      display: block;
+      position: relative;
+    }
+  .hiw-steps-icon {
+    height: 100px;
+  }
+  .hiw-mobile-view {
+    display: block;
+    margin-bottom: 20px
+  }
+}
+
+.hiw-steps-list-container-mobile .owl-nav {
+    top: 70% !important;
+}

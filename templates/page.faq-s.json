@@ -1,0 +1,398 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "1659051208b517ab6d": {
+      "type": "collapsible-content",
+      "blocks": {
+        "1659051208a49f89b7-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you ship orders in discrete packaging?",
+            "icon": "question_mark",
+            "row_content": "<p>Oui! All of our orders are shipped in eco and discrete mailers. They are shipped via our third party logistic partner with no reference to Frenchie at all. <\/p>",
+            "page": ""
+          }
+        },
+        "1659051208a49f89b7-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you ship overseas?",
+            "icon": "question_mark",
+            "row_content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>",
+            "page": ""
+          }
+        },
+        "1659051208a49f89b7-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How long will it take to get my order?",
+            "icon": "question_mark",
+            "row_content": "<p>It depends on where you are. Australian orders will take 5-7 business days to arrive. International deliveries can take anywhere from 7-16 days. Visit our Shipping & Returns page for more info about delivery <a href=\"https:\/\/getfrenchie.com\/pages\/shipping-returns\" title=\"https:\/\/getfrenchie.com\/pages\/shipping-returns\">here<\/a><\/p>",
+            "page": ""
+          }
+        },
+        "1659051208a49f89b7-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you offer Free Shipping?",
+            "icon": "question_mark",
+            "row_content": "<p>Oui! Free shipping is available on orders over $20 AUD for Australian orders and $60 AUD for most international destinations.<\/p>",
+            "page": ""
+          }
+        },
+        "0cbf8d5e-9efc-4e20-8122-f72ced31c8ad": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "1659051208a49f89b7-0",
+        "1659051208a49f89b7-1",
+        "1659051208a49f89b7-2",
+        "1659051208a49f89b7-3",
+        "0cbf8d5e-9efc-4e20-8122-f72ced31c8ad"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "SHIPPING",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1659051129500cf272": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "1659051129d0482448-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>SHIPPING<\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "1659051129d0482448-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "1659051129d0482448-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1659051129d0482448-0",
+        "1659051129d0482448-1",
+        "1659051129d0482448-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1659051415bdc9c448": {
+      "type": "collapsible-content",
+      "blocks": {
+        "1659051415fa0a7c94-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are Frenchie products Vegan & Cruelty-Free?",
+            "icon": "question_mark",
+            "row_content": "<p>Absolument! Indeed they are, no animal by products such as casein are used to strip the rubber latex during the production of Frenchie. We use 100% natural ingredients with no nasties or hidden surprises. That means no sugar, no animal protein, no chemicals, no gluten, no glycerine, no parabens, hormones or spermicides.<\/p>",
+            "page": ""
+          }
+        },
+        "1659051415fa0a7c94-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How thin are Frenchie Condoms?",
+            "icon": "question_mark",
+            "row_content": "<p>One of the thinnest latex condoms on the market, with a nominal thickness of 0.0055mm (a standard condom thickness is between 0.0065mm to 0.007mm thick). Yes very very thin, meaning maximum oh la la sexy time without compromising on quality.<\/p>",
+            "page": ""
+          }
+        },
+        "1659051415fa0a7c94-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How safe are Frenchie Condoms?",
+            "icon": "question_mark",
+            "row_content": "<p>Our condoms are electronically triple tested for safety to ensure no accidental breakage. Manufactured in a world class facility in Malaysia and registered as a Class IIb medical device in Australia under the strict guidance of the Therapeutic Guide of Australia otherwise known as the TGA. Condoms when used correctly can be the most effective form of contraception and can reduce the likelihood of sexually transmitted infections transmission.<\/p><p><\/p>",
+            "page": ""
+          }
+        },
+        "1659051415fa0a7c94-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Will your products make me a better lover?",
+            "icon": "question_mark",
+            "row_content": "<p>Unfortunately not hot stuff, they will however assist with unwanted pregnancies and act as a barrier to protect you from sexually transmitted infections. But look no further, we've got your back! Learn how to be an exceptional lover <a href=\"https:\/\/getfrenchie.com\/blogs\/news\"><span style=\"text-decoration:underline\">here<\/span><\/a><\/p>",
+            "page": ""
+          }
+        },
+        "7d7b3cb4-7cd1-4047-be78-48957744599e": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How long do Frenchie condoms last?",
+            "icon": "question_mark",
+            "row_content": "<p>Yes, each Frenchie beret is tested vigorously and guarantee a 5 year shelf life. Each box will have batch code and expiry date printed on the bottom.<\/p>",
+            "page": ""
+          }
+        },
+        "a7a8a7cf-8220-4a3e-a5fa-4e9063357ca0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I store Frenchie Condoms?",
+            "icon": "question_mark",
+            "row_content": "<p>Please store out of direct sunlight and optimal storage temp of 15c – 35c. Once used please dispose of correctly in the trash.<\/p>",
+            "page": ""
+          }
+        },
+        "1ebde3c5-1fc9-4ff0-9cd9-8bc3919da2f2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How long does Frenchie Oh La La Love Lube last?",
+            "icon": "question_mark",
+            "row_content": "<p>Each Love Lube product is tested vigorously and put through stability testing to guarantee a 3 year shelf life. Each box will have batch code and expiry date printed on the bottom.<\/p>",
+            "page": ""
+          }
+        },
+        "53f6dffc-6507-4275-9af5-ce438ec8542c": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is the Oh La La Water Based Love Lube safe to use with Latex condoms and my toys?",
+            "icon": "question_mark",
+            "row_content": "<p>Yes, its formulated as a waterbased lubricant that won’t breakdown latex or silicone as some known pil based products can. Safe to use with your <a href=\"https:\/\/getfrenchie.com\/collections\/frontpage\"><span style=\"text-decoration:underline\">condoms<\/span><\/a> and toys.<\/p>",
+            "page": ""
+          }
+        },
+        "62fa31b1-4bb7-4384-bbea-e3964ae27413": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is the Oh La La Love Lube safe to use when pregnant or trying to conceive?",
+            "icon": "question_mark",
+            "row_content": "<p>Yes! The 100% natural formulation doesn’t include any nasties, spermicides or contraceptives. We always recommend speaking with your Gynaecologist or Doctor first.<\/p>",
+            "page": ""
+          }
+        },
+        "c1038e78-adc7-4339-bc98-1c122d45ca9d": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is the Frenchie Oh La La Love Lube packaging made from?",
+            "icon": "question_mark",
+            "row_content": "<p>Our sexy looking bottle is made from durable and hard wearing, chemical resistant PETG plastic. A material well suited for medical applications.<\/p>",
+            "page": ""
+          }
+        },
+        "a41daf6d-2c1e-4a3a-a837-7d10fc932795": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What makes Frenchie Oh La La Love Lube better than other products in market?",
+            "icon": "question_mark",
+            "row_content": "<p>Our Oh La La Love Lube is made to not only assist in pleasurable sex, but has also been formulated to be good for the body. The 100% natural PH balanced hyperallergic formulation uses Australian native botanical ingredients, more commonly used in beauty & skincare. These native gems assist with moisture retention, increased collagen and elastin production, skin regeneration, antifungal and anti-inflammatory support. To see what is in the Oh La La Love Lube visit <a href=\"\/products\/oh-la-la-love-lube\" title=\"oh la la love lube\">here<\/a><\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "1659051415fa0a7c94-0",
+        "1659051415fa0a7c94-1",
+        "1659051415fa0a7c94-2",
+        "1659051415fa0a7c94-3",
+        "7d7b3cb4-7cd1-4047-be78-48957744599e",
+        "a7a8a7cf-8220-4a3e-a5fa-4e9063357ca0",
+        "1ebde3c5-1fc9-4ff0-9cd9-8bc3919da2f2",
+        "53f6dffc-6507-4275-9af5-ce438ec8542c",
+        "62fa31b1-4bb7-4384-bbea-e3964ae27413",
+        "c1038e78-adc7-4339-bc98-1c122d45ca9d",
+        "a41daf6d-2c1e-4a3a-a837-7d10fc932795"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "PRODUCT",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "165905250012d1e6fe": {
+      "type": "collapsible-content",
+      "blocks": {
+        "165905249995332219-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I contact customer service?",
+            "icon": "question_mark",
+            "row_content": "<p>If you have any questions about our products or your order, you can send an email to <a href=\"mailto:bonjour@getfrenchie.com\" title=\"mailto:bonjour@getfrenchie.com\">bonjour@getfrenchie.com<\/a>.  or ask on our live chat and we will do our best to get back to you within 48 hours (please expect a delayed response on weekends and holidays). <\/p>",
+            "page": ""
+          }
+        },
+        "165905249995332219-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What will be the name on my statement when you process the orders?",
+            "icon": "check_mark",
+            "row_content": "<p>MCM Brands Pty Ltd will be processing the orders with no reference to Frenchie<\/p>",
+            "page": ""
+          }
+        },
+        "165905249995332219-3": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "165905249995332219-2": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "165905249995332219-0",
+        "165905249995332219-1",
+        "165905249995332219-3",
+        "165905249995332219-2"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "OTHER",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "disabled": true,
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+          }
+        },
+        "email-form": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "paragraph",
+        "email-form"
+      ],
+      "settings": {
+        "color_scheme": "accent-2",
+        "full_width": true,
+        "padding_top": 60,
+        "padding_bottom": 0
+      }
+    },
+    "165905240443779a10": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "For More Visit Our Le Journal",
+        "heading_size": "h1",
+        "blog": "news",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "inverse",
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1659052445fd349056": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "Blog posts",
+        "heading_size": "h1",
+        "blog": "news",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1659051208b517ab6d",
+    "1659051129500cf272",
+    "1659051415bdc9c448",
+    "165905250012d1e6fe",
+    "newsletter",
+    "165905240443779a10",
+    "1659052445fd349056"
+  ]
+}

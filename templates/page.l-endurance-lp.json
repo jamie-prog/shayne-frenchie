@@ -1,0 +1,728 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "16601103567184d180": {
+      "type": "image-banner",
+      "blocks": {
+        "16601103569b497041-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Regain your confidence in the bedroom",
+            "heading_size": "h1"
+          }
+        },
+        "16601103569b497041-1": {
+          "type": "text",
+          "settings": {
+            "text": "You're not alone! Premature Ejaculation (PE) effects 1 in 3 Men",
+            "text_style": "subtitle"
+          }
+        },
+        "16601103569b497041-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "LAST LONGER TODAY",
+            "button_link_1": "shopify:\/\/products\/lendurance-delay-spray",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "16601103569b497041-0",
+        "16601103569b497041-1",
+        "16601103569b497041-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Untitled_design_27.jpg",
+        "image_overlay_opacity": 40,
+        "image_height": "large",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "bottom-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "inverse",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": true
+      }
+    },
+    "880e7b2b-e262-4947-bf18-e25bf0f5bcff": {
+      "type": "sliding-banner",
+      "blocks": {
+        "d2f17fd9-f30c-4ec7-a264-e2744ba9ca02": {
+          "type": "text",
+          "settings": {
+            "text": "Fast, FREE, Discreet Delivery"
+          }
+        },
+        "fa117e33-f99c-4b4b-b0e2-3d5ed0a2670d": {
+          "type": "text",
+          "settings": {
+            "text": "Australian made"
+          }
+        },
+        "a272a029-8eac-4a07-80c6-18fefdbe736a": {
+          "type": "text",
+          "settings": {
+            "text": "Pharmacy formulated"
+          }
+        },
+        "1042cc0f-fd58-4bd1-ac6d-924b5d9f3a4a": {
+          "type": "text",
+          "settings": {
+            "text": "Not satisifed? Return & Refund"
+          }
+        },
+        "759683ef-3ccd-45a0-9e33-6f7444103898": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Enter Banner"
+          }
+        }
+      },
+      "block_order": [
+        "d2f17fd9-f30c-4ec7-a264-e2744ba9ca02",
+        "fa117e33-f99c-4b4b-b0e2-3d5ed0a2670d",
+        "a272a029-8eac-4a07-80c6-18fefdbe736a",
+        "1042cc0f-fd58-4bd1-ac6d-924b5d9f3a4a",
+        "759683ef-3ccd-45a0-9e33-6f7444103898"
+      ],
+      "settings": {
+      }
+    },
+    "1660177065f3231834": {
+      "type": "rich-text",
+      "blocks": {
+        "1660177065c59b66b1-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>SPRAY ON, PLAY LONG<\/strong><\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "1660177065c59b66b1-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Say <em>Au Revoir<\/em> to awkward doctor visits and <em>Bonjour<\/em> to <strong>easy to use<\/strong> pharmacy formulated <strong>delay spray<\/strong> and <strong>increased stamina<\/strong>.<\/p>"
+          }
+        },
+        "1660177065c59b66b1-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1660177065c59b66b1-0",
+        "1660177065c59b66b1-1",
+        "1660177065c59b66b1-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "16601125807409e1a0": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "background-1",
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
+    "1660106288f714d2da": {
+      "type": "apps",
+      "blocks": {
+        "8a684dff-577a-496f-861b-b6afc2bfdc77": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "<div class=\"klaviyo-form-WeScjC\"><\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "8a684dff-577a-496f-861b-b6afc2bfdc77"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "166018583634a32414": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "1660185836c89d9552-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "1660185836c89d9552-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>** On 1x Deux condom bundle per order and per customer. <\/p>"
+          }
+        },
+        "1660185836c89d9552-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1660185836c89d9552-0",
+        "1660185836c89d9552-1",
+        "1660185836c89d9552-2"
+      ],
+      "settings": {
+        "desktop_content_position": "right",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 8,
+        "padding_bottom": 0
+      }
+    },
+    "4a87b5a7-954b-4503-a587-71152c53a2d4": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--16049412931770__4a87b5a7-954b-4503-a587-71152c53a2d4-167693326338c20da9-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TPE_Icons-02_white_1.png",
+            "title": "Delays Ejaculation",
+            "text": "<p>Clinically tested to reduce penile overstimulation so you stay hard longer without the nasty side effects of other treatments.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16049412931770__4a87b5a7-954b-4503-a587-71152c53a2d4-167693326338c20da9-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TPE_Icons-01_white_1.png",
+            "title": "Easy and safe to use",
+            "text": "<p>Spray on to play long. Non invasive treatment with just a couple of sprays before your next rendezvous<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16049412931770__4a87b5a7-954b-4503-a587-71152c53a2d4-167693326338c20da9-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TPE_Icons-03_white.png",
+            "title": "Clinically tested ingredients",
+            "text": "<p>Proven ingredients that are regulatory approved and used by healthcare professionals around the world without the need for that embarrasing doctor visit.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16049412931770__4a87b5a7-954b-4503-a587-71152c53a2d4-167693326338c20da9-0",
+        "template--16049412931770__4a87b5a7-954b-4503-a587-71152c53a2d4-167693326338c20da9-1",
+        "template--16049412931770__4a87b5a7-954b-4503-a587-71152c53a2d4-167693326338c20da9-2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "third",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "accent-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 16
+      }
+    },
+    "d42d2299-004f-42e2-9475-5f4cf151f39e": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--16049412931770__d42d2299-004f-42e2-9475-5f4cf151f39e-1678327331275c16fc-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vice-logo-225h.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16049412931770__d42d2299-004f-42e2-9475-5f4cf151f39e-1678327331275c16fc-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pedestrian-tv-logo-225h.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16049412931770__d42d2299-004f-42e2-9475-5f4cf151f39e-1678327331275c16fc-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/buzzfeed-logo-225h.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "f9859405-b459-4164-adf7-9c3cfdc2b399": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/instyle-logo-225h-v2-centred.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "b0669e47-e5bd-4c3b-9c53-ff2d7b214df7": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/refinery-29-logo-225h.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16049412931770__d42d2299-004f-42e2-9475-5f4cf151f39e-1678327331275c16fc-0",
+        "template--16049412931770__d42d2299-004f-42e2-9475-5f4cf151f39e-1678327331275c16fc-1",
+        "template--16049412931770__d42d2299-004f-42e2-9475-5f4cf151f39e-1678327331275c16fc-2",
+        "f9859405-b459-4164-adf7-9c3cfdc2b399",
+        "b0669e47-e5bd-4c3b-9c53-ff2d7b214df7"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "title": "As Seen In",
+        "heading_size": "h1",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "inverse",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1660110290f20a75cb": {
+      "type": "featured-product",
+      "blocks": {
+        "1660110290e8732346-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "1660110290e8732346-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "1660110290e8732346-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "1660110290e8732346-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "cf2c2078-fc4b-40f0-8aee-8651be8bce35": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.reviews.rating | metafield_text }}⭐ Reviews",
+            "text_style": "subtitle"
+          }
+        },
+        "90d7c953-31a8-4747-b3bb-27a7c8bd3676": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/all_reviews_text\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "8c550124-f08f-4139-b937-282c9399dd27": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.my_fields.product_description.value }}",
+            "text_style": "body"
+          }
+        },
+        "cf370807-9cf7-4768-81d8-e08cdd9d074d": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.my_fields.details_ingredients.value }}",
+            "text_style": "body"
+          }
+        },
+        "1660110290e8732346-4": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "dropdown"
+          }
+        },
+        "1660110290e8732346-5": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "20ef72ba-1a26-42c8-92ae-056704f19a57": {
+          "type": "shopify:\/\/apps\/yotpo-subscriptions\/blocks\/app-block\/ef25e582-ada5-4bb0-b4e7-f94e97ab1bb4",
+          "settings": {
+          }
+        },
+        "1660110290e8732346-6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false
+          }
+        },
+        "1660110290e8732346-7": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "99e715dd-3164-4713-a781-b6358d69e6e2": {
+          "type": "rating",
+          "disabled": true,
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "1660110290e8732346-0",
+        "1660110290e8732346-1",
+        "1660110290e8732346-2",
+        "1660110290e8732346-3",
+        "cf2c2078-fc4b-40f0-8aee-8651be8bce35",
+        "90d7c953-31a8-4747-b3bb-27a7c8bd3676",
+        "8c550124-f08f-4139-b937-282c9399dd27",
+        "cf370807-9cf7-4768-81d8-e08cdd9d074d",
+        "1660110290e8732346-4",
+        "1660110290e8732346-5",
+        "20ef72ba-1a26-42c8-92ae-056704f19a57",
+        "1660110290e8732346-6",
+        "1660110290e8732346-7",
+        "99e715dd-3164-4713-a781-b6358d69e6e2"
+      ],
+      "settings": {
+        "product": "lendurance-delay-spray",
+        "color_scheme": "background-2",
+        "secondary_background": true,
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 16,
+        "padding_bottom": 20
+      }
+    },
+    "16601103363058d1a9": {
+      "type": "apps",
+      "blocks": {
+        "a276269d-e4ce-457c-9b96-83b404e6171a": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 2040
+          }
+        }
+      },
+      "block_order": [
+        "a276269d-e4ce-457c-9b96-83b404e6171a"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "166016688029f3edb1": {
+      "type": "apps",
+      "disabled": true,
+      "blocks": {
+        "c00d6cf7-1546-44da-92ba-2928b8bb5932": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/all_reviews_page\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "extra_wrapper_classes": "page-width page-width--narrow"
+          }
+        }
+      },
+      "block_order": [
+        "c00d6cf7-1546-44da-92ba-2928b8bb5932"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "2f19fb8e-9573-4ca3-b4df-a9684b965145": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16049412931770__2f19fb8e-9573-4ca3-b4df-a9684b965145-167693549446823332-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Unsealed Section: Half the battle to combatting premature ejaculation is talking about it",
+            "heading_size": "h1"
+          }
+        },
+        "template--16049412931770__2f19fb8e-9573-4ca3-b4df-a9684b965145-167693549446823332-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>Three years ago, ﻿Brad* met his \"missus\", and that could have been that – until the now-52-year-old from South Australia ran into an \"issue\" over 3.9 million Aussies face, but hardly ever talk about.<\/em><\/p><p><em>\"I just noticed it, it didn't come on suddenly, ﻿it was a gradual thing and I just noticed, 'Yeah, I wasn't getting it up anymore', and I thought, 'What's going on here?'\" he tells 9Honey.<\/em><\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--16049412931770__2f19fb8e-9573-4ca3-b4df-a9684b965145-167693549446823332-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "READ more",
+            "button_link": "https:\/\/honey.nine.com.au\/latest\/premature-ejaculation-frenchie-new-australian-delay-spray-hits-shelves-exclusive-unsealed-section\/a3ebbf90-e19a-45b6-abae-e1db1bd4cc23"
+          }
+        }
+      },
+      "block_order": [
+        "template--16049412931770__2f19fb8e-9573-4ca3-b4df-a9684b965145-167693549446823332-0",
+        "template--16049412931770__2f19fb8e-9573-4ca3-b4df-a9684b965145-167693549446823332-1",
+        "template--16049412931770__2f19fb8e-9573-4ca3-b4df-a9684b965145-167693549446823332-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Screenshot_2023-02-21_102651.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "650d15c5-22e7-477d-bdaf-a622834f0b52": {
+      "type": "featured-product",
+      "blocks": {
+        "template--16049412931770__650d15c5-22e7-477d-bdaf-a622834f0b52-1676936230832974e8-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "b57dee43-515f-40ac-b3c7-557fd6650681": {
+          "type": "text",
+          "settings": {
+            "text": "FAQ's",
+            "text_style": "subtitle"
+          }
+        },
+        "template--16049412931770__650d15c5-22e7-477d-bdaf-a622834f0b52-1676936230832974e8-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.my_fields.faq.value }}",
+            "text_style": "uppercase"
+          }
+        },
+        "template--16049412931770__650d15c5-22e7-477d-bdaf-a622834f0b52-1676936230832974e8-2": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "template--16049412931770__650d15c5-22e7-477d-bdaf-a622834f0b52-1676936230832974e8-3": {
+          "type": "price",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "template--16049412931770__650d15c5-22e7-477d-bdaf-a622834f0b52-1676936230832974e8-4": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "template--16049412931770__650d15c5-22e7-477d-bdaf-a622834f0b52-1676936230832974e8-5": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "template--16049412931770__650d15c5-22e7-477d-bdaf-a622834f0b52-1676936230832974e8-6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false
+          }
+        },
+        "template--16049412931770__650d15c5-22e7-477d-bdaf-a622834f0b52-1676936230832974e8-7": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "template--16049412931770__650d15c5-22e7-477d-bdaf-a622834f0b52-1676936230832974e8-1",
+        "b57dee43-515f-40ac-b3c7-557fd6650681",
+        "template--16049412931770__650d15c5-22e7-477d-bdaf-a622834f0b52-1676936230832974e8-0",
+        "template--16049412931770__650d15c5-22e7-477d-bdaf-a622834f0b52-1676936230832974e8-2",
+        "template--16049412931770__650d15c5-22e7-477d-bdaf-a622834f0b52-1676936230832974e8-3",
+        "template--16049412931770__650d15c5-22e7-477d-bdaf-a622834f0b52-1676936230832974e8-4",
+        "template--16049412931770__650d15c5-22e7-477d-bdaf-a622834f0b52-1676936230832974e8-5",
+        "template--16049412931770__650d15c5-22e7-477d-bdaf-a622834f0b52-1676936230832974e8-6",
+        "template--16049412931770__650d15c5-22e7-477d-bdaf-a622834f0b52-1676936230832974e8-7"
+      ],
+      "settings": {
+        "product": "lendurance-delay-spray",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "0747566c-5f84-41d8-888a-27bb5817e2b6": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16049412931770__0747566c-5f84-41d8-888a-27bb5817e2b6-167693549446823332-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "How to combat PE",
+            "heading_size": "h1"
+          }
+        },
+        "template--16049412931770__0747566c-5f84-41d8-888a-27bb5817e2b6-167693549446823332-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>Premature Ejaculation (PE) is a very common issue, experienced by up to 1 in every 3 men in Australia. Not being able to control their ejaculation and orgasming too soon might shake men’s confidence and make them feel like they are not good enough in bed, or not able to give pleasure to their partners.<\/em><\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--16049412931770__0747566c-5f84-41d8-888a-27bb5817e2b6-167693549446823332-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "READ MORE",
+            "button_link": "https:\/\/getfrenchie.com\/blogs\/news\/help-your-partner-with-premature-ejaculation"
+          }
+        }
+      },
+      "block_order": [
+        "template--16049412931770__0747566c-5f84-41d8-888a-27bb5817e2b6-167693549446823332-0",
+        "template--16049412931770__0747566c-5f84-41d8-888a-27bb5817e2b6-167693549446823332-1",
+        "template--16049412931770__0747566c-5f84-41d8-888a-27bb5817e2b6-167693549446823332-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/pexels-ketut-subiyanto-4827476_520x500_064ba34c-7ea1-4b5e-b0e0-9cf1a6a6f88b.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "right",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "cfd29630-bc9f-4fb3-a2d5-fa39151b6387": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "FREQUENTLY BOUGHT WITH",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "toys-play",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16601103567184d180",
+    "880e7b2b-e262-4947-bf18-e25bf0f5bcff",
+    "1660177065f3231834",
+    "16601125807409e1a0",
+    "1660106288f714d2da",
+    "166018583634a32414",
+    "4a87b5a7-954b-4503-a587-71152c53a2d4",
+    "d42d2299-004f-42e2-9475-5f4cf151f39e",
+    "1660110290f20a75cb",
+    "16601103363058d1a9",
+    "166016688029f3edb1",
+    "2f19fb8e-9573-4ca3-b4df-a9684b965145",
+    "650d15c5-22e7-477d-bdaf-a622834f0b52",
+    "0747566c-5f84-41d8-888a-27bb5817e2b6",
+    "cfd29630-bc9f-4fb3-a2d5-fa39151b6387"
+  ]
+}

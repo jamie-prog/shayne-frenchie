@@ -1,0 +1,65 @@
+{{ 'subscriptions-hiw.css' | asset_url | stylesheet_tag }}
+{{ 'owl.carousel.css' | asset_url | stylesheet_tag }}
+<div class="subscriptions-hiw">
+          <h2 class="hiw-headline">HOW IT WORKS</h2>
+          <div class="hiw-steps-list-container">
+              <div class="hiw-steps-item">
+                  <img class="hiw-steps-icon hiw-steps-1-icon" src={{"subscription-hiw-img1.png"| asset_url}} >
+                  <div class="hiw-steps-title">Subscribe and Save</div>
+                  <div class="hiw-steps-description">Pay less for your favorite items!</div>
+              </div>
+            
+              <div class="hiw-steps-item">
+                  <img class="hiw-steps-icon hiw-steps-2-icon" src={{"subscription-hiw-img2.png"| asset_url}}  >
+                  <div class="hiw-steps-title">Stress-Free Delivery</div>
+                  <div class="hiw-steps-description">Never worry about delivery</div> 
+              </div>
+            
+              <div class="hiw-steps-item">
+                  <img   class="hiw-steps-icon hiw-steps-3-icon" src={{"subscription-hiw-img3.png"| asset_url}} >
+                  <div class="hiw-steps-title">Order Flexibilty</div>
+                  <div class="hiw-steps-description">Update your order frequency, renew, or cancel any time you want</div>
+              </div>
+             </div>  
+
+<!--   mobile view -->
+        <div class="hiw-mobile-view">
+          <div class="hiw-steps-list-container-mobile owl-carousel ">
+              <div class="hiw-steps-item">
+                  <img class="hiw-steps-icon hiw-steps-1-icon" src={{"subscription-hiw-img1.png"| asset_url}} >
+                  <div class="hiw-steps-title">Subscribe and Save</div>
+                  <div class="hiw-steps-description">Pay less for your favorite items!</div>
+              </div>
+            
+              <div class="hiw-steps-item">
+                  <img class="hiw-steps-icon hiw-steps-2-icon" src={{"subscription-hiw-img2.png"| asset_url}}  >
+                  <div class="hiw-steps-title">Stress-Free Delivery</div>
+                  <div class="hiw-steps-description">Never worry about delivery</div> 
+              </div>
+            
+              <div class="hiw-steps-item">
+                  <img   class="hiw-steps-icon hiw-steps-3-icon" src={{"subscription-hiw-img3.png"| asset_url}} >
+                  <div class="hiw-steps-title">Order Flexibilty</div>
+                  <div class="hiw-steps-description">Update your order frequency, renew, or cancel any time you want</div>
+              </div>
+         </div>    
+      </div>
+  
+          <div class="hiw-description-container">
+              <!-- how it works descriptions -->
+              <p class="hiw-description-text">Condom discreetly delivered to your door on your schedule</p>
+        </div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src={{"owl.carousel.js" | asset_url}} ></script>
+<script>
+      $(".owl-carousel").owlCarousel({
+        items: 1,
+        nav: false,
+        dots: false,
+        loop: false,
+        margin:0
+        
+      });
+</script>

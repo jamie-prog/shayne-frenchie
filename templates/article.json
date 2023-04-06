@@ -1,0 +1,162 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "blog_show_date": true,
+            "blog_show_author": true,
+            "blog_author_name": "",
+            "blog_reviewer_name": "",
+            "blog_show_readingtime": true
+          }
+        },
+        "featured_image": {
+          "type": "featured_image",
+          "settings": {
+            "image_height": "adapt"
+          }
+        },
+        "content": {
+          "type": "content",
+          "settings": {
+          }
+        },
+        "823867e1-51ae-4581-92b3-fc7daaa6a216": {
+          "type": "advert",
+          "disabled": true,
+          "settings": {
+            "product_headline": "Spice up it up",
+            "product_1": "le-petit-lultimate-lovers-kit",
+            "product_button_text": "View Product",
+            "product_2": "",
+            "product_button_text_2": "View Product",
+            "product_3": "",
+            "product_button_text_3": "View Product"
+          }
+        },
+        "c8e6c6ac-9c7e-41ba-82f8-9097cf67fe7a": {
+          "type": "custom",
+          "disabled": true,
+          "settings": {
+            "custom_text_title": "What You Can Do If All Else Fails",
+            "custom_text_body": "<p><strong>Sexual Therapy<\/strong><\/p><p>There are specialist therepists who are trained in understanding the psychology of human sexulatiy, sex and relationships. They will be able to help you uncover what might going on for you, and give you the tools to help you overcome it.<\/p><p><\/p><p>Guided imagery is a method for managing your stress. It’s a relaxation technique that involves visualizing positive, peaceful settings like a beautiful beach or a peaceful meadow. This technique is also known as visualization or guided meditation.<\/p><p><strong>Guided Imagery<\/strong><\/p><p>It can be useful for ED as it helps you ground and relax before getting physical intimate. If abstract images like a calm beach don’t do it for you, it can also be helpful to visualise the sexaual energy in your body flowing into your genitals. <\/p><p><strong>Meditation <\/strong><\/p><p>Mindfulness or meditation is another useful tool that helps feel more calm , present and connected to our body. These are great skills for anyone experiencing ED. <\/p><p>Practice your mind\/body connection through mindfulness exercises such as body scans to help you still your mental world and focus on your physcial sensations. <\/p>"
+          }
+        },
+        "dbbed86a-1223-4cd9-85eb-98b2175cb969": {
+          "type": "custom",
+          "disabled": true,
+          "settings": {
+            "custom_text_title": "When to see a GP?",
+            "custom_text_body": "<p>Of course, not all ED is caused by psychological or emotional reasons. <\/p><p>ED can be a symptom of many physical health concerns, and there might be something more serious going on. <\/p><p>It’s <span style=\"text-decoration:underline\">always<\/span> worthwhile seeing a GP to check nothing is going on physically. <\/p><p>This is especially true if:<\/p><p>- you can’t work out any emotional reasons for the change<\/p><p> - if you have diabetes, heart disease or another known health condition that might be linked to erectile dysfunction<\/p><p> -or you have other symptoms along with erectile dysfunction<\/p><p><\/p><p><\/p>"
+          }
+        },
+        "7ea6d6d8-985c-4808-a1e7-3c25bb2f2814": {
+          "type": "cta",
+          "disabled": true,
+          "settings": {
+            "cta-title": "Check this out",
+            "cta-image": "shopify:\/\/shop_images\/Frenchie-Lube-Restock-2.1.jpg",
+            "cta-link": "https:\/\/getfrenchie.com\/blogs\/news\/7-days-of-pleasure",
+            "cta-link-text": "Click Here"
+          }
+        },
+        "b095f3fd-4d01-4d74-a645-afe88cb56c98": {
+          "type": "custom",
+          "disabled": true,
+          "settings": {
+            "custom_text_title": "Summary",
+            "custom_text_body": "<p>ED is much more common than people like to admit, and it is very very normal. Everybody experiences times of stress, worry or anxiety in life, and it is only natural for this to affect our sex life. <\/p><p>Sadly the silence,embarrassment and shame that often surrounds these conversations makes the problem worse, not better.<\/p><p>Instead, try and create an environment where pleasure and relaxation is the goal, and remove the pressure for an erection. When you stop fixating on the erection, you will discover that you are still capable of so much pleasure.<\/p>"
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "featured_image",
+        "content",
+        "823867e1-51ae-4581-92b3-fc7daaa6a216",
+        "c8e6c6ac-9c7e-41ba-82f8-9097cf67fe7a",
+        "dbbed86a-1223-4cd9-85eb-98b2175cb969",
+        "7ea6d6d8-985c-4808-a1e7-3c25bb2f2814",
+        "b095f3fd-4d01-4d74-a645-afe88cb56c98",
+        "share"
+      ],
+      "settings": {
+      }
+    },
+    "1658801499aa58f4de": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Our Best Sellers",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "frontpage",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "inverse",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+          }
+        },
+        "email-form": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "paragraph",
+        "email-form"
+      ],
+      "settings": {
+        "color_scheme": "accent-2",
+        "full_width": true,
+        "padding_top": 60,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1658801499aa58f4de",
+    "newsletter"
+  ]
+}

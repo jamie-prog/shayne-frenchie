@@ -1,0 +1,255 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "blog_show_date": true,
+            "blog_show_author": true,
+            "blog_author_name": "Dr Ian Robertson",
+            "blog_reviewer_name": "",
+            "blog_show_readingtime": true
+          }
+        },
+        "featured_image": {
+          "type": "featured_image",
+          "settings": {
+            "image_height": "adapt"
+          }
+        },
+        "content": {
+          "type": "content",
+          "settings": {
+          }
+        },
+        "823867e1-51ae-4581-92b3-fc7daaa6a216": {
+          "type": "advert",
+          "disabled": true,
+          "settings": {
+            "product_headline": "Spice up it up",
+            "product_1": "le-petit-lultimate-lovers-kit",
+            "product_button_text": "View Product",
+            "product_2": "",
+            "product_button_text_2": "View Product",
+            "product_3": "",
+            "product_button_text_3": "View Product"
+          }
+        },
+        "c8e6c6ac-9c7e-41ba-82f8-9097cf67fe7a": {
+          "type": "custom",
+          "disabled": true,
+          "settings": {
+            "custom_text_title": "What You Can Do If All Else Fails",
+            "custom_text_body": "<p><strong>Sexual Therapy<\/strong><\/p><p>There are specialist therepists who are trained in understanding the psychology of human sexulatiy, sex and relationships. They will be able to help you uncover what might going on for you, and give you the tools to help you overcome it.<\/p><p><\/p><p>Guided imagery is a method for managing your stress. It’s a relaxation technique that involves visualizing positive, peaceful settings like a beautiful beach or a peaceful meadow. This technique is also known as visualization or guided meditation.<\/p><p><strong>Guided Imagery<\/strong><\/p><p>It can be useful for ED as it helps you ground and relax before getting physical intimate. If abstract images like a calm beach don’t do it for you, it can also be helpful to visualise the sexaual energy in your body flowing into your genitals. <\/p><p><strong>Meditation <\/strong><\/p><p>Mindfulness or meditation is another useful tool that helps feel more calm , present and connected to our body. These are great skills for anyone experiencing ED. <\/p><p>Practice your mind\/body connection through mindfulness exercises such as body scans to help you still your mental world and focus on your physcial sensations. <\/p>"
+          }
+        },
+        "dbbed86a-1223-4cd9-85eb-98b2175cb969": {
+          "type": "custom",
+          "disabled": true,
+          "settings": {
+            "custom_text_title": "When to see a GP?",
+            "custom_text_body": "<p>Of course, not all ED is caused by psychological or emotional reasons. <\/p><p>ED can be a symptom of many physical health concerns, and there might be something more serious going on. <\/p><p>It’s <span style=\"text-decoration:underline\">always<\/span> worthwhile seeing a GP to check nothing is going on physically. <\/p><p>This is especially true if:<\/p><p>- you can’t work out any emotional reasons for the change<\/p><p> - if you have diabetes, heart disease or another known health condition that might be linked to erectile dysfunction<\/p><p> -or you have other symptoms along with erectile dysfunction<\/p><p><\/p><p><\/p>"
+          }
+        },
+        "7ea6d6d8-985c-4808-a1e7-3c25bb2f2814": {
+          "type": "cta",
+          "disabled": true,
+          "settings": {
+            "cta-title": "Check this out",
+            "cta-image": "shopify:\/\/shop_images\/Frenchie-Lube-Restock-2.1.jpg",
+            "cta-link": "https:\/\/getfrenchie.com\/blogs\/news\/7-days-of-pleasure",
+            "cta-link-text": "Click Here"
+          }
+        },
+        "b095f3fd-4d01-4d74-a645-afe88cb56c98": {
+          "type": "custom",
+          "disabled": true,
+          "settings": {
+            "custom_text_title": "Summary",
+            "custom_text_body": "<p>ED is much more common than people like to admit, and it is very very normal. Everybody experiences times of stress, worry or anxiety in life, and it is only natural for this to affect our sex life. <\/p><p>Sadly the silence,embarrassment and shame that often surrounds these conversations makes the problem worse, not better.<\/p><p>Instead, try and create an environment where pleasure and relaxation is the goal, and remove the pressure for an erection. When you stop fixating on the erection, you will discover that you are still capable of so much pleasure.<\/p>"
+          }
+        },
+        "6dd3efc4-b579-44b5-a08e-44a446ccba6e": {
+          "type": "custom",
+          "settings": {
+            "custom_text_title": "Symptoms",
+            "custom_text_body": "<p>85-90% of people do not have symptoms.<\/p><p>If you do have symptoms, they can start anywhere from 2-14 days after sex.<\/p><p>Symptoms may include:<\/p><ul><li>discharge (pus) from the penis, vagina, or rectum (bum)<\/li><li>painful urination: burning or stinging when peeing<\/li><li>sore balls (testes)<\/li><li>pain during sex<\/li><li>bleeding from the vagina after sex or between periods<\/li><li>bleeding from the rectum<\/li><li>pain when opening bowels or changes to the bowels<\/li><li>cramps or pain in the lower belly (pelvis)  in people with uteruses<\/li><\/ul>"
+          }
+        },
+        "d3a2e90b-1dea-46de-84db-70f660b48f14": {
+          "type": "custom",
+          "settings": {
+            "custom_text_title": "When to see a doctor",
+            "custom_text_body": "<p><strong>If you have symptoms<\/strong><\/p><p>If you have symptoms (see above) you should have a test. If the symptoms are severe, it’s important to be seen by a doctor or nurse who will assess if you need to have treatment right away.<\/p><p><strong>Screening<\/strong><\/p><p>People who are sexually active with casual partners should be tested for chlamydia every 3-6 months. This is called a screening test because the tests are done to make sure you’re not carrying chlamydia and don’t know it. <\/p><p><strong>If you are a sexual contact with someone with chlamydia<\/strong><\/p><p>If you’re in contact with someone infected with chlamydia (someone who you’ve had sex with has tested positive for it), you should have a test to make sure you don’t have it too.<\/p>"
+          }
+        },
+        "4d9c151d-8b2e-4c41-a7e4-5a0db096668d": {
+          "type": "custom",
+          "settings": {
+            "custom_text_title": "What is involved in testing",
+            "custom_text_body": "<p>Tests involve a swab of the area that you collect yourself or a urine test. The tests are not painful.<\/p>"
+          }
+        },
+        "191e437c-7ca1-47a8-9bb3-02cc9fe7cfec": {
+          "type": "custom",
+          "settings": {
+            "custom_text_title": "What happens if I have chlamydia?",
+            "custom_text_body": "<ul><li>Your doctor or nurse will give you antibiotics that usually lasts for 1 week<\/li><li>Avoid sex while you’re taking the antibiotics <\/li><li>Have a screening test 3 months after your antibiotics<\/li><li>Let people know that you’ve had sex for the last 6 months to go get a test<\/li><li>If you have symptoms, they will ease within a few days of treatment<\/li><\/ul>"
+          }
+        },
+        "0c232fa9-2eef-4f7f-9329-8f530de9762a": {
+          "type": "custom",
+          "settings": {
+            "custom_text_title": "Can I get reinfected with chlamydia?",
+            "custom_text_body": "<p>Getting treated for chlamydia does not give you any future protection from getting chlamydia again.<\/p>"
+          }
+        },
+        "1f7228c1-b215-45c4-bbc3-386a2bdcdc22": {
+          "type": "custom",
+          "settings": {
+            "custom_text_title": "Causes of chlamydia trachomatis",
+            "custom_text_body": "<p>The Chlamydia trachomatis bacterium is most commonly spread through vaginal, oral and anal sex without condom. It's also possible for pregnant women to spread chlamydia to their children during delivery, causing pneumonia or a serious eye infection in the newborns.<\/p>"
+          }
+        },
+        "eb38ad7e-cda8-45b4-826f-91a99205dfe6": {
+          "type": "custom",
+          "settings": {
+            "custom_text_title": "Risk Factors",
+            "custom_text_body": "<p>Factors that increase your risk of Chlamydia trachomatis include:<\/p><ul><li>Being sexually active before age 25<\/li><li>Having multiple sex partners<\/li><li>Not using a condom consistently<\/li><li>History of sexually transmitted infection<\/li><\/ul>"
+          }
+        },
+        "6463fbe6-45c5-43af-9da9-afe112eef32c": {
+          "type": "custom",
+          "settings": {
+            "custom_text_title": "Prevention",
+            "custom_text_body": "<p>If you have sex with casual partners, it’s important to get a screening test every 3-6 months. A screen will also include tests for other STIs.<\/p><p>When having sex with casual partners, using <a href=\"\/collections\/condoms\" title=\"Vegan Condoms\">condoms<\/a> will help reduce the risk of infections.<\/p><p>Try to avoid vaginal or rectal douching as this can expel the good bacteria and also damage the protective layer of the inside skin.<\/p>"
+          }
+        },
+        "bcf34559-a929-4265-a0e1-5fd8a8b41b41": {
+          "type": "advert",
+          "settings": {
+            "product_headline": "Grab yours here",
+            "product_1": "deux-beret-condom-bundle",
+            "product_button_text": "View Product",
+            "product_2": "",
+            "product_button_text_2": "View Product",
+            "product_3": "",
+            "product_button_text_3": "View Product"
+          }
+        },
+        "4c1c8f33-c430-4684-9520-8259a7be7a76": {
+          "type": "custom",
+          "settings": {
+            "custom_text_title": "Complications",
+            "custom_text_body": "<p>If chlamydia is not treated, it can cause some serious complications.<\/p><p>These can include:<\/p><ul><li>Pelvic inflammatory disease (PID). PID is an infection in the uterus. This can cause you to feel very unwell, cause pelvic pain, and may need to be treated in the hospital if it is severe. PID can damage the reproductive tract and can lead to a higher risk of ectopic pregnancy (a pregnancy growing in the fallopian tubes) or infertility due to scarring.<\/li><li>Infection near the testicles (epididymo-orchitis). Chlamydia can cause  inflammation and infection of the small tubes in the back part of the testes. It can be quite painful, cause swelling, and lead to infertility.<\/li><li>Prostate gland infection. Rarely, chlamydia can infect the prostate gland, a component of male anatomy under the bladder. Prostatitis can cause pain during or after sex, fever and chills, painful urination, and lower back pain.<\/li><li>A pregnant person can pass gonorrhoea to their baby during birth causing complications for the baby<\/li><li>Ectopic pregnancy. This occurs when a fertilised egg implants and grows outside of the uterus, usually in a fallopian tube. The pregnancy needs to be removed to prevent life-threatening complications, such as a burst tube. A chlamydia infection increases this risk.<\/li><li>Infertility. Chlamydia infections — even those that produce no signs or symptoms — can cause scarring and obstruction in the fallopian tubes, which might make women infertile.<\/li><li>Reactive arthritis. Sometimes, a chlamydia infection can trigger an inflammatory condition called reactive arthritis, also called Reiter’s syndrome. This usually happens after the chlamydia infection has been cured. Reactive arthritis can affect the joints, the eyes, and your ability to urinate. <\/li><\/ul>"
+          }
+        },
+        "8a8b6e40-f6b4-430b-9397-4426c34acdec": {
+          "type": "custom",
+          "settings": {
+            "custom_text_title": "Prevention of chlamydia trachomatis",
+            "custom_text_body": "<p>The surest way to prevent chlamydia infection is to abstain from sexual activities. Short of that, you can:<\/p><ul><li>Use <a href=\"\/collections\/condoms\" title=\"Vegan Condoms\">condoms<\/a>. Use a male latex condom or a female polyurethane condom during each sexual contact. Condoms used properly during every sexual encounter reduce but don't eliminate the risk of infection.<\/li><li>Limit your number of sex partners. Having multiple sex partners puts you at a high risk of contracting chlamydia and other sexually transmitted infections.<\/li><li>Get regular screenings. If you're sexually active, particularly if you have multiple partners, talk with your doctor about how often you should be screened for chlamydia and other sexually transmitted infections.<\/li><li>Avoid douching. Douching decreases the number of good bacteria in the vagina, which can increase the risk of infection.<\/li><\/ul>"
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "featured_image",
+        "content",
+        "823867e1-51ae-4581-92b3-fc7daaa6a216",
+        "c8e6c6ac-9c7e-41ba-82f8-9097cf67fe7a",
+        "dbbed86a-1223-4cd9-85eb-98b2175cb969",
+        "7ea6d6d8-985c-4808-a1e7-3c25bb2f2814",
+        "b095f3fd-4d01-4d74-a645-afe88cb56c98",
+        "6dd3efc4-b579-44b5-a08e-44a446ccba6e",
+        "d3a2e90b-1dea-46de-84db-70f660b48f14",
+        "4d9c151d-8b2e-4c41-a7e4-5a0db096668d",
+        "191e437c-7ca1-47a8-9bb3-02cc9fe7cfec",
+        "0c232fa9-2eef-4f7f-9329-8f530de9762a",
+        "1f7228c1-b215-45c4-bbc3-386a2bdcdc22",
+        "eb38ad7e-cda8-45b4-826f-91a99205dfe6",
+        "6463fbe6-45c5-43af-9da9-afe112eef32c",
+        "bcf34559-a929-4265-a0e1-5fd8a8b41b41",
+        "4c1c8f33-c430-4684-9520-8259a7be7a76",
+        "8a8b6e40-f6b4-430b-9397-4426c34acdec",
+        "share"
+      ],
+      "settings": {
+      }
+    },
+    "1658801499aa58f4de": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Our Best Sellers",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "frontpage",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "inverse",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+          }
+        },
+        "email-form": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "paragraph",
+        "email-form"
+      ],
+      "settings": {
+        "color_scheme": "accent-2",
+        "full_width": true,
+        "padding_top": 60,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1658801499aa58f4de",
+    "newsletter"
+  ]
+}

@@ -1,0 +1,779 @@
+{
+  "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "31ff9f2f-98e3-459a-afd4-3013ffc66a2a": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_27.jpg",
+            "heading": "Spray On, Play Long",
+            "heading_size": "h1",
+            "subheading": "With our new delay spray pour homme",
+            "button_label": "SHOP NOW",
+            "link": "shopify:\/\/pages\/lendurance-delay-spray-lp",
+            "button_style_secondary": false,
+            "box_align": "bottom-left",
+            "show_text_box": false,
+            "text_alignment": "right",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-2",
+            "text_alignment_mobile": "left"
+          }
+        },
+        "slide-0": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_15_80355263-5c57-4c3a-b224-a5034c198f35.jpg",
+            "heading": "Petit But Powerful",
+            "heading_size": "h1",
+            "subheading": "The Petit Eiffel mini vibrator is small but powerful, so you can take the best lover you've had with you anywhere you go.",
+            "button_label": "SHOP OUR NEW VIBE",
+            "link": "shopify:\/\/products\/the-petit-eiffel",
+            "button_style_secondary": false,
+            "box_align": "bottom-right",
+            "show_text_box": false,
+            "text_alignment": "right",
+            "image_overlay_opacity": 20,
+            "color_scheme": "accent-1",
+            "text_alignment_mobile": "left"
+          }
+        },
+        "slide-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/frenchie-x-lovehoney.jpg",
+            "heading": "fun, natural, simple & safe sexual wellness products for all",
+            "heading_size": "h2",
+            "subheading": "a sexual wellness store for a new generation of lovers that echo our belief",
+            "button_label": "Shop All",
+            "link": "shopify:\/\/collections\/frontpage",
+            "button_style_secondary": false,
+            "box_align": "bottom-right",
+            "show_text_box": true,
+            "text_alignment": "left",
+            "image_overlay_opacity": 10,
+            "color_scheme": "background-2",
+            "text_alignment_mobile": "left"
+          }
+        },
+        "slide-2": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/frenchie-le-coq-7.1.jpg",
+            "heading": "Le Coq",
+            "heading_size": "h1",
+            "subheading": "Meet our latest addition, Le Coq Three Size Ring Set. Don't ever worry about a soggy and limp baguette again with these silicone rings.",
+            "button_label": "Shop now",
+            "link": "shopify:\/\/products\/le-coq",
+            "button_style_secondary": false,
+            "box_align": "top-left",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 10,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "left"
+          }
+        },
+        "e7389e83-5798-49cc-844d-0cbfdef98ee2": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/welcome_to_the_revolution.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "DISCOVER TODAY",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-right",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "right"
+          }
+        }
+      },
+      "block_order": [
+        "31ff9f2f-98e3-459a-afd4-3013ffc66a2a",
+        "slide-0",
+        "slide-1",
+        "slide-2",
+        "e7389e83-5798-49cc-844d-0cbfdef98ee2"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "890bcdc5-4053-4b11-b114-71da1efce6aa": {
+      "type": "collection-list",
+      "blocks": {
+        "template--15954102780090__890bcdc5-4053-4b11-b114-71da1efce6aa-1679277666b888b248-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "toys-play"
+          }
+        },
+        "template--15954102780090__890bcdc5-4053-4b11-b114-71da1efce6aa-1679277666b888b248-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bundles-kits"
+          }
+        },
+        "template--15954102780090__890bcdc5-4053-4b11-b114-71da1efce6aa-1679277666b888b248-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "condoms"
+          }
+        },
+        "79f693e6-d0e7-49b5-9bac-6f2b2f16af4e": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "love-lube"
+          }
+        }
+      },
+      "block_order": [
+        "template--15954102780090__890bcdc5-4053-4b11-b114-71da1efce6aa-1679277666b888b248-0",
+        "template--15954102780090__890bcdc5-4053-4b11-b114-71da1efce6aa-1679277666b888b248-1",
+        "template--15954102780090__890bcdc5-4053-4b11-b114-71da1efce6aa-1679277666b888b248-2",
+        "79f693e6-d0e7-49b5-9bac-6f2b2f16af4e"
+      ],
+      "settings": {
+        "title": "SHOP BY COLLECTION",
+        "heading_size": "h2",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "background-2",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn-0": {
+      "type": "multicolumn",
+      "blocks": {
+        "column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pedestrian-tv-logo-225h.png",
+            "title": "The Double Entendre is a damm dream",
+            "text": "<p><em>\"Consolidating my sex toy draw looks more and more possible thanks to this bendy boi. Frenchie’s new bendable sex toy can do it all from what I can see\"<\/em><\/p>",
+            "link_label": "Read More",
+            "link": "https:\/\/www.pedestrian.tv\/sex-dating\/frenchie-double-etendre-bendable-sex-toy\/"
+          }
+        },
+        "column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hypebae-logo-225h.png",
+            "title": "Hyaluronic Acid is beneficial for your skin and sex too",
+            "text": "<p><em>\"Frenchie's beret condoms are vegan, made with all-natural rubber latex and water-based hyaluronic acid. This allows the condom to lubricate your vagina better then the average condom\"<\/em><\/p>",
+            "link_label": "Read More",
+            "link": "https:\/\/hypebae.com\/2022\/4\/hyaluronic-acid-condoms-benefits-frenchie-skincare-sexual-pleasure"
+          }
+        },
+        "column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/instyle-logo-225h-v2-centred.png",
+            "title": "Yes, Hyaluronic acid condoms exist - and we asked a Gyno why",
+            "text": "<p><em>\"A major pro of hyaluronic acid condoms is that the natural lubrication is known to have non-hormonal nature for those who can't or don't want tov use hormones\"<\/em><\/p>",
+            "link_label": "Read More",
+            "link": "https:\/\/www.instyle.com\/lifestyle\/hyaluronic-acid-condoms-benefits-frenchie"
+          }
+        },
+        "column-0": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/refinery-29-logo-225h.png",
+            "title": "\"Frenchie's sleek vibrator takes the phrase \"double entendre\" to new heights, its fun, playful, and an absolute must for your collection.\".",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "3351f7c0-a5db-4e0b-b631-a449ef485f7b": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vice-logo-225h.png",
+            "title": "This New Ultra-Flexible Vibrator Can Fill All the Holes in Your... Life",
+            "text": "<p><em>\"What makes it unique? The fact that unlike traditional vibes, it can be bent into any curvature—and therefore conform to your body's needs, and your most sensitive spots\"<\/em><\/p>",
+            "link_label": "Read More",
+            "link": "https:\/\/www.vice.com\/en\/article\/93bdqy\/frenchie-double-entendre-couples-vibrator"
+          }
+        },
+        "e2eb0d03-09fd-40c4-832d-6c50b6483445": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/buzzfeed-logo-225h.png",
+            "title": "Frenchie are a sex-positive Australian brand whose products feature a certain French je ne sais quoi",
+            "text": "<p><em>\"Their products have seriously impressed reviewers, so you can imagine how, uh, intriguedI was to hear about this double-ended toy in particular\"<\/em><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column-1",
+        "column-3",
+        "column-2",
+        "column-0",
+        "3351f7c0-a5db-4e0b-b631-a449ef485f7b",
+        "e2eb0d03-09fd-40c4-832d-6c50b6483445"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "columns_desktop": 5,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "inverse",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 32,
+        "padding_bottom": 40
+      }
+    },
+    "featured-collection-0": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "OUR BEST SELLERS",
+        "heading_size": "h2",
+        "description": "<p>Voulez Vous?<\/p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "frontpage",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "link",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "portrait",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 28,
+        "padding_bottom": 20
+      }
+    },
+    "16582906321dbb524f": {
+      "type": "apps",
+      "blocks": {
+        "004dd4ae-89d0-4b15-85bc-74da8d339cf2": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/all_reviews_page\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": true,
+          "settings": {
+            "extra_wrapper_classes": "page-width page-width--narrow"
+          }
+        },
+        "4346f81a-681f-47ec-8281-3e1574f01ba3": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 2500
+          }
+        },
+        "d3718776-18f4-4a86-8837-9aa2dcc6597f": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/ugc_media_grid\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": true,
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "004dd4ae-89d0-4b15-85bc-74da8d339cf2",
+        "4346f81a-681f-47ec-8281-3e1574f01ba3",
+        "d3718776-18f4-4a86-8837-9aa2dcc6597f"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "1659077202c956e872": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "background-1",
+        "padding_top": 4,
+        "padding_bottom": 4
+      }
+    },
+    "image-with-text-0": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h0"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Introduce one of your collections. Describe some of its benefits to encourage your customers to explore more. <\/p>",
+            "text_style": "body"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop now",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/frenchie-tiled-lifestyle-09.jpg",
+        "height": "large",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 60
+      }
+    },
+    "image-with-text-2": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "KITS & BUNDLES",
+            "heading_size": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>our ultimate pairs and threesomes<\/p>",
+            "text_style": "subtitle"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop now",
+            "button_link": "shopify:\/\/collections\/bundles-kits"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Untitled_design_29.png",
+        "height": "large",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "inverse",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 12
+      }
+    },
+    "image-with-text-1": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "KITS & BUNDLES",
+            "heading_size": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>our ultimate pairs and threesomes<\/p>",
+            "text_style": "subtitle"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop now",
+            "button_link": "shopify:\/\/collections\/bundles-kits"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Untitled_design_29.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "inverse",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 12
+      }
+    },
+    "image-with-text-3": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "PLEASURE & PLAY",
+            "heading_size": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>our vibrator and pleasure essentials<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop now",
+            "button_link": "shopify:\/\/collections\/toys-play"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Untitled_design_28.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "inverse",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 60
+      }
+    },
+    "rich-text": {
+      "type": "rich-text",
+      "blocks": {
+        "text": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": ""
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>WHAT WE STAND FOR<\/p>",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "text",
+        "heading"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "inverse",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "multicolumn-1": {
+      "type": "multicolumn",
+      "blocks": {
+        "column-1": {
+          "type": "column",
+          "settings": {
+            "title": "ALL INCLUSIVE NEVER EXCLUSIVE",
+            "text": "<p>We believe sex is for everyone so we make it safe and FUN no matter what your preference or position you choose!<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column-0": {
+          "type": "column",
+          "settings": {
+            "title": "WE GIVE A F#*K",
+            "text": "<p>Pun intended!... We design intimate wellness products that are good for your body, the planet and all living creatures<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column-2": {
+          "type": "column",
+          "settings": {
+            "title": "LEADERS OF THE REVOLUTION",
+            "text": "<p>We deliver products that are innovative & super safe - always looking for new ways to get you screaming 'Oh La La! ' <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column-3": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Multicolumn",
+            "text": "<p>Use a combination of images and text to share your brand values. <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column-1",
+        "column-0",
+        "column-2",
+        "column-3"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "OUR STORY",
+        "button_link": "shopify:\/\/pages\/about",
+        "color_scheme": "inverse",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 12,
+        "padding_bottom": 60
+      }
+    },
+    "1658907605d5956e3d": {
+      "type": "rich-text",
+      "blocks": {
+        "1658907605cd11e57d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>LE JOURNAL<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "1658907605cd11e57d-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "1658907605cd11e57d-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1658907605cd11e57d-0",
+        "1658907605cd11e57d-1",
+        "1658907605cd11e57d-2"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "accent-1",
+        "full_width": true,
+        "padding_top": 12,
+        "padding_bottom": 0
+      }
+    },
+    "featured-blog": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "Reading just got tres sexy! The latest on all things about modern sexual wellness, culture and good loving.",
+        "heading_size": "h2",
+        "blog": "news",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "accent-1",
+        "show_image": true,
+        "show_date": false,
+        "show_author": true,
+        "show_view_all": true,
+        "padding_top": 32,
+        "padding_bottom": 16
+      }
+    },
+    "featured-collection-1": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "SHOP OUR KITS & BUNDLES",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "bundles-kits",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "portrait",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 16,
+        "padding_bottom": 24
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "STAY UPDATED",
+            "heading_size": "h2"
+          }
+        },
+        "paragraph": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Join The revolution and be the first to know about new collections and exclusive offers and receive 10% off your first order with us<\/p>"
+          }
+        },
+        "email-form": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "paragraph",
+        "email-form"
+      ],
+      "settings": {
+        "color_scheme": "accent-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 20
+      }
+    },
+    "16583532212f2864de": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "#homeTicker1612759168d8181429 .ticker__inner {\n    animation-duration: 30s;\n}\n\n.ticker__inner {\n    position: absolute;\n    white-space: nowrap;\n    -webkit-animation: marquee;\n    animation: marquee;\n    -webkit-animation-timing-function: linear;\n    animation-timing-function: linear;\n    -webkit-animation-iteration-count: infinite;\n    animation-iteration-count: infinite;\n    display: flex;\n}\n*, :after, :before, html {\n    box-sizing: border-box;\n}\nuser agent stylesheet\ndiv {\n    display: block;\n}\n#homeTicker1612759168d8181429 {\n    background-color: #141414;\n    color: #ffffff;\n}",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1658801855170f62d3": {
+      "type": "video",
+      "disabled": true,
+      "settings": {
+        "heading": "Video",
+        "heading_size": "h1",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "165889464652f6d7d2": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "1658894734496989e2": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "890bcdc5-4053-4b11-b114-71da1efce6aa",
+    "multicolumn-0",
+    "featured-collection-0",
+    "16582906321dbb524f",
+    "1659077202c956e872",
+    "image-with-text-0",
+    "image-with-text-2",
+    "image-with-text-1",
+    "image-with-text-3",
+    "rich-text",
+    "multicolumn-1",
+    "1658907605d5956e3d",
+    "featured-blog",
+    "featured-collection-1",
+    "newsletter",
+    "16583532212f2864de",
+    "1658801855170f62d3",
+    "165889464652f6d7d2",
+    "1658894734496989e2"
+  ]
+}

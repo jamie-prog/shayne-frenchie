@@ -1,0 +1,307 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "16601103567184d180": {
+      "type": "image-banner",
+      "blocks": {
+        "16601103569b497041-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "⭐⭐⭐⭐⭐ 12k+ HAPPY CUSTOMERS CAN'T BE WRONG",
+            "heading_size": "h2"
+          }
+        },
+        "16601103569b497041-1": {
+          "type": "text",
+          "settings": {
+            "text": "So confident you'll be back for more we're offering a 100% discount on your first order",
+            "text_style": "body"
+          }
+        },
+        "16601103569b497041-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "16601103569b497041-0",
+        "16601103569b497041-1",
+        "16601103569b497041-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/frenchie-tiled-lifestyle-04_1.jpg",
+        "image_overlay_opacity": 50,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "bottom-left",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "inverse",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "1660177065f3231834": {
+      "type": "rich-text",
+      "blocks": {
+        "1660177065c59b66b1-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><em>We've got your covered, our Deux Beret Condom Bundle (24 condoms) for FREE<\/em><\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "1660177065c59b66b1-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "1660177065c59b66b1-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1660177065c59b66b1-0",
+        "1660177065c59b66b1-1",
+        "1660177065c59b66b1-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
+    },
+    "16601125807409e1a0": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "background-1",
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
+    "1660106288f714d2da": {
+      "type": "apps",
+      "blocks": {
+        "8a684dff-577a-496f-861b-b6afc2bfdc77": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "<div class=\"klaviyo-form-WeScjC\"><\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "8a684dff-577a-496f-861b-b6afc2bfdc77"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "166018583634a32414": {
+      "type": "rich-text",
+      "blocks": {
+        "1660185836c89d9552-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "1660185836c89d9552-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>** On 1x Deux condom bundle per order and per customer. <\/p>"
+          }
+        },
+        "1660185836c89d9552-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1660185836c89d9552-0",
+        "1660185836c89d9552-1",
+        "1660185836c89d9552-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 8,
+        "padding_bottom": 0
+      }
+    },
+    "1660110290f20a75cb": {
+      "type": "featured-product",
+      "blocks": {
+        "1660110290e8732346-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "1660110290e8732346-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "1660110290e8732346-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "1660110290e8732346-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "90d7c953-31a8-4747-b3bb-27a7c8bd3676": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/all_reviews_text\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        },
+        "1660110290e8732346-4": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "1660110290e8732346-5": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "1660110290e8732346-6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false
+          }
+        },
+        "1660110290e8732346-7": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "99e715dd-3164-4713-a781-b6358d69e6e2": {
+          "type": "rating",
+          "disabled": true,
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "1660110290e8732346-0",
+        "1660110290e8732346-1",
+        "1660110290e8732346-2",
+        "1660110290e8732346-3",
+        "90d7c953-31a8-4747-b3bb-27a7c8bd3676",
+        "1660110290e8732346-4",
+        "1660110290e8732346-5",
+        "1660110290e8732346-6",
+        "1660110290e8732346-7",
+        "99e715dd-3164-4713-a781-b6358d69e6e2"
+      ],
+      "settings": {
+        "product": "deux-beret-condom-bundle",
+        "color_scheme": "accent-2",
+        "secondary_background": true,
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 16,
+        "padding_bottom": 20
+      }
+    },
+    "16601103363058d1a9": {
+      "type": "apps",
+      "blocks": {
+        "a276269d-e4ce-457c-9b96-83b404e6171a": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 2040
+          }
+        }
+      },
+      "block_order": [
+        "a276269d-e4ce-457c-9b96-83b404e6171a"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "166016688029f3edb1": {
+      "type": "apps",
+      "disabled": true,
+      "blocks": {
+        "c00d6cf7-1546-44da-92ba-2928b8bb5932": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/all_reviews_page\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "extra_wrapper_classes": "page-width page-width--narrow"
+          }
+        }
+      },
+      "block_order": [
+        "c00d6cf7-1546-44da-92ba-2928b8bb5932"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16601103567184d180",
+    "1660177065f3231834",
+    "16601125807409e1a0",
+    "1660106288f714d2da",
+    "166018583634a32414",
+    "1660110290f20a75cb",
+    "16601103363058d1a9",
+    "166016688029f3edb1"
+  ]
+}

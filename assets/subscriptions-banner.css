@@ -1,0 +1,227 @@
+@font-face {
+  font-family: Helvetica Neue;
+  src: url(https://cdn.shopify.com/s/files/1/0351/0324/4426/files/HelveticaNeue.ttf?v=1663061245);
+}
+
+@font-face {
+  font-family: Rama Gothic C;
+  src: url(https://cdn.shopify.com/s/files/1/0351/0324/4426/files/RamaGothicC-Regular.ttf?v=1663061244);
+}
+/*
+banner title
+*/
+.banner-title , .banner-title-2{
+    font-size: 90px;
+    font-weight: 700;
+    position: relative;
+    text-align: left;
+    font-family: Rama Gothic C;
+    color: #EB4D5C;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+/* 
+banner description
+add "color: #00000" to change text color
+*/
+.banner-description{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.36;
+    font-family:  Helvetica;
+    margin: 1rem 0;
+    position: relative;
+    text-align: left;
+    color: #294A80;
+}
+
+
+/* 
+banner image
+*/
+.subscriptions-banner-image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  max-height: 500px;
+}
+
+.subscriptions-banner-mobile{
+    display: none;
+   width: 100%;
+   height: 100%;
+   object-fit: contain;
+}
+
+.subscriptions-banner{
+    height: 100%;
+    min-height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.banner-image-left{
+    flex-direction: row;
+}
+
+.banner-image-right{
+    flex-direction: row-reverse;
+}
+
+.subscriptions-banner-icon{
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+    width: 150px;
+    right: 165px;
+}
+
+.banner-image-background .subscriptions-banner-image,
+.banner-image-background-text-right .subscriptions-banner-image,
+.banner-image-background-text-left .subscriptions-banner-image,
+.banner-image-background-text-center .subscriptions-banner-image{
+    width: 100%;
+    object-fit: cover;
+}
+
+.subscriptions-banner-text-container{
+    text-align: center;
+    width: 32%;
+    height: auto;
+    padding: 2rem;
+    position: absolute;
+    top: 52%;
+    transform: translateY(-50%);
+    margin-left: 100px;
+}
+
+.banner-image-background-text-center .subscriptions-banner-text-container{
+    position: absolute;
+    width: auto;
+}
+.banner-image-background .subscriptions-banner-text-container,
+.banner-image-background-text-right .subscriptions-banner-text-container{
+    position: absolute;
+    right: 0;
+}
+
+.banner-image-background-text-left .subscriptions-banner-text-container{
+    position: absolute;
+    left: 0;
+}
+
+.banner-title, 
+.banner-title-2,
+.banner-description{
+    max-width: 482px;
+    width: 100%;
+}
+
+/* button */
+a.banner-button {
+    padding: 2rem;
+    background-color: #eb4d5c;
+    width: 230px;
+    display: block;
+    font-weight: 300;
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 1px;
+    max-width: 100%;
+    border-radius: 30px;
+    font-family: Helvetica;
+  }
+
+.banner-login{
+    color: #294A80;
+    text-align: left;
+}
+
+h2.banner-title::after {
+    content: '';
+    background-image: url(https://cdn.shopify.com/s/files/1/0351/0324/4426/files/Frenchie_Heart_PNG_6x_abd19ef4-a8cd-4a9a-84b4-017e03b47083.png?v=1663065711);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 38px;
+    position: absolute;
+    margin-left: 10px;
+}
+@media(max-width: 1440px){
+    /* .banner-title{
+        font-size: 40px;
+    } */
+    .banner-description{
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 1023px){
+    .subscriptions-banner{
+        flex-direction: column;
+        height: auto;
+        max-height: unset;
+        min-height: unset;
+        background: #F4FDF0ff;
+    }
+    .subscriptions-banner-text-container{
+        top: 0;
+        transform: none;
+        margin: auto !important;
+        width: 100%;
+        position: relative;
+        padding: 14px;
+      background: #F4FDF0;
+    }
+
+    .subscriptions-banner-image{
+        display: none;
+    }
+    .subscriptions-banner-mobile{
+        display: block;
+    }
+    .subscriptions-banner-image{
+        height: 50vh;
+    }
+    .banner-title,
+    .banner-title-2{
+        font-size: 60px;
+        letter-spacing: 3.5px;
+        text-align: left;
+        margin: auto;
+    }
+  .banner-title-container {
+    width: fit-content;
+    margin: auto;
+   
+}
+
+  
+    .banner-description{
+        font-size: 16px;
+        line-height: 1.36;
+        text-align: center;
+        width: 100%;
+        margin: auto;
+    }
+    .subscriptions-banner-icon {
+        max-width: 100%;
+        position: relative;
+        margin: auto;
+        width: 150px;
+        right: 0 !important;
+    }
+    a.banner-button {
+        margin: 10px auto;
+    }
+    .banner-login {
+        text-align: center !important;
+    }
+
+    .banner-title-container,
+  .banner-description{
+    margin-bottom: 15px;
+  }
+}

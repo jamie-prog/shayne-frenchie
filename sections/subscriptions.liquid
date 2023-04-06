@@ -1,0 +1,30 @@
+{{ 'subscriptions-main.css' | asset_url | stylesheet_tag }}
+
+<div class="subscriptions-container">
+
+    {% include 'subscriptions-banner' %}
+    {% include 'subscriptions-hiw' %}
+    {% include 'subscriptions-getting-started' %}
+    {% include 'subscriptions-benefits' %}
+    {% include 'subscriptions-faq' %}
+    {{ page.content }}
+</div>
+
+{% schema %}
+  {
+    "name": "Section name",
+    "settings": [],
+    "presets": [
+    {
+    "name": "subscriptions",
+    "category": "ADVANCED LAYOUT"
+    }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

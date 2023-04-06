@@ -1,0 +1,604 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "body"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "caption": {
+          "type": "text",
+          "settings": {
+            "text": "three size ring set",
+            "text_style": "subtitle"
+          }
+        },
+        "c274a99c-3363-4d6d-bc92-e6cae0ea6677": {
+          "type": "text",
+          "settings": {
+            "text": "May help you last longer and stay stronger",
+            "text_style": "body"
+          }
+        },
+        "adc93b92-a9fb-4b56-98e5-836ad727f835": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "6534ef35-f325-4811-9d6f-3e1db19236ae": {
+          "type": "shopify:\/\/apps\/youpay-multiplayer-shopping\/blocks\/youpay-callout\/96cbed91-f0be-45a9-92ad-cc2d2e43f2b7",
+          "settings": {
+            "badgeTheme": "blue",
+            "modalTheme": "dark",
+            "modalIcon": "shirt"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "42674379-3849-4300-b824-844a68d97f06": {
+          "type": "shopify:\/\/apps\/yotpo-subscriptions\/blocks\/app-block\/ef25e582-ada5-4bb0-b4e7-f94e97ab1bb4",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "9f238d3d-fd8e-49c0-b10d-07032ee13224": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.my_fields.details_ingredients.value }}",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "caption",
+        "c274a99c-3363-4d6d-bc92-e6cae0ea6677",
+        "adc93b92-a9fb-4b56-98e5-836ad727f835",
+        "rating",
+        "price",
+        "6534ef35-f325-4811-9d6f-3e1db19236ae",
+        "buy_buttons",
+        "variant_picker",
+        "quantity_selector",
+        "42674379-3849-4300-b824-844a68d97f06",
+        "description",
+        "share",
+        "9f238d3d-fd8e-49c0-b10d-07032ee13224"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "gallery_layout": "thumbnail_slider",
+        "media_size": "small",
+        "mobile_thumbnails": "hide",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 12,
+        "padding_bottom": 20
+      }
+    },
+    "multicolumn": {
+      "type": "multicolumn",
+      "blocks": {
+        "column-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Le_Coq_Icons-01-white.png",
+            "title": "Supersoft Silicone",
+            "text": "<p>Medical-grade soft silicone<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sensitive-W.png",
+            "title": "Hypoallergenic",
+            "text": "<p>Natural and pure materials used that won't irritate the skin<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Le_Coq_Icons-02_-white.png",
+            "title": "Strong & Stretchy",
+            "text": "<p>Find your perfect fit with 3 different ring sizes for any fit or use, super stretchy and strong<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column-3": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Multicolumn",
+            "text": "<p>Consider describing a money-back guarantee or highlighting your customer service. <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "fafdb517-f416-459a-832a-f0c27f825a89": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column-0",
+        "column-1",
+        "column-2",
+        "column-3",
+        "fafdb517-f416-459a-832a-f0c27f825a89"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "inverse",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 12,
+        "padding_bottom": 20
+      }
+    },
+    "collapsible-content": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible-row-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Description",
+            "icon": "none",
+            "row_content": "<p>With Frenchie silicone rings we make it tres easy to keep it sexy without having to worry about your baguette getting soggy and limp. Going solo or with a partner (or trois), wearing our ring may keep you going <strong>harder, longer and stronger<\/strong> than ever.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible-row-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Details & Ingredients",
+            "icon": "none",
+            "row_content": "<p>100% Medical grade silicone<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible-row-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "FAQ's",
+            "icon": "none",
+            "row_content": "<p>{{ product.metafields.my_fields.faq.value }}<\/p>",
+            "page": ""
+          }
+        },
+        "1cfcf6b1-575d-451e-8957-2bb0165010cd": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Instructions For Use",
+            "icon": "none",
+            "row_content": "<p><strong>Put in on before you’re penis gets too hard<\/strong><\/p><p><br\/>The circular sex tool can be placed on the penis at any stage, but most often it’s advised to put it on while flaccid or semi-hard for ease of use. It’s possible to put a c-ring on a fully erect penis, though it may be uncomfortable and a bit more difficult and will depend which type you choose, so it’s best to pop it on first. <\/p><p><br\/><strong>Wear it around your penis or scrotum<\/strong><\/p><p>You can place your c-ring either around the base of the penis only, or under the scrotum to constrict blood flow from the balls and the shaft.<br\/><br\/>If you’re using it around your testicles, gently place them through one at a time, then you can fold and slip your penis through. Lube will make this process far easier. Or, you can place the c-ring over your penis first and then stretch it around and underneath your scrotum to get the testicles inside the ring. <\/p><p>If you’re using it for the penis only, then simply slide it all the way down to the base of the shaft, nice and close to your body.<\/p><p> <\/p><p><br\/><strong>Use a high-quality water-based lubricant<\/strong><\/p><p>Start by grabbing some good quality water-based lubricant, like Frenchie’s Oh La La Love Lube, and place a few drops on the inside of the ring to allow for your c-ring to slide smoothly over your penis and to avoid any unwanted friction, snags or pulling on the skin or hair. <br\/><br\/>A quick note on lube - it’s always recommended to use a water-based lube with sex toys, especially silicone ones. Using silicone lube with a silicone toy can cause it to corrode and cause damage. Not ideal!<\/p>",
+            "page": ""
+          }
+        },
+        "d7fd6071-5017-494f-a583-e6d9408f71b5": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Important Info",
+            "icon": "none",
+            "row_content": "<p>As with any sex toy, always clean your c-ring before and after each use with a sex toy cleaner or a fragrance free soap with warm water. Dry off with a fresh, clean towel, ensuring there is no fluff that transfers on to the device. If you have a high-quality c-ring made from superior material, it will last you for years to come. <\/p><p>It’s recommended to only wear one for a maximum of about 30 minutes, as much longer can cause excessive pressure on the penis which can result in cell damage.<\/p>",
+            "page": ""
+          }
+        },
+        "0d623b24-1d26-406b-bbd9-858442785bc9": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "FAQ's",
+            "icon": "question_mark",
+            "row_content": "<p>{{ product.metafields.my_fields.faq.value }}<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible-row-0",
+        "collapsible-row-3",
+        "collapsible-row-1",
+        "1cfcf6b1-575d-451e-8957-2bb0165010cd",
+        "d7fd6071-5017-494f-a583-e6d9408f71b5",
+        "0d623b24-1d26-406b-bbd9-858442785bc9"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Features",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "layout": "section",
+        "color_scheme": "background-1",
+        "container_color_scheme": "inverse",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "1658353626f5eed6d7": {
+      "type": "apps",
+      "blocks": {
+        "0dda0f9f-3948-4e35-9141-0d3114557491": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/all_reviews_page\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": true,
+          "settings": {
+            "extra_wrapper_classes": "page-width page-width--narrow"
+          }
+        },
+        "d931a259-9a89-4319-b83e-204e46391f4d": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "0dda0f9f-3948-4e35-9141-0d3114557491",
+        "d931a259-9a89-4319-b83e-204e46391f4d"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "FREQUENTLY BOUGHT WITH",
+        "heading_size": "h1",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "image_ratio": "portrait",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 0,
+        "padding_bottom": 60
+      }
+    },
+    "rich-text-0": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>\"Oh Praise Baby Jesus!\"<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>\"5 stars just doesn’t seem enough. I was on the hunt for a lube that wasn’t thick, sticky and continually giving me thrush. My google search landing me at Frenchie and I’ll forever be grateful. No only has it met my needs (yay for no thrush) but it doesn’t dry out in 5 seconds flat! Which can only mean one thing…. Toe curling, multiple orgasms, SEX!!! Thanks Frenchie for helping bring back the pleasure.\"<\/em><\/p><p><em><strong>Sarah H<\/strong><\/em><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "accent-2",
+        "full_width": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "9a044110-a60e-4f62-b1c3-3587e4ff61c5": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich-text-1": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Explore Our Kits & Bundles<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>DESCRIBE HOW TO PAIR PRODUCTS TOGETHER <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "image-with-text-0": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Nuit D'Amour Kit",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lube, Vibe, Wipes and Mask<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop now",
+            "button_link": "shopify:\/\/products\/love-lube"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/NuitDAmour_Bundle.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "inverse",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 60
+      }
+    },
+    "image-with-text-1": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "L'Ultimate   Lovers Kit",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lube, Beret Condoms, Vibe, Mask and Wipes plus our lovers dice game x<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop now",
+            "button_link": "shopify:\/\/products\/lultimate-lovers-kit"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/GetFrenchie_Lultimate_Lovers_Kit.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "inverse",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 60
+      }
+    },
+    "image-with-text-2": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Mon Amour Bundle",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>3 essentials, lube, vibe and wipes<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop now",
+            "button_link": "shopify:\/\/products\/premier-amour-bundle"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/GetFrenchie_MonAmourBundle.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "inverse",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 60
+      }
+    },
+    "165879772685cd4570": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "Le Journal",
+        "heading_size": "h1",
+        "blog": "news",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "inverse",
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections, exclusive offers and 15% off your first order<\/p>"
+          }
+        },
+        "email-form": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "paragraph",
+        "email-form"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    }
+  },
+  "order": [
+    "main",
+    "multicolumn",
+    "collapsible-content",
+    "1658353626f5eed6d7",
+    "product-recommendations",
+    "rich-text-0",
+    "9a044110-a60e-4f62-b1c3-3587e4ff61c5",
+    "rich-text-1",
+    "image-with-text-0",
+    "image-with-text-1",
+    "image-with-text-2",
+    "165879772685cd4570",
+    "newsletter"
+  ]
+}

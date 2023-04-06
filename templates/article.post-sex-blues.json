@@ -1,0 +1,194 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "blog_show_date": true,
+            "blog_show_author": true,
+            "blog_author_name": "Eleanor Hadley",
+            "blog_reviewer_name": "",
+            "blog_show_readingtime": true
+          }
+        },
+        "featured_image": {
+          "type": "featured_image",
+          "settings": {
+            "image_height": "adapt"
+          }
+        },
+        "content": {
+          "type": "content",
+          "settings": {
+          }
+        },
+        "823867e1-51ae-4581-92b3-fc7daaa6a216": {
+          "type": "advert",
+          "disabled": true,
+          "settings": {
+            "product_headline": "Spice up it up",
+            "product_1": "le-petit-lultimate-lovers-kit",
+            "product_button_text": "View Product",
+            "product_2": "",
+            "product_button_text_2": "View Product",
+            "product_3": "",
+            "product_button_text_3": "View Product"
+          }
+        },
+        "c8e6c6ac-9c7e-41ba-82f8-9097cf67fe7a": {
+          "type": "custom",
+          "disabled": true,
+          "settings": {
+            "custom_text_title": "What You Can Do If All Else Fails",
+            "custom_text_body": "<p><strong>Sexual Therapy<\/strong><\/p><p>There are specialist therepists who are trained in understanding the psychology of human sexulatiy, sex and relationships. They will be able to help you uncover what might going on for you, and give you the tools to help you overcome it.<\/p><p><\/p><p>Guided imagery is a method for managing your stress. It’s a relaxation technique that involves visualizing positive, peaceful settings like a beautiful beach or a peaceful meadow. This technique is also known as visualization or guided meditation.<\/p><p><strong>Guided Imagery<\/strong><\/p><p>It can be useful for ED as it helps you ground and relax before getting physical intimate. If abstract images like a calm beach don’t do it for you, it can also be helpful to visualise the sexaual energy in your body flowing into your genitals. <\/p><p><strong>Meditation <\/strong><\/p><p>Mindfulness or meditation is another useful tool that helps feel more calm , present and connected to our body. These are great skills for anyone experiencing ED. <\/p><p>Practice your mind\/body connection through mindfulness exercises such as body scans to help you still your mental world and focus on your physcial sensations. <\/p>"
+          }
+        },
+        "dbbed86a-1223-4cd9-85eb-98b2175cb969": {
+          "type": "custom",
+          "disabled": true,
+          "settings": {
+            "custom_text_title": "When to see a GP?",
+            "custom_text_body": "<p>Of course, not all ED is caused by psychological or emotional reasons. <\/p><p>ED can be a symptom of many physical health concerns, and there might be something more serious going on. <\/p><p>It’s <span style=\"text-decoration:underline\">always<\/span> worthwhile seeing a GP to check nothing is going on physically. <\/p><p>This is especially true if:<\/p><p>- you can’t work out any emotional reasons for the change<\/p><p> - if you have diabetes, heart disease or another known health condition that might be linked to erectile dysfunction<\/p><p> -or you have other symptoms along with erectile dysfunction<\/p><p><\/p><p><\/p>"
+          }
+        },
+        "7ea6d6d8-985c-4808-a1e7-3c25bb2f2814": {
+          "type": "cta",
+          "disabled": true,
+          "settings": {
+            "cta-title": "Check this out",
+            "cta-image": "shopify:\/\/shop_images\/Frenchie-Lube-Restock-2.1.jpg",
+            "cta-link": "https:\/\/getfrenchie.com\/blogs\/news\/7-days-of-pleasure",
+            "cta-link-text": "Click Here"
+          }
+        },
+        "b095f3fd-4d01-4d74-a645-afe88cb56c98": {
+          "type": "custom",
+          "disabled": true,
+          "settings": {
+            "custom_text_title": "Summary",
+            "custom_text_body": "<p>ED is much more common than people like to admit, and it is very very normal. Everybody experiences times of stress, worry or anxiety in life, and it is only natural for this to affect our sex life. <\/p><p>Sadly the silence,embarrassment and shame that often surrounds these conversations makes the problem worse, not better.<\/p><p>Instead, try and create an environment where pleasure and relaxation is the goal, and remove the pressure for an erection. When you stop fixating on the erection, you will discover that you are still capable of so much pleasure.<\/p>"
+          }
+        },
+        "39dee427-23d6-484e-894a-47f34a13e0f8": {
+          "type": "custom",
+          "settings": {
+            "custom_text_title": "What are Post-Sex Blues?",
+            "custom_text_body": "<p>If you’ve ever felt disconnected or even sad after having sex that you were previously excited for, you’re not alone. The post-sex blues, or more scientifically known as post coital dysphoria, is a common condition which refers to the feeling of emotions rising, feeling a bit sad, anxious, melancholic, agitated or disconnected after sex. The phenomena, which refers to negative feelings arising after consensual, desired sex, is incredibly common. In fact, some studies suggest that roughly half of us have experienced it before.<\/p><p>A common assumption is that someone would only experience post-coital dysphoria, or the blues, after bad sex that was unsatisfying, or if your relationship lacks intimacy. But, this isn’t the case at all. It’s really common to experience this after great sex, after deep pleasure, intimacy, connection and orgasms. It is not used to refer to the associated feelings post sexual assault or abuse at all, though it can be a prevalent experience for those with a history of trauma, depression, anxiety or postnatal depression.<\/p><p>While these feelings aren’t something that we can completely control, engaging in the practice of aftercare is a great way to minimise the likelihood of catching the post-sex blues. Add your text here<\/p>"
+          }
+        },
+        "0984fcb4-cb3b-4e1e-8992-a5eca918c588": {
+          "type": "custom",
+          "settings": {
+            "custom_text_title": "Why do you get post-sex blues?",
+            "custom_text_body": "<p>With its origins in the world of kink and BDSM, aftercare is quickly becoming a well-known and essential part of the sexual experience. Put simply, aftercare refers to the behaviours and actions taken post-sex that show care for your partner and reinforce connection. In a world where it’s become ‘normal’ to roll over and check your phone right after sex, fall straight to sleep or worse, get up and leave with barely any acknowledgement of what just happened, aftercare may seem like a totally foreign concept. Afraid to ‘catch feelings’ or express even a sliver of vulnerability, we often equate basic intimacy with love and commitment. But, aftercare isn’t only for the folks in a long-term relationship. In fact, I’m here to advocate for aftercare being an expectation for all sexual encounters whether you’ve known your lover for a few hours or a few decades. A bare minimum practice that portrays basic care for the human you just got it on with.<\/p><p>Think of it like this: you’re just had this incredibly intimate, raw, passionate, *naked* experience with someone - regardless of how <em>emotionally<\/em> close you are, that’s a vulnerable thing to share with someone. Post-sex you’re naked, exposed, potentially have just had an orgasm and your body is flooded with dopamine and oxytocin. We need to allow space and connection to come down from that experience. <\/p><p>When we disconnect from one another and the experience too soon it can lead to feelings of shame, low self-worth and even trigger abandonment wounding. Shame is a big one, and many of us can experience feelings of guilt or shame after sex or even masturbation due to societal, cultural or religious conditioning, particularly when it's for the sake of pleasure and not procreation. So, intentionally caring for yourself and your partner after sex can mitigate any of this conditioning and reinforce positive feelings around sexual expression.<\/p>"
+          }
+        },
+        "387cb765-20d4-4fab-9acc-d54e69d5da0b": {
+          "type": "custom",
+          "settings": {
+            "custom_text_title": "Aftercare Tips",
+            "custom_text_body": "<p>So, what does aftercare look like? I’m so glad you asked! It’s going to be different for everyone, depending on what things help to soothe your nervous system, but here are my top five classic aftercare moves that you can add to your rotation are:<\/p><ol><li><strong>Stay close<\/strong> - don’t get up and leave the room immediately. Keep some post-sex wipes nearby so you don’t have to leave the room to clean up. Staying physically close and maintaining skin to skin contact is a great way to ensure one another feels cared for. This could be in the form of cuddles, back scratches, a gentle massage or playing with their hair.<\/li><li><strong>Have a chat<\/strong> - this is a great opportunity to compliment one another, talk about the highlights of the sex you just had, and dream about things you might like to try next time. <\/li><li><strong>Don’t touch your phone<\/strong> - this should really go without saying, but unfortunately it needs to be said. Reaching straight for your phone after sex, checking your texts and emails or worse, scrolling instagram after sex is one of the most disrespectful things you can do. It’s an immediate way to express a total lack of care for the person you’re lying next to. Seriously, don’t do it.<\/li><li><strong>Hydrate & nourish<\/strong> - the act of sharing a glass of water after sex is a simple yet powerful way to portray care and create connection. You’re both probably a bit hit and sweaty by now, and in need of a drink. Better yet, depending on the time of the day, maybe share a snack afterwards too, or do some kind of activity together that reaffirms this connection isn’t all about sex and sex alone.<\/li><li><strong>Check in later<\/strong> - many of us can overthink things once all is said and done, so a quick and easy way to mitigate any spiralling thoughts such as ‘what are we?’, ‘do they still like me?’, ‘did they enjoy that?’ and the likes, is to send a text afterwards. Perhaps it's later that day or the next morning, but a text thanking your lover for the experience and reaffirming that you enjoyed the experience can go a long way.<\/li><\/ol>"
+          }
+        },
+        "8ace4afb-ab59-49cd-ba5e-c600008d0b22": {
+          "type": "custom",
+          "settings": {
+            "custom_text_title": "",
+            "custom_text_body": "<p>There are so many ways you explore aftercare, but remember that if you do have the occasional case of post-sex blues, you are totally normal, and there’s nothing wrong with you at all. Take some time to soothe your nervous system, ask your lover for anything you need to feel more connected and show yourself some extra love and care.<\/p>"
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "featured_image",
+        "content",
+        "823867e1-51ae-4581-92b3-fc7daaa6a216",
+        "c8e6c6ac-9c7e-41ba-82f8-9097cf67fe7a",
+        "dbbed86a-1223-4cd9-85eb-98b2175cb969",
+        "7ea6d6d8-985c-4808-a1e7-3c25bb2f2814",
+        "b095f3fd-4d01-4d74-a645-afe88cb56c98",
+        "39dee427-23d6-484e-894a-47f34a13e0f8",
+        "0984fcb4-cb3b-4e1e-8992-a5eca918c588",
+        "387cb765-20d4-4fab-9acc-d54e69d5da0b",
+        "8ace4afb-ab59-49cd-ba5e-c600008d0b22",
+        "share"
+      ],
+      "settings": {
+      }
+    },
+    "1658801499aa58f4de": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Our Best Sellers",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "frontpage",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "inverse",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+          }
+        },
+        "email-form": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "paragraph",
+        "email-form"
+      ],
+      "settings": {
+        "color_scheme": "accent-2",
+        "full_width": true,
+        "padding_top": 60,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1658801499aa58f4de",
+    "newsletter"
+  ]
+}

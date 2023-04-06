@@ -1,0 +1,48 @@
+span.ticker__check {
+    position: relative;
+    top: 4px;
+}
+    #homeTickerhome-ticker {
+      background-color: #EB4D5C;
+      color: #ffffff;
+    }
+    #homeTickerhome-ticker .ticker__inner {
+      animation-duration: 20s;
+    }
+    .ticker__inner {
+      position: absolute;
+      white-space: nowrap;
+      animation: marquee;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+      display: flex;
+  }
+
+  .ticker {
+    position: relative;
+    height: 50px;
+    padding: 13px 20px;
+    overflow-x: hidden;
+}
+
+.ticker__text {
+  margin: 0 30px;
+  color: #fff;
+  font-family: Helvetica Neue;
+}
+div#shopify-section-home-ticker-mobile {
+    display: none;
+}
+@keyframes marquee {
+  0% { left: 0; }
+  100% { left: -100%; }
+}
+
+@media(max-width: 1023px){
+  div#shopify-section-home-ticker-mobile {
+    display: block;
+  } 
+  div#shopify-section-home-ticker {
+    display: none;
+  }
+}

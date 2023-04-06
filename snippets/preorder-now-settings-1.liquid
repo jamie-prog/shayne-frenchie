@@ -1,0 +1,68 @@
+<script type="text/javascript">
+  {% if cart %}
+    window.pn.cart = {};
+  	window.pn.cart = {{cart | json}}
+    window.pn.cart.items = [];
+
+    {% for item in cart.items %}
+      var cart_item = {{item | json}};
+      cart_item["collection_ids"] = [];
+      {% for c in item.product.collections %}
+        cart_item["collection_ids"].push({{c.id}})
+        {% endfor %}
+      window.pn.cart.items.push(cart_item);
+    {% endfor %}
+
+    if (typeof window.pn.cart.items == "object") {
+      for (var i=0; i<window.pn.cart.items.length; i++) {
+        ["sku", "vendor", "url", "image", "handle", "product_type", "product_description"].map(function(a) {
+          delete window.pn.cart.items[i][a]
+        })
+      }
+    }
+  {% endif %}
+</script>
+
+{% raw %}
+<script>
+if(typeof pn === "undefined"){
+  pn = {};
+}
+if(typeof pn.settings === "undefined"){
+  pn.settings = {};
+}
+pn.settings.defaultSetting={"id":16721798,"a":"PRE-ORDER","b":true,"c":null,"d":"Out of stock","e":false,"f":"Only {{qty}} remaining","g":"Pre-Order For 25 Feb","h":"hover","i":false,"j":null,"k":null,"l":null,"m":"default","n":null,"o":true,"handle":null,"p":null,"y":null,"q":true,"r":true,"s":null,"t":null,"u":2,"v":false,"w":"ribbon","tag":null,"x":null,"z":"no_discount","aa":"0.0","ab":0,"price":"0.0","compare_at_price":"0.0","partial_payment_z":"no_partial_discount","partial_payment_aa":"0.0","partial_payment_ab":0};
+pn.settings.singleProductSettings=[{"id":31649532,"a":"PRE-ORDER","b":false,"c":null,"d":"Out of stock","e":false,"f":"Only {{qty}} remaining","g":"Dispensing 20th February","h":"below","i":false,"j":null,"k":null,"l":null,"m":"variant","n":"42160538288314","o":false,"handle":"lendurance-delay-spray","p":"7321632407738","y":"https://cdn.shopify.com/s/files/1/0351/0324/4426/products/frenchie-100-spray-bottle-l-endurance-delay-spray-32940094357690.jpg?v=1676524071","q":true,"r":true,"s":-3,"t":null,"u":2,"v":true,"w":"ribbon","tag":null,"x":"","z":"no_discount","aa":"0.0","ab":0,"price":"0.0","compare_at_price":"0.0","partial_payment_z":"no_partial_discount","partial_payment_aa":"0.0","partial_payment_ab":0},{"id":19943644,"a":"PRE-ORDER","b":false,"c":null,"d":"Out of stock","e":false,"f":"Only {{qty}} remaining","g":"Pre-Order For 25 April Shipping","h":"below","i":false,"j":null,"k":null,"l":null,"m":"variant","n":"41068613075130","o":false,"handle":"the-double-entendre","p":"6782037524666","y":"https://cdn.shopify.com/s/files/1/0351/0324/4426/products/frenchie-vibrator-the-double-entendre-9356489000071-30135218831546.png?v=1672266226","q":true,"r":true,"s":764,"t":null,"u":2,"v":true,"w":"ribbon","tag":null,"x":"Pre-Order For 11 April Shipping","z":"no_discount","aa":"0.0","ab":0,"price":"0.0","compare_at_price":"0.0","partial_payment_z":"no_partial_discount","partial_payment_aa":"0.0","partial_payment_ab":0},{"id":27091738,"a":"PRE-ORDER","b":false,"c":null,"d":"Out of stock","e":false,"f":"Only {{qty}} remaining","g":"Pre-Order For 27 October","h":"hover","i":false,"j":"","k":null,"l":null,"m":"variant","n":"36711196328090","o":false,"handle":"love-lube","p":"5837672153242","y":"https://cdn.shopify.com/s/files/1/0351/0324/4426/products/frenchie-lube-100ml-oh-la-la-love-lube-9356489000057-32779543707834.jpg?v=1672265632","q":true,"r":true,"s":2692,"t":null,"u":2,"v":true,"w":"ribbon","tag":null,"x":"Pre-Order Shipping From 27th Oct","z":"no_discount","aa":"0.0","ab":0,"price":"0.0","compare_at_price":"0.0","partial_payment_z":"no_partial_discount","partial_payment_aa":"0.0","partial_payment_ab":0},{"id":27104686,"a":"PRE-ORDER","b":false,"c":null,"d":"Out of stock","e":false,"f":"Only {{qty}} remaining","g":"Pre-Order For 27 October","h":"hover","i":false,"j":null,"k":null,"l":null,"m":"variant","n":"38068997750970","o":false,"handle":"deux-love-lube-bundle","p":"6210225930426","y":"https://cdn.shopify.com/s/files/1/0351/0324/4426/products/frenchie-lube-deux-love-lube-bundle-29443388965050.png?v=1659328510","q":true,"r":true,"s":1346,"t":null,"u":2,"v":true,"w":"ribbon","tag":null,"x":"","z":"no_discount","aa":"0.0","ab":0,"price":"0.0","compare_at_price":"0.0","partial_payment_z":"no_partial_discount","partial_payment_aa":"0.0","partial_payment_ab":0},{"id":20503071,"a":"PRE-ORDER","b":false,"c":null,"d":"Out of stock","e":false,"f":"Only {{qty}} remaining","g":"Pre-Order For 25 April Shipping","h":"below","i":false,"j":null,"k":null,"l":null,"m":"variant","n":"41129254191290","o":false,"handle":"premier-amour-bundle","p":"6846204346554","y":"https://cdn.shopify.com/s/files/1/0351/0324/4426/products/frenchie-kits-bundles-mon-amour-bundle-30135211884730.png?v=1659328862","q":true,"r":true,"s":653,"t":null,"u":2,"v":true,"w":"ribbon","tag":null,"x":"Pre-Order For 11 April Shipping","z":"no_discount","aa":"0.0","ab":0,"price":"0.0","compare_at_price":"0.0","partial_payment_z":"no_partial_discount","partial_payment_aa":"0.0","partial_payment_ab":0},{"id":27104689,"a":"PRE-ORDER","b":false,"c":null,"d":"Out of stock","e":false,"f":"Only {{qty}} remaining","g":"Pre-Order For 27 October","h":"hover","i":false,"j":null,"k":null,"l":null,"m":"variant","n":"40522450862266","o":false,"handle":"oh-la-la-love-lube-x4","p":"6875100414138","y":"https://cdn.shopify.com/s/files/1/0351/0324/4426/products/frenchie-lube-100ml-oh-la-la-love-lube-x4-29656842666170.jpg?v=1659328505","q":true,"r":true,"s":673,"t":null,"u":2,"v":true,"w":"ribbon","tag":null,"x":"","z":"no_discount","aa":"0.0","ab":0,"price":"0.0","compare_at_price":"0.0","partial_payment_z":"no_partial_discount","partial_payment_aa":"0.0","partial_payment_ab":0},{"id":21999240,"a":"PRE-ORDER","b":false,"c":null,"d":"Out of stock","e":false,"f":"Only {{qty}} remaining","g":"Pre-Order For 25 Feb","h":"hover","i":false,"j":null,"k":null,"l":null,"m":"variant","n":"41129254224058","o":true,"handle":"premier-amour-bundle","p":"6846204346554","y":"https://cdn.shopify.com/s/files/1/0351/0324/4426/products/frenchie-kits-bundles-mon-amour-bundle-30135211884730.png?v=1659328862","q":true,"r":true,"s":534,"t":null,"u":2,"v":false,"w":"ribbon","tag":null,"x":null,"z":"no_discount","aa":"0.0","ab":0,"price":"0.0","compare_at_price":"0.0","partial_payment_z":"no_partial_discount","partial_payment_aa":"0.0","partial_payment_ab":0},{"id":19943663,"a":"PRE-ORDER","b":false,"c":null,"d":"Out of stock","e":false,"f":"Only {{qty}} remaining","g":"Pre-Order For 20 June Shipping","h":"below","i":false,"j":null,"k":null,"l":null,"m":"variant","n":"41068613107898","o":false,"handle":"the-double-entendre","p":"6782037524666","y":"https://cdn.shopify.com/s/files/1/0351/0324/4426/products/frenchie-vibrator-the-double-entendre-9356489000071-30135218831546.png?v=1672266226","q":true,"r":true,"s":534,"t":null,"u":2,"v":true,"w":"ribbon","tag":null,"x":"Shipping 20th June","z":"no_discount","aa":"0.0","ab":0,"price":"0.0","compare_at_price":"0.0","partial_payment_z":"no_partial_discount","partial_payment_aa":"0.0","partial_payment_ab":0},{"id":21999260,"a":"PRE-ORDER","b":false,"c":null,"d":"Out of stock","e":false,"f":"Only {{qty}} remaining","g":"Pre-Order For 20 June Shipping","h":"below","i":false,"j":null,"k":null,"l":null,"m":"variant","n":"41123694674106","o":false,"handle":"nuit-damour-kit","p":"7005920231610","y":"https://cdn.shopify.com/s/files/1/0351/0324/4426/products/frenchie-kits-bundles-nuit-d-amour-kit-30752400572602.jpg?v=1659328679","q":true,"r":true,"s":475,"t":null,"u":2,"v":false,"w":"ribbon","tag":null,"x":"Shipping 20th June","z":"no_discount","aa":"0.0","ab":0,"price":"0.0","compare_at_price":"0.0","partial_payment_z":"no_partial_discount","partial_payment_aa":"0.0","partial_payment_ab":0},{"id":21999261,"a":"PRE-ORDER","b":false,"c":null,"d":"Out of stock","e":false,"f":"Only {{qty}} remaining","g":"Pre-Order For 20 June Shipping","h":"below","i":false,"j":null,"k":null,"l":null,"m":"variant","n":"41129319563450","o":false,"handle":"lultimate-lovers-kit","p":"6931006849210","y":"https://cdn.shopify.com/s/files/1/0351/0324/4426/products/frenchie-l-ultimate-lovers-kit-30136171430074.png?v=1661131566","q":true,"r":true,"s":475,"t":null,"u":2,"v":true,"w":"ribbon","tag":null,"x":"Shipping 20th June","z":"no_discount","aa":"0.0","ab":0,"price":"0.0","compare_at_price":"0.0","partial_payment_z":"no_partial_discount","partial_payment_aa":"0.0","partial_payment_ab":0},{"id":20503075,"a":"PRE-ORDER","b":false,"c":null,"d":"Out of stock","e":false,"f":"Only {{qty}} remaining","g":"Pre-Order For 25 April Shipping","h":"below","i":false,"j":null,"k":null,"l":null,"m":"variant","n":"41129319465146","o":false,"handle":"lultimate-lovers-kit","p":"6931006849210","y":"https://cdn.shopify.com/s/files/1/0351/0324/4426/products/frenchie-l-ultimate-lovers-kit-30136171430074.png?v=1661131566","q":true,"r":true,"s":475,"t":null,"u":2,"v":true,"w":"ribbon","tag":null,"x":"Pre-Order For 11 April Shipping","z":"no_discount","aa":"0.0","ab":0,"price":"0.0","compare_at_price":"0.0","partial_payment_z":"no_partial_discount","partial_payment_aa":"0.0","partial_payment_ab":0},{"id":20503073,"a":"PRE-ORDER","b":false,"c":null,"d":"Out of stock","e":false,"f":"Only {{qty}} remaining","g":"Pre-Order For 25 April Shipping","h":"below","i":false,"j":null,"k":null,"l":null,"m":"variant","n":"41123694641338","o":false,"handle":"nuit-damour-kit","p":"7005920231610","y":"https://cdn.shopify.com/s/files/1/0351/0324/4426/products/frenchie-kits-bundles-nuit-d-amour-kit-30752400572602.jpg?v=1659328679","q":true,"r":true,"s":475,"t":null,"u":2,"v":true,"w":"ribbon","tag":null,"x":"Pre-Order For 11 April Shipping","z":"no_discount","aa":"0.0","ab":0,"price":"0.0","compare_at_price":"0.0","partial_payment_z":"no_partial_discount","partial_payment_aa":"0.0","partial_payment_ab":0}];
+pn.settings.tagSettings=[];
+</script>
+<style type="text/css">
+  .pn-original-subtotal{
+    text-decoration: line-through;
+    display:inline-block;
+  }
+  .pn-discounted-subtotal{
+    font-weight:bold;
+    margin-left:20px;
+    display:inline-block;
+    font-size: 1.3em;
+  }
+
+  .pn-line-item-original-price {
+    text-decoration: line-through;
+  }
+
+  .pn-line-item-discounted-price {
+    font-size: 1.2em;
+    margin-left: 8px;
+  }
+</style>
+{% endraw %}
+
+
+<div id="pn-mixed-cart-warning" class="pn-modal">
+  <div id="pn-mixed-cart-warning-content">
+    <span id="pn-modal-close-btn">x</span>
+    <p class="pn-mixed-cart-heading" id="pn-mixed-cart-warning-title"></p>
+    <div id="pn-mixed-cart-warning-text"></div>
+  </div>
+</div>

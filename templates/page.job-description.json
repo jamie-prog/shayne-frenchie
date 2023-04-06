@@ -1,0 +1,643 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "16588021267ea66342": {
+      "type": "slideshow",
+      "blocks": {
+        "16588021261145bcf7-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/blindfold.jpg",
+            "heading": "",
+            "heading_size": "h2",
+            "subheading": "",
+            "button_label": "",
+            "link": "mailto:careers@getfrenchie.com",
+            "button_style_secondary": false,
+            "box_align": "bottom-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "16588021261145bcf7-1": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "SEND US YOUR CV",
+            "link": "mailto:bonjour@getfrenchie.com",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "16588021261145bcf7-0",
+        "16588021261145bcf7-1"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "ac9fc5c4-24d6-46ff-9757-2ad27b844423": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "background-1",
+        "padding_top": 16,
+        "padding_bottom": 12
+      }
+    },
+    "165880719310579b09": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "1658807193bdc615ec-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>ABOUT US<\/p>",
+            "heading_size": "h0"
+          }
+        },
+        "528956d0-3ee8-473d-a58a-59598ce896c8": {
+          "type": "caption",
+          "disabled": true,
+          "settings": {
+            "caption": "tres bien",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "large"
+          }
+        },
+        "1658807193bdc615ec-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Founded in 2020, we’re a sexual wellness startup. We’re on a mission to break the stigma surrounding sex and<br\/>pleasure and well on our way to achieving this through building a community<br\/>around insightful and fun content and innovative, premium and natural products.<br\/>We're growing fast and we will continue to have open roles so feel free to reach us anytime via careers@getfrenchie.com <\/strong><\/p><p><\/p>"
+          }
+        },
+        "1658807193bdc615ec-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "EXPLORE THE RANGE",
+            "button_link": "shopify:\/\/collections\/frontpage",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1658807193bdc615ec-0",
+        "528956d0-3ee8-473d-a58a-59598ce896c8",
+        "1658807193bdc615ec-1",
+        "1658807193bdc615ec-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "165880673199ac6d87": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "1658806731ac2db2c0-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>WHAT WE STAND FOR<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "1658806731ac2db2c0-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "1658806731ac2db2c0-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1658806731ac2db2c0-0",
+        "1658806731ac2db2c0-1",
+        "1658806731ac2db2c0-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "inverse",
+        "full_width": true,
+        "padding_top": 44,
+        "padding_bottom": 8
+      }
+    },
+    "16588068646b4ea4d7": {
+      "type": "multicolumn",
+      "disabled": true,
+      "blocks": {
+        "16588068633287a3a6-0": {
+          "type": "column",
+          "settings": {
+            "title": "ALL INCLUSIVE NEVER EXCLUSIVE",
+            "text": "<p>We believe sex is for everyone so we make it safe and FUN no matter what your preference or position you choose!<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "16588068633287a3a6-1": {
+          "type": "column",
+          "settings": {
+            "title": "WE GIVE A F#*K",
+            "text": "<p>Pun intended!... We design intimate wellness products that are good for your body, the planet and all living creatures<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "16588068633287a3a6-2": {
+          "type": "column",
+          "settings": {
+            "title": "LEADERS OF THE REVOLUTION",
+            "text": "<p>We deliver products that are innovative & super safe - always looking for new ways to get you screaming 'Oh La La! ' <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16588068633287a3a6-0",
+        "16588068633287a3a6-1",
+        "16588068633287a3a6-2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "inverse",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 20,
+        "padding_bottom": 28
+      }
+    },
+    "1658806631180ada57": {
+      "type": "multicolumn",
+      "disabled": true,
+      "blocks": {
+        "1658806631492b5ffc-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/refinery-29-logo-225h.png",
+            "title": "The sexual wellness brand hails from Down Under",
+            "text": "<p><em>\"Frenchie borrows inspiration from the legendary sensuality of all things Francophile. Having debuted in 2020, it's quickly carving out a name for itself with no-BS messaging and a curated product lineup that includes a signature lube, condoms, and accessories for sexual play\"<\/em><\/p>",
+            "link_label": "",
+            "link": "https:\/\/www.refinery29.com\/en-au\/frenchie-double-entendre-vibrator-review"
+          }
+        },
+        "1658806631492b5ffc-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/buzzfeed-logo-225h.png",
+            "title": "Frenchie are a sex-positive Australian brand whose products feature a certain French je ne sais quoi",
+            "text": "<p><em>\"Their products have seriously impressed reviewers, so you can imagine how, uh, intrigued I was to hear about this double-ended toy in particular\"<\/em><\/p>",
+            "link_label": "",
+            "link": "https:\/\/www.buzzfeed.com\/aglover\/frenchie-double-ended-sex-toy"
+          }
+        },
+        "1658806631492b5ffc-2": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/logo21.png",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1658806631492b5ffc-0",
+        "1658806631492b5ffc-1",
+        "1658806631492b5ffc-2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "accent-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16588079699255ff91": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "1658807969bd99a1b6-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>ALL FOR ONE<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "556051a2-cd38-4d52-be7a-960f59dbaa23": {
+          "type": "caption",
+          "settings": {
+            "caption": "ALL INCLUSIVE NEVER EXCLUSIVE",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "large"
+          }
+        },
+        "1658807969bd99a1b6-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>No matter who you are, what your gender or sexual preference is or how you choose get lovin', Frenchie creates products with diversity and inclusivity in mind. We are open in our way of thinking and want to make sex fun for everyone!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1658807969bd99a1b6-0",
+        "556051a2-cd38-4d52-be7a-960f59dbaa23",
+        "1658807969bd99a1b6-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "165880817356691567": {
+      "type": "slideshow",
+      "disabled": true,
+      "blocks": {
+        "1658808173a03e913c-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Amanda3.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-right",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "1658808173a03e913c-1": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "e8196da7-d056-49f2-8979-05d7c59be0d4": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "c974a627-405a-40d8-b07b-b59de71dc0fa": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "1658808173a03e913c-0",
+        "1658808173a03e913c-1",
+        "e8196da7-d056-49f2-8979-05d7c59be0d4",
+        "c974a627-405a-40d8-b07b-b59de71dc0fa"
+      ],
+      "settings": {
+        "layout": "grid",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "16588082485b48d63c": {
+      "type": "rich-text",
+      "blocks": {
+        "165880824881c56a50-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>OPEN ROLES<\/p>",
+            "heading_size": "h0"
+          }
+        },
+        "fb221ecc-982d-4a05-961b-602f333da1e7": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "8ce22f91-fa9e-44b8-91d7-7dabadad5bc1": {
+          "type": "caption",
+          "disabled": true,
+          "settings": {
+            "caption": "Love Yourself",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "large"
+          }
+        },
+        "165880824881c56a50-1": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        },
+        "165880824881c56a50-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "APPLY NOW",
+            "button_link": "mailto:careers@getfrenchie.com",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "165880824881c56a50-0",
+        "fb221ecc-982d-4a05-961b-602f333da1e7",
+        "8ce22f91-fa9e-44b8-91d7-7dabadad5bc1",
+        "165880824881c56a50-1",
+        "165880824881c56a50-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 12,
+        "padding_bottom": 52
+      }
+    },
+    "165880787169935262": {
+      "type": "featured-blog",
+      "disabled": true,
+      "settings": {
+        "heading": "Le Journal",
+        "heading_size": "h1",
+        "blog": "news",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "inverse",
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+          }
+        },
+        "email-form": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "paragraph",
+        "email-form"
+      ],
+      "settings": {
+        "color_scheme": "accent-2",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "16588020647f1882db": {
+      "type": "image-banner",
+      "disabled": true,
+      "blocks": {
+        "1658802064e3950a94-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "1658802064e3950a94-1": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "1658802064e3950a94-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1658802064e3950a94-0",
+        "1658802064e3950a94-1",
+        "1658802064e3950a94-2"
+      ],
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "1658807345a40d5704": {
+      "type": "image-banner",
+      "disabled": true,
+      "blocks": {
+        "16588073452a7b1639-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "16588073452a7b1639-1": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "16588073452a7b1639-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "16588073452a7b1639-0",
+        "16588073452a7b1639-1",
+        "16588073452a7b1639-2"
+      ],
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16588021267ea66342",
+    "ac9fc5c4-24d6-46ff-9757-2ad27b844423",
+    "165880719310579b09",
+    "165880673199ac6d87",
+    "16588068646b4ea4d7",
+    "1658806631180ada57",
+    "16588079699255ff91",
+    "165880817356691567",
+    "16588082485b48d63c",
+    "165880787169935262",
+    "newsletter",
+    "16588020647f1882db",
+    "1658807345a40d5704"
+  ]
+}

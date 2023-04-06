@@ -1,0 +1,129 @@
+{{ "subscriptions-faq.css" | asset_url | stylesheet_tag }}
+ 
+ <section class="subscriptions-faq">
+
+          <!-- Section headline -->
+          <h2 class="subscriptions-faq-headline">FAQ</h2>
+          <ul class="subscriptions-faq-list">
+            <li>
+              <div class="subscriptions-faq-question-container">
+                <!-- Question -->
+                <span class="subscriptions-faq-question"
+                  >How does the subscription program work?</span
+                ><span class="subscriptions-faq-load-more">▼</span>
+              </div>
+              <!-- Answer -->
+              <p class="subscriptions-faq-answer">
+                Our subscription program ensures that you never run out of your favorite
+                products. You can set the frequency of the orders to fit your needs.
+                Every time you renew your subscription, you are saving 15%.
+              </p>
+            </li>
+        
+            <li>
+              <div class="subscriptions-faq-question-container">
+                <span class="subscriptions-faq-question"
+                  >How do I start a subscription?</span
+                ><span class="subscriptions-faq-load-more">▼</span>
+              </div>
+              <p class="subscriptions-faq-answer">
+                You can start your subscription just like any other purchase. Go to your
+                favorite item, and select one of the “Subscribe & Save” frequency
+                options, and then go to checkout to purchase your first subscription
+                order. You will receive a link to your subscription portal where you can
+                easily manage your current and upcoming subscription renewals.
+              </p>
+            </li>
+            <li>
+              <div class="subscriptions-faq-question-container">
+                <span class="subscriptions-faq-question"
+                  >Where can I access my subscription?</span
+                ><span class="subscriptions-faq-load-more">▼</span>
+              </div>
+              <p class="subscriptions-faq-answer">
+                You can always see your current subscription information, next payment
+                and delivery date, and make updates to your subscription plan on your
+                subscription management portal. We will send you an email with the link
+                to your portal where you can always access your subscription information
+                without the need to sign up for an account!
+              </p>
+            </li>
+            <li>
+              <div class="subscriptions-faq-question-container">
+                <span class="subscriptions-faq-question"
+                  >Can I use a discount code for my subscription?</span
+                ><span class="subscriptions-faq-load-more">▼</span>
+              </div>
+              <p class="subscriptions-faq-answer">
+                You can use discount codes on your first purchase of a subscription
+                order by adding the code to the discount field at checkout. Want to use
+                your discount against an existing subscription? No problem - just add
+                your code to the discount field in your subscription portal.
+              </p>
+            </li>
+            <li>
+              <div class="subscriptions-faq-question-container">
+                <span class="subscriptions-faq-question">
+                  How do I change my subscription delivery day?
+                </span>
+                <span class="subscriptions-faq-load-more">▼</span>
+              </div>
+              <p class="subscriptions-faq-answer">
+                We give you a couple of delivery frequency options — but it’s your plan,
+                and you can skip a shipment whenever you’d like! To update your next
+                shipment date, simply login to your account and adjust the date of your
+                next shipment.
+              </p>
+            </li>
+            <li>
+              <div class="subscriptions-faq-question-container">
+                <span class="subscriptions-faq-question">
+                  How do I view my future deliveries?
+                </span>
+                <span class="subscriptions-faq-load-more">▼</span>
+              </div>
+              <p class="subscriptions-faq-answer">
+                Just log into your subscription management portal. You can find the link
+                in the email you received with your first subscription order. Can’t find
+                the email? No problem! Just reach out to our customer support and we’ll
+                send you a new link.
+              </p>
+            </li>
+            <li>
+              <div class="subscriptions-faq-question-container">
+                <span class="subscriptions-faq-question">
+                  How do I change my subscription frequency, skip my next subscription
+                  delivery, or cancel my subscription?
+                </span>
+                <span class="subscriptions-faq-load-more">▼</span>
+              </div>
+              <p class="subscriptions-faq-answer">
+                To add or remove products, pause, or cancel, simply log into your
+                account and adjust your subscription. If you haven't set up an account,
+                you can create one here to access your subscriptions.
+              </p>
+            </li>
+          </ul>
+        </section>
+          
+
+      </div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+      <script>
+          $(".subscriptions-faq-list li").click(function (e) {
+            e.preventDefault();
+            $(this)
+              .find(".subscriptions-faq-answer")
+              .toggleClass("subscriptions-faq-show subscriptions-faq-hide");
+        
+            if ($(this).find(".subscriptions-faq-answer").css("display") == "none") {
+              $(this).find(".subscriptions-faq-load-more").text("▼");
+            } else {
+              $(this).find(".subscriptions-faq-load-more").text("▲");
+            }
+          });
+      </script>

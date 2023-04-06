@@ -1,0 +1,168 @@
+  <div style="width: 100%; overflow: hidden;">
+        <div class="sliding-banner_main">
+          <div class="sliding-banner-container">
+            <div class="sliding-banner" role="region" {{ block.shopify_attributes }}>
+                {%- for block in section.blocks -%}
+                    <div class="sliding-banner-wrapper">
+                        <img class="sliding-banner-image" src ="https://cdn.shopify.com/s/files/1/0351/0324/4426/files/Frenchie_Heart_PNG_6x_abd19ef4-a8cd-4a9a-84b4-017e03b47083_256x256.png?v=1663276144">
+                        <p class="sliding-banner__message">
+                          {{ block.settings.text | escape }}
+                        </p>
+                    </div>
+              
+                {%- endfor -%}
+                </div>
+            
+            <div class="sliding-banner" role="region" {{ block.shopify_attributes }}>
+                {%- for block in section.blocks -%}
+                    <div class="sliding-banner-wrapper">
+                        <img class="sliding-banner-image" src ="https://cdn.shopify.com/s/files/1/0351/0324/4426/files/Frenchie_Heart_PNG_6x_abd19ef4-a8cd-4a9a-84b4-017e03b47083_256x256.png?v=1663276144">
+                        <p class="sliding-banner__message">
+                          {{ block.settings.text | escape }}
+                        </p>
+                    </div>
+                {%- endfor -%}
+            </div>
+          </div>
+    </div>
+  </div>
+{% schema %}
+{
+  "name": "Sliding Banner",
+  "max_blocks": 6,
+  "blocks": [
+    {
+      "type": "text",
+      "name": "text",
+      "settings": [
+        {
+          "type": "text",
+          "id": "text",
+          "default": "Enter Banner",
+          "label": "Sliding Banner Text"
+        }
+        /*,
+        {
+          "type": "image_picker",
+          "id": "image_1",
+          "label": "Sliding Banner Side Image"
+        }
+        */
+        
+      ]
+    }
+  ],
+  "presets": [
+      {
+        "name": "Sliding Banner",
+        "category": "ADVANCED LAYOUT"
+      }
+  ]
+  
+}
+{% endschema %}
+
+  <style>
+
+    .sliding-banner_main{
+      background: #2A4A80; 
+      position: relative; 
+      height: 40px; 
+      width: 100%;
+    }
+
+    @media(max-width: 1520px){
+    .sliding-banner_main{
+      width: calc(250px * 6);
+    }
+    }
+
+    img.sliding-banner-image,
+    p.sliding-banner__message{
+      margin: 0 2px;
+    }
+
+    .sliding-banner-container {
+      display: flex;
+      width: 200%;
+      position: absolute;
+      animation: scroll-left 10s linear infinite;
+      flex-direction: row;
+    }
+    
+    .sliding-banner{
+      background: #2A4A80;
+      padding: 5px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      position: relative;
+      height: 40px;
+      white-space: nowrap;
+      float: left;
+      width: 50%;
+    }
+    
+    .sliding-banner-container{
+
+    }
+    
+    .sliding-banner-wrapper{
+      display: flex;
+      flex-direction: row;
+      margin: 0 20px;
+      position: relative;
+      width: fit-content;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .sliding-banner__message{
+      color: white;
+      margin: unset;
+      font-size: 13px;
+    }
+    
+    .sliding-banner-image{
+      max-height: 30px;
+    }
+
+    .sliding-banner-wrapper {
+
+    }
+                
+            @-moz-keyframes scroll-left {
+                0% {
+                    -moz-transform: translateX(100%);
+                }
+                100% {
+                    -moz-transform: translateX(-100%);
+                }
+            }
+            
+            @-webkit-keyframes scroll-left {
+                0% {
+                    -webkit-transform: translateX(100%);
+                }
+                100% {
+                    -webkit-transform: translateX(-100%);
+                }
+            }
+            
+            @keyframes scroll-left {
+              0% {
+                left: 0;
+              }
+              100% {
+                left: -100%;
+              }
+            }
+    
+  </style>
+
+{% stylesheet %}
+
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

@@ -1,0 +1,177 @@
+@font-face {
+  font-family: Helvetica Neue;
+  src: url(https://cdn.shopify.com/s/files/1/0351/0324/4426/files/HelveticaNeue.ttf?v=1663061245);
+}
+
+@font-face {
+  font-family: Rama Gothic C;
+  src: url(https://cdn.shopify.com/s/files/1/0351/0324/4426/files/RamaGothicC-Regular.ttf?v=1663061244);
+}
+.subscription-header-container {
+    margin-bottom: 30px;
+}
+
+.subscription-benefits-header {
+    color: #294A80;
+    font-size: 30px;
+    text-align: center;
+    font-family: Helvetica;
+    font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.subscription-benefits-subhead {
+    color: #FD495C;
+    font-size: 30px;
+    text-align: center;
+    font-family: Helvetica;
+    font-weight: 700;
+}
+.subscription-benefits__title{
+    color: #294A80;
+    font-size: 18px;
+    font-family: Helvetica;
+    font-weight: 400;
+}
+.subscription-benefits {
+    background: #F4FDF0;
+}
+
+.subscription-benefits .subscription-benefits__inner {
+    padding: 5rem 0 0;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.subscription-benefits h1 {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto 3.75rem;
+    font-size: 4.213rem;
+    line-height: 110%;
+    font-family: Helvetica !important;
+}
+
+.subscription-benefits .subscription-benefits__content {
+    margin-bottom: 4rem;
+    width: 100%;
+}
+
+.hero__button-wrapper {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+
+
+.subscription-benefits .subscription-benefits__row:not(:last-child) {
+    border-bottom: 5px solid #E7E7E7;
+}
+
+.subscription-benefits .subscription-benefits__row:first-child{
+  border-bottom: unset;
+}
+
+.subscription-benefits .subscription-benefits__row {
+    display: flex;
+}
+
+.subscription-benefits .subscription-benefits__heading {
+    flex: 1;
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+    color: #294A80;
+    line-height: 120%;
+    margin-bottom: 1.75rem;
+    font-family: Rama Gothic C;
+  letter-spacing: 2px
+}
+
+.subscription-benefits .subscription-benefits__cell:not(:last-child) {
+    border-right: 5px solid #E7E7E7;
+}
+
+.subscription-benefits .subscription-benefits__image-wrapper {
+    margin-bottom: 1rem;
+    max-width: 95px;
+    max-height: 95px;
+}
+
+.subscription-benefits .subscription-benefits__cell {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2.5rem 5px ;
+    text-align: center;
+}
+
+.hero__button {
+    min-width: 224px;
+}
+
+.button--primary {
+    padding: 16px 30px;
+    background-color: #141414;
+    color: #fff;
+}
+
+.button {
+    display: inline-block;
+    font-family: Helvetica !important;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 10%;
+    border-radius: 5px;
+    border: none;
+    text-transform: uppercase;
+}
+
+.subscription-benefits .subscription-benefits__bottom-text {
+    margin-top: 1.25rem;
+}
+
+img.subscription-benefits__checkmark {
+    width: 25px;
+}
+.subscription-benefits-subhead::after {
+    content: '';
+    background-image: url(https://cdn.shopify.com/s/files/1/0351/0324/4426/files/Frenchie_Heart_PNG_6x_abd19ef4-a8cd-4a9a-84b4-017e03b47083.png?v=1663065711);
+    padding: 13px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+@media only screen and (min-width: 768px) {
+.hero__button-wrapper {
+    margin-top: 30px;
+}
+}
+
+@media(max-width: 500px) {
+
+  .subscription-benefits__title{
+    font-size: 12px;    
+  }
+.subscription-header-container {
+    margin-bottom: 30px !important;
+    margin: 0 37px;
+}
+  .subscription-benefits-header,
+  .subscription-benefits-subhead {
+    font-size: 20px;
+  }
+  .subscription-benefits-subhead::after {
+    padding: 9px;
+}
+  .subscription-benefits .subscription-benefits__heading {
+    font-size:30px;
+  }
+}

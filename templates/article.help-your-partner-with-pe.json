@@ -1,0 +1,305 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "blog_show_date": true,
+            "blog_show_author": true,
+            "blog_author_name": "Dr Isabela Bottura",
+            "blog_reviewer_name": "",
+            "blog_show_readingtime": true
+          }
+        },
+        "featured_image": {
+          "type": "featured_image",
+          "settings": {
+            "image_height": "adapt"
+          }
+        },
+        "content": {
+          "type": "content",
+          "settings": {
+          }
+        },
+        "823867e1-51ae-4581-92b3-fc7daaa6a216": {
+          "type": "advert",
+          "disabled": true,
+          "settings": {
+            "product_headline": "Spice up it up",
+            "product_1": "le-petit-lultimate-lovers-kit",
+            "product_button_text": "View Product",
+            "product_2": "",
+            "product_button_text_2": "View Product",
+            "product_3": "",
+            "product_button_text_3": "View Product"
+          }
+        },
+        "c8e6c6ac-9c7e-41ba-82f8-9097cf67fe7a": {
+          "type": "custom",
+          "disabled": true,
+          "settings": {
+            "custom_text_title": "What You Can Do If All Else Fails",
+            "custom_text_body": "<p><strong>Sexual Therapy<\/strong><\/p><p>There are specialist therepists who are trained in understanding the psychology of human sexulatiy, sex and relationships. They will be able to help you uncover what might going on for you, and give you the tools to help you overcome it.<\/p><p><\/p><p>Guided imagery is a method for managing your stress. It’s a relaxation technique that involves visualizing positive, peaceful settings like a beautiful beach or a peaceful meadow. This technique is also known as visualization or guided meditation.<\/p><p><strong>Guided Imagery<\/strong><\/p><p>It can be useful for ED as it helps you ground and relax before getting physical intimate. If abstract images like a calm beach don’t do it for you, it can also be helpful to visualise the sexaual energy in your body flowing into your genitals. <\/p><p><strong>Meditation <\/strong><\/p><p>Mindfulness or meditation is another useful tool that helps feel more calm , present and connected to our body. These are great skills for anyone experiencing ED. <\/p><p>Practice your mind\/body connection through mindfulness exercises such as body scans to help you still your mental world and focus on your physcial sensations. <\/p>"
+          }
+        },
+        "dbbed86a-1223-4cd9-85eb-98b2175cb969": {
+          "type": "custom",
+          "disabled": true,
+          "settings": {
+            "custom_text_title": "When to see a GP?",
+            "custom_text_body": "<p>Of course, not all ED is caused by psychological or emotional reasons. <\/p><p>ED can be a symptom of many physical health concerns, and there might be something more serious going on. <\/p><p>It’s <span style=\"text-decoration:underline\">always<\/span> worthwhile seeing a GP to check nothing is going on physically. <\/p><p>This is especially true if:<\/p><p>- you can’t work out any emotional reasons for the change<\/p><p> - if you have diabetes, heart disease or another known health condition that might be linked to erectile dysfunction<\/p><p> -or you have other symptoms along with erectile dysfunction<\/p><p><\/p><p><\/p>"
+          }
+        },
+        "7ea6d6d8-985c-4808-a1e7-3c25bb2f2814": {
+          "type": "cta",
+          "disabled": true,
+          "settings": {
+            "cta-title": "Check this out",
+            "cta-image": "shopify:\/\/shop_images\/Frenchie-Lube-Restock-2.1.jpg",
+            "cta-link": "https:\/\/getfrenchie.com\/blogs\/news\/7-days-of-pleasure",
+            "cta-link-text": "Click Here"
+          }
+        },
+        "b095f3fd-4d01-4d74-a645-afe88cb56c98": {
+          "type": "custom",
+          "disabled": true,
+          "settings": {
+            "custom_text_title": "Summary",
+            "custom_text_body": "<p>ED is much more common than people like to admit, and it is very very normal. Everybody experiences times of stress, worry or anxiety in life, and it is only natural for this to affect our sex life. <\/p><p>Sadly the silence,embarrassment and shame that often surrounds these conversations makes the problem worse, not better.<\/p><p>Instead, try and create an environment where pleasure and relaxation is the goal, and remove the pressure for an erection. When you stop fixating on the erection, you will discover that you are still capable of so much pleasure.<\/p>"
+          }
+        },
+        "e85b6ec6-ecf8-4deb-ab53-c4f8c9d5151f": {
+          "type": "custom",
+          "settings": {
+            "custom_text_title": "What is premature ejaculation?",
+            "custom_text_body": "<p>The definition of premature ejaculation varies in the medical literature, which makes it sometimes complex to have a proper diagnosis. The most agreed definition of PE is the inability to control or delay ejaculation during intercourse, causing personal distress or dissatisfaction. <\/p><p>It can be subclassified as lifelong, meaning it has been occurring since someone’s first sexual encounter, or acquired, when beginning later in life. Anteportal ejaculation is the most severe form of PE and happens when someone ejaculates prior to vaginal penetration.<\/p>"
+          }
+        },
+        "d589990c-cee2-4e89-bbd5-1da16738e644": {
+          "type": "custom",
+          "settings": {
+            "custom_text_title": "How long should sex last for?",
+            "custom_text_body": "<p>First of all, let’s have one thing clear: sex is not only intercourse. There are a number of different ways of exploring pleasure, including oral sex, fingering, and mutual masturbation. Sex doesn’t need to (and shouldn’t) be limited to intercourse, and exploring different ways of experiencing pleasure can drastically improve someone’s sex life.<\/p><p> <\/p><p>When talking about penis-vagina sex, the average time between first vaginal penetration to ejaculation is 5.4 minutes.<\/p><p>In lifelong PE, ejaculation happens prior to or within about one minute of vaginal penetration, without the capacity of delaying it, since someone’s first sexual experience. In acquired PE, there is significant reduction in the time between penetration and ejaculation, often to about 3 minutes or less.<\/p>"
+          }
+        },
+        "6f3f3c11-6cdb-4369-820b-f6f75fba88c5": {
+          "type": "custom",
+          "settings": {
+            "custom_text_title": "Condoms are your ally when dealing with Premature Ejaculation",
+            "custom_text_body": "<p>Not only condoms are a great method for safe sex, preventing STIs and unwanted pregnancy, but they are also a tool that can be used by someone with PE. A lot of men report that they are able to last for longer when using a condom. The great thing about it is that, differently to medications often used by men wanting to delay ejaculation, condoms have no systemic side effects.<\/p>"
+          }
+        },
+        "8de91b0b-81d7-45a5-9189-ffe8b85202cf": {
+          "type": "advert",
+          "settings": {
+            "product_headline": "Try condoms to battle PE today",
+            "product_1": "deux-beret-condom-bundle",
+            "product_button_text": "View Product",
+            "product_2": "",
+            "product_button_text_2": "View Product",
+            "product_3": "",
+            "product_button_text_3": "View Product"
+          }
+        },
+        "7292b91e-92d7-4bc9-8989-d891349b58ec": {
+          "type": "custom",
+          "settings": {
+            "custom_text_title": "Here are some ways to help your partner with premature ejaculation",
+            "custom_text_body": "<p>If your partner is concerned about their ability to control or delay ejaculation, encourage them to seek medical assistance. Even though psychological components often contribute to acquired PE, sometimes medical conditions such as chronic prostatitis and hyperthyroidism can be involved, and it can also be related to erectile dysfunction. In the case of lifelong PE, the cause is often genetic and neurobiological.<\/p><p>Premature ejaculation can be a very sensitive topic, so it is important to be gentle when talking about it, normalizing it as a very common situation that can be solved with the right tools and assistance. Telling them how much pleasure they give you and how attracted you are to them can also be a great way to make them feel more confident.<\/p><p>Make sure you explore all different forms of pleasure together other than penetration, what might actually drastically improve your sex life. There are also different practices and tools that might help vaginal intercourse last for longer.<\/p>"
+          }
+        },
+        "22a5c3db-3ef3-4ea9-a3e5-ce0b005a3d3b": {
+          "type": "custom",
+          "settings": {
+            "custom_text_title": "What is the treatment for Premature Ejaculation?",
+            "custom_text_body": "<p>The treatment for PE will depend on its cause. It usually involves behavioral strategies that can be combined with psychotherapy and in some cases medications. We will discuss the most common medications later in this article, but let’s talk about different non-pharmacological strategies first.<\/p>"
+          }
+        },
+        "e704899f-3e85-4375-a00a-1c468bcbb832": {
+          "type": "custom",
+          "settings": {
+            "custom_text_title": "Masturbation before sex",
+            "custom_text_body": "<p>Many men notice that they can last for when they are having sex shortly after having an orgasm. Masturbating an hour or 2 before sex can be a useful strategy for some men to last longer during penetration. Mutual masturbation can also be a great and fun way to do that.<\/p>"
+          }
+        },
+        "6c7246aa-3480-4a9c-8471-b8fca3f1abee": {
+          "type": "custom",
+          "settings": {
+            "custom_text_title": "Pelvic floor exercises",
+            "custom_text_body": "<p>Kegels are important not only for women! Weak pelvic floor muscles can be involved in poor ejaculatory control and PE. To identify the pelvic floor muscles, your partner can contract them as if they would try to hold urine or keep from passing gas. <\/p><p>A simple way to start practicing Kegels is:<\/p><ul><li>Engage the pelvic floor muscles for 3 seconds, then relax for 3 seconds. Repeat that a couple of times. Progress your way up to 3 sets of 10 repetitions a day.<\/li><li>Avoid engaging the abdominal muscles so that you can isolate the pelvic floor ones. This can be challenging at first, but it gets easier with time. Also, remember not to hold your breath.<\/li><li>It might be easier to start laying down. With practice, experiment with doing the exercises sitting up, standing, or even walking.<\/li><\/ul>"
+          }
+        },
+        "e97a2f18-ff12-4dd2-8063-b045762bf624": {
+          "type": "custom",
+          "settings": {
+            "custom_text_title": "The ‘stop-start’ and ‘squeeze’ techniques",
+            "custom_text_body": "<p>Some techniques that have been described to delay ejaculation are the ‘stop-start’ and the ‘squeeze’. <\/p><p>The first one involves stimulating the penis until feeling almost ready to ejaculate, and then stopping. After the urge to ejaculate passes, starting again. The second one recommends that you or your partner squeeze the part of the penis where the head joins the shaft until the urge to ejaculate stops.<\/p><p>The idea is that, with practice, delaying ejaculation would become easier and those practices would no longer be needed. <\/p>"
+          }
+        },
+        "89b43764-3dd3-4d37-9839-56016aba1ddf": {
+          "type": "advert",
+          "settings": {
+            "product_headline": "Try the stop-start method with C-rings",
+            "product_1": "le-coq",
+            "product_button_text": "View Product",
+            "product_2": "",
+            "product_button_text_2": "View Product",
+            "product_3": "",
+            "product_button_text_3": "View Product"
+          }
+        },
+        "4f23030b-649d-4af5-9f93-10ad9f965cfd": {
+          "type": "custom",
+          "settings": {
+            "custom_text_title": "Slow down and breathe",
+            "custom_text_body": "<p>Changing the pattern of hard \/ fast penetration that most men are used to can be a great strategy. Exploring with different forms of pleasure, not only during intercourse but also masturbation, can many times allow men to learn how to better control their orgasms and ejaculation, and even separate them. <\/p><p>Breathing techniques, such as slowing down, focusing on their breath and breathing all the way into their lower belly, can also be very supportive. Similar techniques are also described in Neo-tantra and Taoist teachings.<\/p><p>You can help your lover by reminding him to slow down, breathe and be present during sex.<\/p>"
+          }
+        },
+        "752686e1-c4c5-4c5b-b481-80867e17930e": {
+          "type": "custom",
+          "settings": {
+            "custom_text_title": "If all else fails, see a specialist for medications",
+            "custom_text_body": "<p>Your doctor might prescribe you medications for assisting with premature ejaculation, depending on the case. <\/p><p>The most common ones are:<\/p><ul><li><strong>Topical numbing agents: <\/strong>sprays, gels or creams like <a href=\"https:\/\/getfrenchie.com\/products\/lendurance-delay-spray\"><span style=\"text-decoration:underline\">Frenchie’s L’Endurance<\/span><\/a> containing numbing agents, such as lignocaine, when applied to the head of the penis ahead of intercourse, can increase the time between vaginal penetration and ejaculation. The downside to it is that there will be reduced sensation on the penis. It is very important to make sure a condom is used or it’s applied correctly 15-20 mins before use and any excess is wiped off, to avoid numbness in the vagina. <\/li><li><strong>Antidepressants:<\/strong> selective serotonin reuptake inhibitors (SSRIs) can be used to treat PE, as serotonin inhibits ejaculation. The most common ones are paroxetine, dapoxetine, fluoxetine and sertraline. Although there is evidence that they work for PE, they are not licensed for treatment of this condition, therefore, used only off-label and not covered by Pharmaceutical Benefits Scheme (PBS). They are used in smaller doses than when used for depression, but have similar side effects, such as nausea, diarrhea, dry mouth, and decreased libido.<\/li><li><strong>Phosphodiesterase-5 inhibitors:<\/strong> this class of drugs might help with PE when there is also erectile dysfunction involved, giving a sense of greater control over ejaculation. The most well known drug in this category is sildenafil (Viagra).<\/li><\/ul><p><strong>Pain relievers: <\/strong>Tramadol is an effective treatment for premature ejaculation, although the way it acts is still unknown. It shouldn’t usually be combined with SSRIs, due to the risk of serotonin syndrome, a serious drug reaction.<\/p>"
+          }
+        },
+        "fad3e122-4aed-403f-9131-a67be87128fe": {
+          "type": "advert",
+          "settings": {
+            "product_headline": "Get fast, effective treatment today",
+            "product_1": "lendurance-delay-spray",
+            "product_button_text": "View Product",
+            "product_2": "",
+            "product_button_text_2": "View Product",
+            "product_3": "",
+            "product_button_text_3": "View Product"
+          }
+        },
+        "290dd596-f5d2-4ee1-b687-3434afa55887": {
+          "type": "custom",
+          "settings": {
+            "custom_text_title": "Counseling \/ Psychotherapy \/ Sex & Relationships Coaching",
+            "custom_text_body": "<p>Talking to a mental health expert about your relationship and sex life can help reducing performance anxiety and create better strategies in your relationship. Psychological therapy can be the first choice of treatment when there is a clear psychological cause involved in premature ejaculation, and usually has good results especially when combined with drug treatment.<\/p><p>It is common for men with PE to start avoiding sexual encounters, which may also influence a couple’s relationships and create feelings of resentment or even anger. Couples counseling, therapy or coaching might be helpful to navigate those feelings and reconnect.<\/p>"
+          }
+        },
+        "17cbb36a-f119-4d3e-a8e9-a199d4aaeac7": {
+          "type": "custom",
+          "settings": {
+            "custom_text_title": "Remember: There is a solution for PE",
+            "custom_text_body": "<p>It is important to remember that premature ejaculation is a very common condition and that it is manageable. Looking for the right support and letting go of shame, is the first step.<\/p><p>As a partner, you can create the safety your man needs to try different strategies and look for help. Overcoming this together might open space for even more connection, pleasure and love in your relationship.<\/p>"
+          }
+        },
+        "b563045a-7f3d-45ac-9082-cd80e32a653c": {
+          "type": "custom",
+          "settings": {
+            "custom_text_title": "Bibliography:",
+            "custom_text_body": "<ul><li><em>Chung E, Gilbert B, Perera M, Roberts MJ. Premature ejaculation: A clinical review for the general physician. Aust Fam Physician. 2015 Oct;44(10):737-43. PMID: 26484490.<\/em><\/li><\/ul><p><em> <\/em><\/p><ul><li><em>Althof SE, Abdo CH, Dean J, Hackett G, McCabe M, McMahon CG, Rosen RC, Sadovsky R, Waldinger M, Becher E, Broderick GA, Buvat J, Goldstein I, El-Meliegy AI, Giuliano F, Hellstrom WJ, Incrocci L, Jannini EA, Park K, Parish S, Porst H, Rowland D, Segraves R, Sharlip I, Simonelli C, Tan HM; International Society for Sexual Medicine. International Society for Sexual Medicine's guidelines for the diagnosis and treatment of premature ejaculation. J Sex Med. 2010 Sep;7(9):2947-69. doi: 10.1111\/j.1743-6109.2010.01975.x. PMID: 21050394.<\/em><\/li><\/ul><p><em> <\/em><\/p><ul><li><em>Althof SE, McMahon CG, Waldinger MD, Serefoglu EC, Shindel AW, Adaikan PG, Becher E, Dean J, Giuliano F, Hellstrom WJ, Giraldi A, Glina S, Incrocci L, Jannini E, McCabe M, Parish S, Rowland D, Segraves RT, Sharlip I, Torres LO. An Update of the International Society of Sexual Medicine's Guidelines for the Diagnosis and Treatment of Premature Ejaculation (PE). Sex Med. 2014 Jun;2(2):60-90. doi: 10.1002\/sm2.28. PMID: 25356302; PMCID: PMC4184677.<\/em><\/li><\/ul>"
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "featured_image",
+        "content",
+        "823867e1-51ae-4581-92b3-fc7daaa6a216",
+        "c8e6c6ac-9c7e-41ba-82f8-9097cf67fe7a",
+        "dbbed86a-1223-4cd9-85eb-98b2175cb969",
+        "7ea6d6d8-985c-4808-a1e7-3c25bb2f2814",
+        "b095f3fd-4d01-4d74-a645-afe88cb56c98",
+        "e85b6ec6-ecf8-4deb-ab53-c4f8c9d5151f",
+        "d589990c-cee2-4e89-bbd5-1da16738e644",
+        "6f3f3c11-6cdb-4369-820b-f6f75fba88c5",
+        "8de91b0b-81d7-45a5-9189-ffe8b85202cf",
+        "7292b91e-92d7-4bc9-8989-d891349b58ec",
+        "22a5c3db-3ef3-4ea9-a3e5-ce0b005a3d3b",
+        "e704899f-3e85-4375-a00a-1c468bcbb832",
+        "6c7246aa-3480-4a9c-8471-b8fca3f1abee",
+        "e97a2f18-ff12-4dd2-8063-b045762bf624",
+        "89b43764-3dd3-4d37-9839-56016aba1ddf",
+        "4f23030b-649d-4af5-9f93-10ad9f965cfd",
+        "752686e1-c4c5-4c5b-b481-80867e17930e",
+        "fad3e122-4aed-403f-9131-a67be87128fe",
+        "290dd596-f5d2-4ee1-b687-3434afa55887",
+        "17cbb36a-f119-4d3e-a8e9-a199d4aaeac7",
+        "b563045a-7f3d-45ac-9082-cd80e32a653c",
+        "share"
+      ],
+      "settings": {
+      }
+    },
+    "1658801499aa58f4de": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Our Best Sellers",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "frontpage",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "inverse",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+          }
+        },
+        "email-form": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "paragraph",
+        "email-form"
+      ],
+      "settings": {
+        "color_scheme": "accent-2",
+        "full_width": true,
+        "padding_top": 60,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1658801499aa58f4de",
+    "newsletter"
+  ]
+}

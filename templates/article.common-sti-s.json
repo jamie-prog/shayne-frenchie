@@ -1,0 +1,210 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "blog_show_date": true,
+            "blog_show_author": true,
+            "blog_author_name": "Sarah Piluden-Natu-El",
+            "blog_reviewer_name": "Dr Prasanthi Purusothaman",
+            "blog_show_readingtime": true
+          }
+        },
+        "featured_image": {
+          "type": "featured_image",
+          "settings": {
+            "image_height": "adapt"
+          }
+        },
+        "content": {
+          "type": "content",
+          "settings": {
+          }
+        },
+        "7ea6d6d8-985c-4808-a1e7-3c25bb2f2814": {
+          "type": "cta",
+          "disabled": true,
+          "settings": {
+            "cta-title": "Check this out",
+            "cta-image": "shopify:\/\/shop_images\/Frenchie-Lube-Restock-2.1.jpg",
+            "cta-link": "https:\/\/getfrenchie.com\/blogs\/news\/7-days-of-pleasure",
+            "cta-link-text": "Click Here"
+          }
+        },
+        "c8e6c6ac-9c7e-41ba-82f8-9097cf67fe7a": {
+          "type": "custom",
+          "settings": {
+            "custom_text_title": "8 common sexually transmitted infections",
+            "custom_text_body": "<p><strong>Chlamydia<\/strong><\/p><p>Chlamydia is the most common STD reported in Australia, affecting about 97,000 men and women yearly. The risk of contracting chlamydia is highest among young Australians aged 15-29.<\/p><p><a href=\"https:\/\/getfrenchie.com\/blogs\/news\/chlamydia-symptoms-causes-and-prevention\" target=\"_blank\" title=\"https:\/\/getfrenchie.com\/blogs\/news\/chlamydia-symptoms-causes-and-prevention\">READ MORE<\/a> on Chlamydia <\/p><p><strong>Gonorrhoea<\/strong><\/p><p>Gonorrhoea is an STI affecting 68 in every 100,000 Australians, with the rates higher in Aboriginal and Torres Strait Islander populations and highest in remote areas. Recent studies also suggest the incidence of gonorrhoea in Australia is increasing among gay and bisexual men and female sex workers. <\/p><p><\/p><p><strong>Genital Herpes<\/strong><\/p><p>Genital herpes is one of the STIs spread through skin-to-skin contact, affecting about three-quarters of sexually active Australian adults. Women have a higher likelihood of being infected with genital herpes than men. <\/p><p><\/p><p><strong>Hepatitis B and C<\/strong><\/p><p>Hepatitis means inflammation of the liver due to a lot of factors, including Sexually transmitted infections. Nearly 1% of Australians live with chronic hepatitis B and C infection.<\/p><p><\/p><p><strong>HIV infection and AIDS<\/strong><\/p><p>HIV is a virus that, if left untreated, may lead to AIDs, an incurable disease that severely damages the immune system. About 29,100 Australians have HIV, with the prevalence highest among gay and bisexual men.<\/p><p><\/p>"
+          }
+        },
+        "451a67f2-443e-4e0b-9b42-a97041a07286": {
+          "type": "cta",
+          "disabled": true,
+          "settings": {
+            "cta-title": "Title",
+            "cta-link": "",
+            "cta-link-text": "Click Here"
+          }
+        },
+        "dbbed86a-1223-4cd9-85eb-98b2175cb969": {
+          "type": "custom",
+          "settings": {
+            "custom_text_title": "",
+            "custom_text_body": "<p><strong>Syphilis<\/strong><\/p><p>Cases of syphilis, a bacterial STI, are increasing rapidly due to an ongoing outbreak in some parts of Australia. The rising numbers affect mainly Aboriginal and Torres Strait Islander people aged 15-34 and men who have sex with men.<\/p><p><\/p><p><strong>Human Papillomavirus (HPV)<\/strong><\/p><p>Human papillomavirus (HPV) is an STI that individuals may acquire within a few years of becoming sexually active. It is one of the most common sexually transmitted diseases in Australia and can affect both men and women and its estimated up to 80% of Australian’s will be affected by the virus at some point.<\/p><p><\/p>"
+          }
+        },
+        "3720c96b-7148-451e-a020-1c4d89d8d73d": {
+          "type": "custom",
+          "settings": {
+            "custom_text_title": "",
+            "custom_text_body": "<p><strong>Bacterial Vaginosis<\/strong><\/p><p>Among the most common infections affecting Australian women which isn’t a STI but associated with sexual intercourse is bacterial vaginosis. Also known as BV or vaginitis, the condition occurs when there is bacterial overgrowth inside the vagina that can cause a malodorous fishy smell. <\/p>"
+          }
+        },
+        "823867e1-51ae-4581-92b3-fc7daaa6a216": {
+          "type": "advert",
+          "settings": {
+            "product_headline": "Protect yourself from STI's with our beret condoms",
+            "product_1": "condom-0-05-3",
+            "product_button_text": "Try them today",
+            "product_2": "condom-0-05-ha-12",
+            "product_button_text_2": "Try them today",
+            "product_3": "",
+            "product_button_text_3": "View Product"
+          }
+        },
+        "d1e2553f-09dd-444a-be35-73a5d52d0d25": {
+          "type": "custom",
+          "settings": {
+            "custom_text_title": "Diseases and conditions that may result from STIs",
+            "custom_text_body": "<p>STIs left undetected or not treated can lead to severe consequences for your overall health and well-being. <\/p><p><strong>Pelvic Inflammatory Disease (PID)<\/strong><\/p><p>Pelvic inflammatory disease is a complication of untreated gonorrhoea, chlamydia and mycoplasma. The condition affects women and can result in infertility and permanent damage to the woman's reproductive organs. <\/p><p><\/p><p><strong>STDs & Infertility<\/strong><\/p><p>STIs can negatively impact fertility in males and females and the child's health outcomes. The common STIs in Australia that may affect fertility and newborn health are gonorrhoea, chlamydia, HIV, syphilis and genital herpes.<\/p><p><\/p><p><strong>STDs during Pregnancy<\/strong><\/p><p>Getting STI while pregnant can pose a significant risk to the health of the woman and her unborn child. HIV and syphilis can infect the baby while still in the womb, while genital herpes and chlamydia can be passed on to the baby during delivery.<\/p><p><\/p>"
+          }
+        },
+        "3983b62e-9295-44b6-b2ef-3914f31cdb17": {
+          "type": "custom",
+          "settings": {
+            "custom_text_title": "",
+            "custom_text_body": "<p><em>Sexually transmitted infections are becoming more common in Australia. All STIs are preventable, most are treatable, and some are curable. However, not all STIs show symptoms and untreated STIs can lead to adverse complications. For this reason, sexually active individuals should seek regular sexual health checks. <\/em><\/p><p><em>If you suspect you may have STI or have any concerns or questions regarding your sexual health, do not hesitate to book a consultation with a sexual health doctor now. <\/em><\/p>"
+          }
+        },
+        "bdfc6dbb-dbdb-45df-8b64-ffaf7f52565f": {
+          "type": "custom",
+          "settings": {
+            "custom_text_title": "Interested in online discreet, judgement free  STI screening?We would love to hear from you!",
+            "custom_text_body": "<p><strong>It will only take less than 2 mins<\/strong><\/p>"
+          }
+        },
+        "46b42013-db7b-4d80-822c-d8624b768042": {
+          "type": "cta",
+          "settings": {
+            "cta-title": "$30 credit for participation",
+            "cta-image": "shopify:\/\/shop_images\/Frenchie_Heart_PNG_6x_abd19ef4-a8cd-4a9a-84b4-017e03b47083.png",
+            "cta-link": "https:\/\/oq8vvfvo9jo.typeform.com\/to\/zEReecIm?utm_source=xxxxx&utm_medium=xxxxx&utm_campaign=xxxxx",
+            "cta-link-text": "Start The Short Survey Now"
+          }
+        },
+        "b095f3fd-4d01-4d74-a645-afe88cb56c98": {
+          "type": "custom",
+          "settings": {
+            "custom_text_title": "References",
+            "custom_text_body": "<p><em><br\/>Australia, H. (2022, September 3). STIs and pregnancy. Www.pregnancybirthbaby.org.au<br\/>https:\/\/www.pregnancybirthbaby.org.au\/stis-and-pregnancy#pregnancy<br\/><\/em><\/p><p><em>Callander, D., Guy, R., Fairley, C. K., McManus, H., Prestage, G., Chow, E. P. F., Chen, M.,<br\/>Connor, C. C. O., Grulich, A. E., Bourne, C., Hellard, M., Stoové, M., Donovan, B., & on<br\/>behalf of the ACCESS Collaboration. (2019). Gonorrhoea gone wild: rising incidence of<br\/>gonorrhoea and associated risk factors among gay and bisexual men attending Australian<br\/>sexual health clinics. Sexual Health, 16(5), 457. https:\/\/doi.org\/10.1071\/sh18097<\/em><\/p><p><em><br\/>Callander, D., McManus, H., Guy, R., Hellard, M., O’Connor, C. C., Fairley, C. K., Chow, E. P.<br\/>F., McNulty, A., Lewis, D. A., Carmody, C., Schmidt, H.-M. A., Kim, J., & Donovan, B.<br\/>(2018). Rising Chlamydia and Gonorrhoea Incidence and Associated Risk Factors<br\/>Among Female Sex Workers in Australia: A Retrospective Cohort Study. Sexually<br\/>Transmitted Diseases, 45(3), 199–206. https:\/\/doi.org\/10.1097\/OLQ.0000000000000714<\/em><\/p><p><em><br\/>CDC. (2019). Detailed STD Facts - Pelvic Inflammatory Disease - CDC Fact Sheet. Centers for<br\/>Disease Control and Prevention. https:\/\/www.cdc.gov\/std\/pid\/stdfact-pid-detailed.htm<br\/><\/em><\/p><p><em>Department of Health. (2020, May 11). Chlamydia. Www.healthywa.wa.gov.au.<br\/>https:\/\/www.healthywa.wa.gov.au\/Articles\/A_E\/Chlamydia<br\/>Department of Health. (2022a, June 3). National response to syphilis. Australian Government<br\/>Department of Health and Aged Care.<br\/>https:\/\/www.health.gov.au\/initiatives-and-programs\/national-response-to-syphilis<\/em><\/p><p><em><br\/>Department of Health. (2022b, June 14). Syphilis. Australian Government Department of Health<br\/>and Aged Care. https:\/\/www.health.gov.au\/diseases\/syphilis<\/em><\/p><p><em><br\/>Health, A. G. D. of. (2021). Communicable Diseases Intelligence. Www1.Health.gov.au;<br\/>Australian Government Department of Health.<br\/>https:\/\/www1.health.gov.au\/internet\/main\/publishing.nsf\/Content\/8FA6078276359430C<br\/>A257BF0001A4C42\/<\/em><\/p><p><em><br\/>https:\/\/www.afao.org.au\/. (2022). HIV in Australia 2022.<br\/>https:\/\/www.afao.org.au\/wp-content\/uploads\/2021\/11\/AFAO-HIV-in-Australia-2022.pdf<br\/><\/em><\/p><p><em>MacLachlan, J., & Cowie, B. (2022, June 30). Hepatitis B prevalence and epidemiology in<br\/>Australia | B Positive. B Positive.<br\/>https:\/\/hepatitisb.org.au\/prevalence-and-epidemiology-of-hepatitis-b\/<br\/><\/em><\/p><p><em>National Centre for Immunisation Research and Surveillance. (2022). Human papillomavirus<br\/>(HPV) vaccines for Australians Human papillomavirus (HPV) vaccines for Australians.<br\/>https:\/\/www.ncirs.org.au\/sites\/default\/files\/2022-07\/HPV%20Factsheet_July%202022%2<br\/>0update_Final.pdf<br\/><\/em><\/p><p><em>Queensland Health. (2022, September 13). Genital Herpes. Qld.gov.au.<br\/>http:\/\/conditions.health.qld.gov.au\/HealthCondition\/condition\/14\/188\/62\/genital-herpes<br\/><\/em><\/p><p><em>The Fertility Society of Australia. (2021). Sexually transmitted infections (STIs) Pre-Conception<br\/>Health Special Interest Group 1.<br\/>https:\/\/www.fertilitysociety.com.au\/wp-content\/uploads\/FSANZ-Sexually-transmitted-inf<br\/>ections-STIs-April-2021.pdf<br\/>World Health Organization. (2022, August 22). Sexually transmitted infections (STIs). <\/em><\/p><p><em>Who.int;<br\/>World Health Organization: WHO.<br\/>https:\/\/www.who.int\/news-room\/fact-sheets\/detail\/sexually-transmitted-infections-(stis)<\/em><\/p><p><\/p><p><em>https:\/\/www.fpnsw.org.au\/factsheets\/individuals\/cervical-screening\/human-papillomavirus-hpv-vaccination<\/em><\/p><p><\/p><p>https:\/\/sti.guidelines.org.au\/syndromes\/pelvic-inflammatory-diseases-pid\/<\/p>"
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "featured_image",
+        "content",
+        "7ea6d6d8-985c-4808-a1e7-3c25bb2f2814",
+        "c8e6c6ac-9c7e-41ba-82f8-9097cf67fe7a",
+        "451a67f2-443e-4e0b-9b42-a97041a07286",
+        "dbbed86a-1223-4cd9-85eb-98b2175cb969",
+        "3720c96b-7148-451e-a020-1c4d89d8d73d",
+        "823867e1-51ae-4581-92b3-fc7daaa6a216",
+        "d1e2553f-09dd-444a-be35-73a5d52d0d25",
+        "3983b62e-9295-44b6-b2ef-3914f31cdb17",
+        "bdfc6dbb-dbdb-45df-8b64-ffaf7f52565f",
+        "46b42013-db7b-4d80-822c-d8624b768042",
+        "b095f3fd-4d01-4d74-a645-afe88cb56c98",
+        "share"
+      ],
+      "settings": {
+      }
+    },
+    "1658801499aa58f4de": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Our Best Sellers",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "frontpage",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "inverse",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+          }
+        },
+        "email-form": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "paragraph",
+        "email-form"
+      ],
+      "settings": {
+        "color_scheme": "accent-2",
+        "full_width": true,
+        "padding_top": 60,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1658801499aa58f4de",
+    "newsletter"
+  ]
+}
