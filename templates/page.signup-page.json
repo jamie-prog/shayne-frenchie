@@ -1,0 +1,191 @@
+{
+  "sections": {
+    "db111a24-0b5f-4939-af1d-87bb267abcfe": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16093376282810__db111a24-0b5f-4939-af1d-87bb267abcfe-1681707547685dcb7e-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "WIN ONE OF OUR SEXY KITS WORTH $250",
+            "heading_size": "h1"
+          }
+        },
+        "template--16093376282810__db111a24-0b5f-4939-af1d-87bb267abcfe-1681707547685dcb7e-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Sign up below for your chance to win<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--16093376282810__db111a24-0b5f-4939-af1d-87bb267abcfe-1681707547685dcb7e-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16093376282810__db111a24-0b5f-4939-af1d-87bb267abcfe-1681707547685dcb7e-0",
+        "template--16093376282810__db111a24-0b5f-4939-af1d-87bb267abcfe-1681707547685dcb7e-1",
+        "template--16093376282810__db111a24-0b5f-4939-af1d-87bb267abcfe-1681707547685dcb7e-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Untitled_design_33.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 4,
+        "padding_bottom": 16
+      }
+    },
+    "dc146675-3eff-4ee1-9469-f1f338ece022": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "16817065800ecf97d3": {
+      "type": "apps",
+      "blocks": {
+        "4473d21e-392c-4fd5-8b05-4e251e1b0fe0": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "TCWaDZ"
+          }
+        }
+      },
+      "block_order": [
+        "4473d21e-392c-4fd5-8b05-4e251e1b0fe0"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "f0da17e9-d922-408f-b752-4272fa85d1fd": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "disabled": true,
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+          }
+        },
+        "email-form": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "paragraph",
+        "email-form"
+      ],
+      "settings": {
+        "color_scheme": "accent-2",
+        "full_width": true,
+        "padding_top": 60,
+        "padding_bottom": 0
+      }
+    },
+    "41ed9e34-6d09-417d-81e3-948d82e60eb4": {
+      "type": "multicolumn",
+      "disabled": true,
+      "blocks": {
+        "template--16093376282810__41ed9e34-6d09-417d-81e3-948d82e60eb4-16817065751a29b31a-0": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16093376282810__41ed9e34-6d09-417d-81e3-948d82e60eb4-16817065751a29b31a-1": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16093376282810__41ed9e34-6d09-417d-81e3-948d82e60eb4-16817065751a29b31a-2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16093376282810__41ed9e34-6d09-417d-81e3-948d82e60eb4-16817065751a29b31a-0",
+        "template--16093376282810__41ed9e34-6d09-417d-81e3-948d82e60eb4-16817065751a29b31a-1",
+        "template--16093376282810__41ed9e34-6d09-417d-81e3-948d82e60eb4-16817065751a29b31a-2"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "db111a24-0b5f-4939-af1d-87bb267abcfe",
+    "dc146675-3eff-4ee1-9469-f1f338ece022",
+    "16817065800ecf97d3",
+    "main",
+    "f0da17e9-d922-408f-b752-4272fa85d1fd",
+    "newsletter",
+    "41ed9e34-6d09-417d-81e3-948d82e60eb4"
+  ]
+}
