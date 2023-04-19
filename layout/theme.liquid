@@ -356,7 +356,7 @@
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
     {% render 'preorder-now' %}
-    <!--Gorgias Chat Widget Start--><script id="gorgias-chat-widget-install-v2" src="https://config.gorgias.chat/gorgias-chat-bundle-loader.js?applicationId=13115"></script>
+    <!--Gorgias Chat Widget Start--><script id="gorgias-chat-widget-install-v2" type="lazyload2" data-src="https://config.gorgias.chat/gorgias-chat-bundle-loader.js?applicationId=13115"></script>
     <script id="gorgias-chat-shopify-install">!function(_){_.SHOPIFY_PERMANENT_DOMAIN="{{shop.permanent_domain}}",_.SHOPIFY_CUSTOMER_ID="{{customer.id}}",_.SHOPIFY_CUSTOMER_EMAIL="{{customer.email}}"}(window||{});</script><!--Gorgias Chat Widget End-->
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" async></script>
     <!--AZEXO_Footer_Scripts--> {% include 'azexo-footer-scripts' %} <!--End_AZEXO_Footer_Scripts-->
@@ -407,7 +407,7 @@
       var afterpay_cart_total_price = {{ cart.total_price | json }};
       var afterpay_js_snippet_version = '1.1.1';
     </script>
-    <script type="text/javascript" src="https://static.afterpay.com/shopify-afterpay-javascript.js"></script>
+    <script type="lazyload2" data-src="https://static.afterpay.com/shopify-afterpay-javascript.js"></script>
     {% else %}
     <!-- Afterpay disabled: {{ cart.currency.iso_code }} != {{ shop.currency }} -->
     {% endif %}
