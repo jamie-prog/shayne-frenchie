@@ -30,7 +30,9 @@
 
     {% render 'meta-tags' %}
 
-    <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
+    {% comment %} Critical CSS {% endcomment %}
+    {% render 'critical-css-home' %}
+
     {{ content_for_header }}
 
     {%- liquid
@@ -219,6 +221,8 @@
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js" async></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js" async></script>
     <!-- subscriptions necessity -->
+
+    <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
 
     <!-- Global site tag (gtag.js) - Google Ads: 481039075 -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-481039075"></script>
