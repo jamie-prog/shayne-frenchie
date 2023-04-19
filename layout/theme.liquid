@@ -196,7 +196,7 @@
       }
     {% endstyle %}
 
-    <link rel="stylesheet" href="{{'base.css' | asset_url }}"  media="print" onload="this.media='all'">
+    <link rel="stylesheet" data-href="{{'base.css' | asset_url }}"  media="print" onload="this.media='all'">
 
     {%- unless settings.type_body_font.system? -%}
       <link rel="preload" as="font" href="{{ settings.type_body_font | font_url }}" type="font/woff2" crossorigin>
@@ -221,14 +221,14 @@
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" media="print" onload="this.media='all'"/>
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" media="print" onload="this.media='all'"/>
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js" async></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js" async></script>
+    {% comment %} <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js" async></script> {% endcomment %}
     <!-- subscriptions necessity -->
 
     <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
 
     <!-- Global site tag (gtag.js) - Google Ads: 481039075 -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-481039075"></script>
-    <script>
+    <script async type="lazyload2" data-src="https://www.googletagmanager.com/gtag/js?id=AW-481039075"></script>
+    <script type="lazyload2">
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
@@ -236,8 +236,7 @@
       gtag('config', 'AW-481039075', {'allow_enhanced_conversions': true});
     </script>
   
-    <script>
-
+    <script type="lazyload2">
         function saFirePixel() {
             try {
 
@@ -286,8 +285,8 @@
         
     </script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8ZXR579NE4"></script>
-    <script>
+    <script async type="lazyload2" data-src="https://www.googletagmanager.com/gtag/js?id=G-8ZXR579NE4"></script>
+    <script type="lazyload2">
       window.dataLayer = window.dataLayer || [];
       function gtag(){window.dataLayer.push(arguments);}
       gtag('js', new Date());
@@ -354,7 +353,7 @@
     {%- endif -%}
     {% render 'preorder-now' %}
     <!--Gorgias Chat Widget Start--><script id="gorgias-chat-widget-install-v2" type="lazyload2" data-src="https://config.gorgias.chat/gorgias-chat-bundle-loader.js?applicationId=13115"></script>
-    <script id="gorgias-chat-shopify-install">!function(_){_.SHOPIFY_PERMANENT_DOMAIN="{{shop.permanent_domain}}",_.SHOPIFY_CUSTOMER_ID="{{customer.id}}",_.SHOPIFY_CUSTOMER_EMAIL="{{customer.email}}"}(window||{});</script><!--Gorgias Chat Widget End-->
+    <script id="gorgias-chat-shopify-install" type="lazyload2">!function(_){_.SHOPIFY_PERMANENT_DOMAIN="{{shop.permanent_domain}}",_.SHOPIFY_CUSTOMER_ID="{{customer.id}}",_.SHOPIFY_CUSTOMER_EMAIL="{{customer.email}}"}(window||{});</script><!--Gorgias Chat Widget End-->
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" async></script>
     <!-- Begin Shopify-Afterpay JavaScript Snippet (v1.1.1) -->
     {% if cart.currency.iso_code == shop.currency %}
