@@ -33,7 +33,9 @@
     {% comment %} Critical CSS {% endcomment %}
     {% render 'critical-css-home' %}
 
-    {{ content_for_header }}
+    {% comment %}{{ content_for_header }}{% endcomment %}
+    {{ content_for_header | replace : ' href=', ' data-href=' | replace : "addEventListener('load'", "addEventListener('wnw_load'" | replace : "document.addEventListener('DOMContentLoaded", "document.addEventListener('DOMContentLoaded2" | replace : 'defer="defer" src=', 'type="lazyload2" defer="defer" data-src=' }}
+    {% comment %} <script>var trekkie=[];trekkie.integrations=!0;</script> {% endcomment %}
 
     {%- liquid
       assign body_font_bold = settings.type_body_font | font_modify: 'weight', 'bold'
