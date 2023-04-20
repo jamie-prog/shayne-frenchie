@@ -40,6 +40,39 @@
       style="--ratio-percent: {{ 1 | divided_by: ratio | times: 100 }}%;"
     >
       <div class="card__inner {% if settings.card_style == 'standard' %}color-{{ settings.card_color_scheme }} gradient{% endif %}{% if card_product.featured_media or settings.card_style == 'standard' %} ratio{% endif %}" style="--ratio-percent: {{ 1 | divided_by: ratio | times: 100 }}%;">
+        <div class="card__badge">            
+          {%- if card_product.available == false -%}
+            <span class="badge badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}">{{ 'products.product.sold_out' | t }}</span>
+            {%- elsif card_product.compare_at_price > card_product.price and card_product.available -%}
+            <span class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}">{{ 'products.product.on_sale' | t }}</span>
+            {%- else -%}
+              {% if card_product.metafields.custom.sale_badges.value.new_item or card_product.metafields.custom.sale_badges.value.best_seller or card_product.metafields.custom.sale_badges.value.for_couples or card_product.metafields.custom.sale_badges.value.for_beginners %}
+                
+                {% if card_product.metafields.custom.sale_badges.value.new_item %}
+                  {% assign badge_value = 'new' %}
+                  {% assign badge_text = 'NEW!' %}
+                {% elsif card_product.metafields.custom.sale_badges.value.best_seller %}
+                  {% assign badge_value = 'best-seller' %}
+                  {% assign badge_text = 'Best Seller' %}
+                {% elsif card_product.metafields.custom.sale_badges.value.for_couples %}
+                  {% assign badge_value = 'for-couples' %}
+                  {% assign badge_text = 'For Couples' %}
+                {% elsif card_product.metafields.custom.sale_badges.value.for_beginners %}
+                  {% assign badge_value = 'for-beginners' %}
+                  {% assign badge_text = 'For Beginners' %}
+                {% endif %}
+
+                <div class="product-sale-badge {{badge_value}}" data-badge="{{card_product.metafields.custom.sale_badges.value.new_item}}">
+                  {% if badge_value == 'best-seller' %}
+                    {% render 'sale-badge-best-seller-svg' %}  
+                  {% else %}
+                    {% render 'sale-badge-svg' %}                    
+                  {% endif %}
+                  <span class="sale-text">{{badge_text | upcase }}</span>
+                </div>
+              {% endif %}
+          {%- endif -%}
+        </div>
         {%- if card_product.featured_media -%}
           <div class="card__media">
             <div class="media media--transparent media--hover-effect">
@@ -90,14 +123,7 @@
                 {{ card_product.title | escape }}
               </a>
             </h3>
-          </div>
-          <div class="card__badge {{ settings.badge_position }}">
-            {%- if card_product.available == false -%}
-              <span class="badge badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}">{{ 'products.product.sold_out' | t }}</span>
-            {%- elsif card_product.compare_at_price > card_product.price and card_product.available -%}
-              <span class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}">{{ 'products.product.on_sale' | t }}</span>
-            {%- endif -%}
-          </div>
+          </div>          
         </div>
       </div>
       <div class="card__content">
@@ -205,13 +231,6 @@
             {%- endif -%}
           </div>
         {%- endif -%}
-        <div class="card__badge {{ settings.badge_position }}">
-          {%- if card_product.available == false -%}
-            <span class="badge badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}">{{ 'products.product.sold_out' | t }}</span>
-          {%- elsif card_product.compare_at_price > card_product.price and card_product.available -%}
-            <span class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}">{{ 'products.product.on_sale' | t }}</span>
-          {%- endif -%}
-        </div>
       </div>
     </div>
   </div>
