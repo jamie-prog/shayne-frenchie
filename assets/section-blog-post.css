@@ -171,3 +171,8 @@
 .article-template__back:last-child {
   margin-bottom: 3.2rem;
 }
+
+.article-template__custom-image-banner{
+  text-align: center; 
+  line-height: 0;
+}

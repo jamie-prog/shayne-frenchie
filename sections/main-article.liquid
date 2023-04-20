@@ -55,13 +55,12 @@
             {%- if article.image -%}
               <div class="article-template__hero-container" {{ block.shopify_attributes }}>
                 <div class="article-template__hero-{{ block.settings.image_height }} media" itemprop="image" {% if block.settings.image_height=='adapt' and article.image %} {% endif %}>
-                  <img class="article-img" srcset="{% if article.image.width >= 350 %}{{ article.image | image_url: width: 350 }} 350w,{% endif %}
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          {% if article.image.width >= 750 %}{{ article.image | image_url: width: 750 }} 750w,{% endif %}
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          {% if article.image.width >= 1100 %}{{ article.image | image_url: width: 1100 }} 1100w,{% endif %}
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          {% if article.image.width >= 1500 %}{{ article.image | image_url: width: 1500 }} 1500w,{% endif %}
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          {% if article.image.width >= 2200 %}{{ article.image | image_url: width: 2200 }} 2200w,{% endif %}
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          {% if article.image.width >= 3000 %}{{ article.image | image_url: width: 3000 }} 3000w,{% endif %}
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          {{ article.image | image_url }} {{ article.image.width }}w" sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 }}px, (min-width: 750px) calc(100vw - 10rem), 100vw" src="{{ article.image | image_url: width: 1100 }}" loading="lazy" width="{{ article.image.width }}" height="{{ article.image.height }}" alt="{{ article.image.alt | escape }}">
+                  <img class="article-img" srcset="{% if article.image.width >= 350 %}{{ article.image | image_url: width: 350 }} 350w,{% endif %} 
+                    {% if article.image.width >= 750 %}{{ article.image | image_url: width: 750 }} 750w,{% endif %} 
+                    {% if article.image.width >= 1100 %}{{ article.image | image_url: width: 1100 }} 1100w,{% endif %} 
+                    {% if article.image.width >= 1500 %}{{ article.image | image_url: width: 1500 }} 1500w,{% endif %} 
+                    {% if article.image.width >= 2200 %}{{ article.image | image_url: width: 2200 }} 2200w,{% endif %} 
+                    {% if article.image.width >= 3000 %}{{ article.image | image_url: width: 3000 }} 3000w,{% endif %} {{ article.image | image_url }} {{ article.image.width }}w" sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 }}px, (min-width: 750px) calc(100vw - 10rem), 100vw" src="{{ article.image | image_url: width: 1100 }}" loading="lazy" width="{{ article.image.width }}" height="{{ article.image.height }}" alt="{{ article.image.alt | escape }}">
                 </div>
               </div>
             {%- endif -%}
@@ -203,7 +202,21 @@
             {% endif %}
           </div>
         </div>
-
+      {%- when 'image' -%}
+        <div class="article-template__custom-image-banner page-width page-width--narrow" {{block.shopify_attributes}}>
+          {%- assign block_image = block.settings.image -%}
+          {% if block_image != blank %}
+            <img class="article-page-custom-image" 
+                 srcset="{% if block_image.width >= 350 %}{{ block_image | image_url: width: 350 }} 350w,{% endif %} 
+                {% if block_image.width >= 750 %}{{ block_image | image_url: width: 750 }} 750w,{% endif %} 
+                {% if block_image.width >= 1100 %}{{ block_image | image_url: width: 1100 }} 1100w,{% endif %} 
+                {% if block_image.width >= 1500 %}{{ block_image | image_url: width: 1500 }} 1500w,{% endif %} 
+                {% if block_image.width >= 2200 %}{{ block_image | image_url: width: 2200 }} 2200w,{% endif %} 
+                {% if block_image.width >= 3000 %}{{ block_image | image_url: width: 3000 }} 3000w,{% endif %} {{ block_image | image_url }} {{ block_image.width }}w" sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 }}px, (min-width: 750px) calc(100vw - 10rem), 100vw" src="{{ block_image | image_url: width: 1100 }}" loading="lazy" width="{{ block_image.width }}" height="{{ block_image.height }}" alt="{{ block_image.alt | escape }}">
+          {% else %}
+              <div class="custom-image__placeholder">{{'image' | placeholder_svg_tag}}</div>
+          {% endif %}
+        </div>
     {%- endcase -%}
   {%- endfor -%}
 
@@ -539,6 +552,17 @@
             "type": "text",
             "label": "Button Text",
             "default": "Click Here"
+          }
+        ]
+      },
+      {
+        "name":"Single Image",
+        "type":"image",
+        "settings":[
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
           }
         ]
       }
