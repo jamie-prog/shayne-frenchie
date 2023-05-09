@@ -8,7 +8,7 @@
           "settings": {
             "blog_show_date": true,
             "blog_show_author": true,
-            "blog_author_name": "Alice Childs",
+            "blog_author_name": "Dr Isabela Bottura",
             "blog_reviewer_name": "",
             "blog_show_readingtime": true
           }
@@ -27,7 +27,7 @@
         "ff521fd9-ae30-4dd0-88f2-fb966a61b514": {
           "type": "custom",
           "settings": {
-            "custom_text_title": "What is Thrust?",
+            "custom_text_title": "What is Thrush?",
             "custom_text_body": "<p>Thrush, also known as vaginal yeast infection or candidiasis, is a very common genital infection caused by the overgrowth of a fungus, Candida albicans. Although it is a benign condition with no serious long-term health implications, thrush can cause a lot of discomfort. Its main symptoms are genital itchiness or irritation and a thick, cottage cheese-like vaginal discharge.<\/p>"
           }
         },
@@ -38,23 +38,90 @@
             "custom_text_body": ""
           }
         },
+        "2baedffc-2b1a-4046-a3fc-4d0fe13215b6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-04-27_at_12.15.44_pm.png"
+          }
+        },
         "455d39f3-4abf-4474-b9a5-3b195aa60e86": {
           "type": "custom",
           "settings": {
-            "custom_text_title": "Title",
-            "custom_text_body": "<p>Add your text here<\/p>"
+            "custom_text_title": "Who is at risk for Thrush and BV?",
+            "custom_text_body": "<p>Most women will experience a pathological vaginal discharge at some point of their lives. The healthy vaginal flora normally contains a very diverse microbiota, but an overgrowth of candida albicans can cause thrush, and an abnormal amount of Gardnerella can lead to bacterial vaginosis. This vaginal flora imbalance can be precipitated by multiple factors, such as stress, a new sexual partner, an acute illness like a cold, and hormonal changes, like hormonal contraception, pregnancy, or menopause.<\/p>"
           }
         },
         "823867e1-51ae-4581-92b3-fc7daaa6a216": {
           "type": "advert",
           "settings": {
-            "product_headline": "Explore something new with one of our lovers kits",
-            "product_1": "le-petit-lultimate-lovers-kit",
+            "product_headline": "Keep yourself clean with Oui Oui Wipes",
+            "product_1": "oui-oui-wipes",
             "product_button_text": "View Product",
-            "product_2": "lovers-kit",
+            "product_2": "",
             "product_button_text_2": "View Product",
             "product_3": "",
             "product_button_text_3": "View Product"
+          }
+        },
+        "6e059347-3671-47ae-9822-3f7856ce3e90": {
+          "type": "custom",
+          "settings": {
+            "custom_text_title": "Thrush is more likely to occur in women who:",
+            "custom_text_body": "<ul><li>Have a weakened immune system<\/li><li>Are taking or have recently taken antibiotics<\/li><li>Are taking steroids or going through chemotherapy<\/li><li>Have uncontrolled diabetes<\/li><li>Stay for a long time with wet bathers<\/li><li>Are pregnant<\/li><\/ul>"
+          }
+        },
+        "ba6718a9-a00f-4e2c-bf89-fac1237230ef": {
+          "type": "custom",
+          "settings": {
+            "custom_text_title": "BV is more likely to occur in women who:",
+            "custom_text_body": "<ul><li>Have sex without a condom<\/li><li>Have a new sexual partner<\/li><li>Douche<\/li><li>Use perfumed vaginal products<\/li><\/ul>"
+          }
+        },
+        "13f64076-add6-4b7e-992d-864c07f04262": {
+          "type": "advert",
+          "settings": {
+            "product_headline": "Keep yourself safe with The Beret",
+            "product_1": "deux-beret-condom-bundle",
+            "product_button_text": "View Product",
+            "product_2": "",
+            "product_button_text_2": "View Product",
+            "product_3": "",
+            "product_button_text_3": "View Product"
+          }
+        },
+        "e02ea720-1399-4b0a-bcf2-3591a053b194": {
+          "type": "custom",
+          "settings": {
+            "custom_text_title": "What are other possible causes of abnormal Vaginal Discharge?",
+            "custom_text_body": "<p>There are other possible causes for pathological vaginal discharge. Another very common cause is trichomoniasis, a sexually transmitted infection (STI) caused by a protozoan parasite. It can cause a white, yellowish, or greenish discharge with a fishy smell, and vaginal irritation and itchiness. It can be challenging to clinically differentiate it from BV, and can also be treated with Metronidazole. However, differently from BV or thrush, in the case of trichomoniasis, any sexual partners should also be treated. Otherwise, the risk of reinfection is high.<\/p><p>Other sexually transmitted infections, such as chlamydia and gonorrhoea, are also causes of vaginal discharge and pelvic pain.<\/p>"
+          }
+        },
+        "59655024-7109-49c8-a6b8-f607091d876f": {
+          "type": "custom",
+          "settings": {
+            "custom_text_title": "What else could it be?",
+            "custom_text_body": "<p>Sometimes, other causes of acute pelvic pain, such as urinary tract infections (UTIs), can be confused with conditions such as vaginal thrush. Uncomplicated UTIs usually present as lower abdominal pain or discomfort,  and a burning sensation to urinate. The urine is usually cloudy or more concentrated. It doesn't typically involve discharge, unless in the case of a urethritis caused by an STI.<\/p>"
+          }
+        },
+        "c938c81c-a0a6-4ce3-939b-f932fa028c74": {
+          "type": "custom",
+          "settings": {
+            "custom_text_title": "How are pathological Vaginal Discharges diagnosed and treated?",
+            "custom_text_body": "<p>If you notice an unusual colour to your vaginal discharge, if there is an offensive smell to it, or if you are experiencing any vulvar or vaginal itchiness or irritation, make sure you consult a doctor. Your doctor will ask you questions about your symptoms, examine you, and likely take a swab of the vaginal secretion to test it for different causes of infection. If needed, they will start the treatment based on the most likely cause for your symptoms. This treatment might be modified based on the test results.<\/p><p>The treatment for thrush is an antifungal drug. A single dose of Fluconazole is usually sufficient for uncomplicated cases. A vaginal antifungal medication is also an alternative.<\/p><p>As the cause of BV is the overgrowth of a bacteria, it is treated with an antibiotic, either an oral tablet, or in the form of vaginal cream or gel. The most common antibiotic used to treat bacterial vaginosis is Metronidazole.<\/p>"
+          }
+        },
+        "87c46d9e-42a4-47dc-a839-b24947246167": {
+          "type": "custom",
+          "settings": {
+            "custom_text_title": "How to prevent Thrush, BV and other abnormal Vaginal Discharges?",
+            "custom_text_body": "<p>Simple behavior changes can prevent the vaginal flora imbalance that causes Thrush and BV:<\/p><ul><li>Washing your vulva only with water and plain soap<\/li><li>Avoiding douching \/ washing your vagina (the internal genital area)<\/li><li>Avoiding wearing tight pants or underwear<\/li><li>Wearing underwear made of natural fabrics, such as cotton, and washing them with gentle products<\/li><li>Sleeping without underwear<\/li><li>Maintaining healthy life habits, such as a balanced diet, not smoking and practicing regular physical exercises<\/li><\/ul><p>To prevent any STI, including trichomoniasis, chlamydia and gonorrhea, the use of barrier methods such as condoms, regular testing, and having an open conversation with potential sexual partners about their STI status and testing is fundamental.<\/p>"
+          }
+        },
+        "3a593b45-9e49-435d-b903-7eefc37a4062": {
+          "type": "custom",
+          "settings": {
+            "custom_text_title": "Summary",
+            "custom_text_body": "<p>Vaginal discharges are in most cases physiological. The most common cause of pathological vaginal discharge is a vaginal flora imbalance, leading to Thrush and BV, that can be easily treated. They can be prevented by changing simple life habits, such as having a healthy lifestyle, and avoiding douching, or wearing tight clothes.<\/p><p>Other conditions, such as STIs, can also cause vaginal discharge, and can lead to more serious complications. Regular use of barrier methods such as condoms, and openly talking about STI status and testing with potential sexual partners is the best way to prevent them.<\/p><p>If you believe you might have an abnormal vaginal discharge, you should consult a medical professional.<\/p>"
           }
         },
         "c8e6c6ac-9c7e-41ba-82f8-9097cf67fe7a": {
@@ -104,8 +171,17 @@
         "content",
         "ff521fd9-ae30-4dd0-88f2-fb966a61b514",
         "966e38a8-e6cf-4682-a2cf-62cc08f18570",
+        "2baedffc-2b1a-4046-a3fc-4d0fe13215b6",
         "455d39f3-4abf-4474-b9a5-3b195aa60e86",
         "823867e1-51ae-4581-92b3-fc7daaa6a216",
+        "6e059347-3671-47ae-9822-3f7856ce3e90",
+        "ba6718a9-a00f-4e2c-bf89-fac1237230ef",
+        "13f64076-add6-4b7e-992d-864c07f04262",
+        "e02ea720-1399-4b0a-bcf2-3591a053b194",
+        "59655024-7109-49c8-a6b8-f607091d876f",
+        "c938c81c-a0a6-4ce3-939b-f932fa028c74",
+        "87c46d9e-42a4-47dc-a839-b24947246167",
+        "3a593b45-9e49-435d-b903-7eefc37a4062",
         "c8e6c6ac-9c7e-41ba-82f8-9097cf67fe7a",
         "dbbed86a-1223-4cd9-85eb-98b2175cb969",
         "7ea6d6d8-985c-4808-a1e7-3c25bb2f2814",

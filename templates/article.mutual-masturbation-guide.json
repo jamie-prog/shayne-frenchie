@@ -1,0 +1,195 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "blog_show_date": true,
+            "blog_show_author": true,
+            "blog_author_name": "Yarden Grinberg",
+            "blog_reviewer_name": "",
+            "blog_show_readingtime": true
+          }
+        },
+        "featured_image": {
+          "type": "featured_image",
+          "settings": {
+            "image_height": "adapt"
+          }
+        },
+        "content": {
+          "type": "content",
+          "settings": {
+          }
+        },
+        "c8e6c6ac-9c7e-41ba-82f8-9097cf67fe7a": {
+          "type": "custom",
+          "settings": {
+            "custom_text_title": "Communicating with your partner",
+            "custom_text_body": "<p>As per any form of sex, or touching, the most important thing is to communicate with your partner. Let them know what you want, your expectations and boundaries. Also listen to their questions and concerns. Trust us, having it all laid out on the table and spoken about will result in a better experience for both of you. As always, consent must be given, and we’ve said it once and we will say it again, if it’s not a heck yes, it’s a no! <\/p>"
+          }
+        },
+        "dbbed86a-1223-4cd9-85eb-98b2175cb969": {
+          "type": "custom",
+          "settings": {
+            "custom_text_title": "Understanding there are different ways to participate in mutual masturbation",
+            "custom_text_body": "<p>Just like sex, there’s no “one size fits all” when it comes to mutual masturbation. Whether you’re ready to leap right into it and show your partner everything, or you prefer to start off slow, you need to do what is comfortable for both you and your partner. Mutual masturbation can look different to every couple. From phone sex and video sex to sitting across one another with legs splayed open,  stick to what feels good for you and you can always build up from there.<\/p>"
+          }
+        },
+        "823867e1-51ae-4581-92b3-fc7daaa6a216": {
+          "type": "advert",
+          "settings": {
+            "product_headline": "Grab our mini vibe for extra stimulation",
+            "product_1": "the-petit-eiffel",
+            "product_button_text": "View Product",
+            "product_2": "",
+            "product_button_text_2": "View Product",
+            "product_3": "",
+            "product_button_text_3": "View Product"
+          }
+        },
+        "b095f3fd-4d01-4d74-a645-afe88cb56c98": {
+          "type": "custom",
+          "settings": {
+            "custom_text_title": "Get in the mood",
+            "custom_text_body": "<p>Start off by building arousal throughout the day. Whisper sweet nothings in your partner’s ear, spend some quality time, some skin on skin touching, you know what it takes to get your partner in the mood. You want to be ready to go when it’s go time. Getting in the mood doesn’t mean getting aroused, you have to factor in your surroundings too. Creating an atmosphere that plays to all of your senses can help give you a full-bodied experience. Incorporating things like soft mood lighting, your favourite scented candles, a <a href=\"https:\/\/open.spotify.com\/playlist\/0AufGHFlBdfs9sJn2Gq3FS?si=a5c698a10a164dcc\"><span style=\"text-decoration:underline\">sexy playlist<\/span><\/a>, whatever your heart desires. Make sure your bed, sofa, bathtub, floor is a comfortable and safe place where you both can relax. Before you start going to town, take a moment to breathe and look into each other’s eyes to be present in the moment and with each other. Keep the communication open, tell your partner what you’d like to see, and how attracted you are to them. <\/p>"
+          }
+        },
+        "066a72e6-84fd-4a5e-ad1d-501db7921626": {
+          "type": "custom",
+          "settings": {
+            "custom_text_title": "Start touching yourself",
+            "custom_text_body": "<p>You don’t need to go straight to the genitals. Start slow by touching other erogenous zones on your body. Really get into the groove of things, as if you were doing this solo! Encourage your partner to do the same, or ask your partner what they want to see. This is the part where you can really experiment with positions. Try kneeling, sitting, or doing it cowfolk style. It’s important during this time to let go of all expectations and goals, your aim is to have fun and to become closer as a couple. Sometimes these situations don’t go as planned and don’t always end with an orgasm, and that’s ok.<\/p>"
+          }
+        },
+        "8f5be66a-857d-4fe1-815c-8898b228f942": {
+          "type": "custom",
+          "settings": {
+            "custom_text_title": "Use toys",
+            "custom_text_body": "<p>If you’re into it, you can always bring some <a href=\"\/collections\/toys-play\" title=\"Pleasure & Play\">toys<\/a> into the mix. We love a good <a href=\"\/products\/the-petit-eiffel\" title=\"The Petit Eiffel\">mini vibrator<\/a> for clitoris stimulation, a <a href=\"\/products\/the-double-entendre\" title=\"The Double Entendre\">bendable dual motor vibrator<\/a> for internal and external stimulation, and of course <a href=\"\/products\/le-coq\" title=\"Le Coq\">c-rings<\/a> for a more intense orgasm. Bringing toys into the bedroom is a good way to spice things up, and sort of take the edge of things if you’re self conscious about touching yourself in front of your partner. If you want to get your partner involved with you getting off, you can also opt in for app-operated vibrators, which puts the power in your partner’s hands, literally. <\/p><p>At the end of the day, mutual masturbation is about <em>you<\/em>. Your sexy times don’t have to look a certain way, and don’t need to have to result in climax every single time. What is most important is exploring your bodies and growing your relationship. Plus – it’s hot watching your partner pleasure themselves.<\/p>"
+          }
+        },
+        "7ea6d6d8-985c-4808-a1e7-3c25bb2f2814": {
+          "type": "cta",
+          "disabled": true,
+          "settings": {
+            "cta-title": "Check this out",
+            "cta-image": "shopify:\/\/shop_images\/Frenchie-Lube-Restock-2.1.jpg",
+            "cta-link": "https:\/\/getfrenchie.com\/blogs\/news\/7-days-of-pleasure",
+            "cta-link-text": "Click Here"
+          }
+        },
+        "359f8fd3-f941-4321-b140-79749829b8d9": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/all_reviews_page\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": true,
+          "settings": {
+            "extra_wrapper_classes": "page-width page-width--narrow"
+          }
+        },
+        "e9695b54-795d-4a9a-a664-a7f431ca0122": {
+          "type": "advert",
+          "settings": {
+            "product_headline": "Try one of our lover's kits to level up your pleasure",
+            "product_1": "lultimate-lovers-kit",
+            "product_button_text": "View Product",
+            "product_2": "lovers-kit",
+            "product_button_text_2": "View Product",
+            "product_3": "",
+            "product_button_text_3": "View Product"
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "featured_image",
+        "content",
+        "c8e6c6ac-9c7e-41ba-82f8-9097cf67fe7a",
+        "dbbed86a-1223-4cd9-85eb-98b2175cb969",
+        "823867e1-51ae-4581-92b3-fc7daaa6a216",
+        "b095f3fd-4d01-4d74-a645-afe88cb56c98",
+        "066a72e6-84fd-4a5e-ad1d-501db7921626",
+        "8f5be66a-857d-4fe1-815c-8898b228f942",
+        "7ea6d6d8-985c-4808-a1e7-3c25bb2f2814",
+        "359f8fd3-f941-4321-b140-79749829b8d9",
+        "e9695b54-795d-4a9a-a664-a7f431ca0122",
+        "share"
+      ],
+      "settings": {
+      }
+    },
+    "1658801499aa58f4de": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Our Best Sellers",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "frontpage",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "inverse",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+          }
+        },
+        "email-form": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "paragraph",
+        "email-form"
+      ],
+      "settings": {
+        "color_scheme": "accent-2",
+        "full_width": true,
+        "padding_top": 60,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1658801499aa58f4de",
+    "newsletter"
+  ]
+}

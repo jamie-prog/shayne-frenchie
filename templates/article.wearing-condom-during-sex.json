@@ -1,0 +1,200 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "blog_show_date": true,
+            "blog_show_author": true,
+            "blog_author_name": "Yarden Grinberg",
+            "blog_reviewer_name": "",
+            "blog_show_readingtime": true
+          }
+        },
+        "featured_image": {
+          "type": "featured_image",
+          "settings": {
+            "image_height": "adapt"
+          }
+        },
+        "content": {
+          "type": "content",
+          "settings": {
+          }
+        },
+        "823867e1-51ae-4581-92b3-fc7daaa6a216": {
+          "type": "advert",
+          "settings": {
+            "product_headline": "Don't be silly, wrap your willy!",
+            "product_1": "deux-beret-condom-bundle",
+            "product_button_text": "View Product",
+            "product_2": "",
+            "product_button_text_2": "View Product",
+            "product_3": "",
+            "product_button_text_3": "View Product"
+          }
+        },
+        "c8e6c6ac-9c7e-41ba-82f8-9097cf67fe7a": {
+          "type": "custom",
+          "settings": {
+            "custom_text_title": "Unwanted heightened sensation that leads to premature ejaculation or quick ejaculation",
+            "custom_text_body": "<p>Penis-havers love the argument <em>“I can’t feel anything with a condom on”<\/em>, which 1) is manipulative as heck, and 2) I bet you’d be able to feel more than if you weren’t to have sex at all. While wearing a condom does take away some sensitivity, it’s not so different that you don’t feel pleasure or orgasm. <\/p><p>Let’s think of sex as a balance scale. On one side you have extreme sensitivity, on the other you have time spent doing the deed. <\/p><p>If you have too much sensitivity, chances are you will finish quickly, leaving your partner to fend for themselves when it comes to reaching the big O (and running the risk of your partner telling all their friends that you are a one pump chump, yikes!). If you take away some of that sensitivity (keyword: SOME, not all!) chances are you will be able to go for longer, which results in a better orgasm for you, and a better time for your partner too!<\/p>"
+          }
+        },
+        "dbbed86a-1223-4cd9-85eb-98b2175cb969": {
+          "type": "custom",
+          "settings": {
+            "custom_text_title": "Getting your female partner pregnant",
+            "custom_text_body": "<p>One of the worst (in my humble opinion) things that could come out of having condomless sex, is the risk of having an unplanned pregnancy. It’s not so bad if you’re in a long term relationship, but a one night stand resulting in pregnancy? No thanks! If used correctly, condoms are 98% effective when it comes to preventing pregnancy. <\/p><p>I know what you’re going to say, <em>“I’m on the pill”<\/em> or <em>“I am on contraception”<\/em>, but look yourself in the mirror and be honest, have you taken a pill every day, at the exact same time for however many weeks it takes to come into effect? <\/p><p>If you’re a silly goofy girl like me, chances are you have definitely missed one or two (dozen). Also, why not let the men and penis-havers do their due diligence and wrap up? After all, we’re blessing them with our presence.<\/p>"
+          }
+        },
+        "451b1e34-337f-4486-9514-6cf982e9a0eb": {
+          "type": "advert",
+          "settings": {
+            "product_headline": "Perfect to keep in your bag!",
+            "product_1": "le-petit-deux-condom-bundle",
+            "product_button_text": "View Product",
+            "product_2": "",
+            "product_button_text_2": "View Product",
+            "product_3": "",
+            "product_button_text_3": "View Product"
+          }
+        },
+        "b095f3fd-4d01-4d74-a645-afe88cb56c98": {
+          "type": "custom",
+          "settings": {
+            "custom_text_title": "The anxiety of getting infected with sexually transmitted infections while doing it",
+            "custom_text_body": "<p>Did you know that condoms are the only contraception that stops the spread of STI’s? Well, now you do! STI’s can not only be painful, uncomfortable and sometimes incurable, but they can also cause big strain on your mental health. <\/p><p>Most STI’s won’t show up in tests for several days, and others up to months after getting infected, so even if you have gone to get checked ASAP, the results may not be accurate. This can cause anxiety and for some, this anxiety can be enough to cause sleeplessness, headaches\/migraines, and stress, which can be difficult to bounce back from. <\/p>"
+          }
+        },
+        "066a72e6-84fd-4a5e-ad1d-501db7921626": {
+          "type": "custom",
+          "settings": {
+            "custom_text_title": "Sexually Transmitted Infections",
+            "custom_text_body": "<p>Speaking of STI’s there is a long (and I mean looong) list of infections that can actually be prevented by using a condom. Some of these infections can be easily cured with a pill or two such as Chlamydia, others not so easily and could be with you for the rest of your life such as Herpes and HIV. <\/p><p>Some people may show severe symptoms, others may not show any, but if left untreated STI’s can cause some serious health issues and potentially become fatal. Let’s play a game of would you rather. Would you rather go to your family doctor for STI treatment, or wrap up? You choose!<\/p><p>So yes, condoms may feel <em>slightly <\/em>different during intercourse, but the comfort of knowing you are less at risk of pregnancy or STI’s is worth it. Also - just a reminder that less sensitivity means you can go for longer, making you an absolute love machine!<\/p>"
+          }
+        },
+        "7ea6d6d8-985c-4808-a1e7-3c25bb2f2814": {
+          "type": "cta",
+          "disabled": true,
+          "settings": {
+            "cta-title": "Check this out",
+            "cta-image": "shopify:\/\/shop_images\/Frenchie-Lube-Restock-2.1.jpg",
+            "cta-link": "https:\/\/getfrenchie.com\/blogs\/news\/7-days-of-pleasure",
+            "cta-link-text": "Click Here"
+          }
+        },
+        "359f8fd3-f941-4321-b140-79749829b8d9": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/all_reviews_page\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": true,
+          "settings": {
+            "extra_wrapper_classes": "page-width page-width--narrow"
+          }
+        },
+        "e9695b54-795d-4a9a-a664-a7f431ca0122": {
+          "type": "advert",
+          "settings": {
+            "product_headline": "Try one of our lover's kits to level up your pleasure",
+            "product_1": "lultimate-lovers-kit",
+            "product_button_text": "View Product",
+            "product_2": "lovers-kit",
+            "product_button_text_2": "View Product",
+            "product_3": "",
+            "product_button_text_3": "View Product"
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "featured_image",
+        "content",
+        "823867e1-51ae-4581-92b3-fc7daaa6a216",
+        "c8e6c6ac-9c7e-41ba-82f8-9097cf67fe7a",
+        "dbbed86a-1223-4cd9-85eb-98b2175cb969",
+        "451b1e34-337f-4486-9514-6cf982e9a0eb",
+        "b095f3fd-4d01-4d74-a645-afe88cb56c98",
+        "066a72e6-84fd-4a5e-ad1d-501db7921626",
+        "7ea6d6d8-985c-4808-a1e7-3c25bb2f2814",
+        "359f8fd3-f941-4321-b140-79749829b8d9",
+        "e9695b54-795d-4a9a-a664-a7f431ca0122",
+        "share"
+      ],
+      "settings": {
+      }
+    },
+    "1658801499aa58f4de": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Our Best Sellers",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "frontpage",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "inverse",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+          }
+        },
+        "email-form": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "paragraph",
+        "email-form"
+      ],
+      "settings": {
+        "color_scheme": "accent-2",
+        "full_width": true,
+        "padding_top": 60,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1658801499aa58f4de",
+    "newsletter"
+  ]
+}
