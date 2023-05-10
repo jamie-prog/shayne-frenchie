@@ -99,7 +99,7 @@
     border-top: 1px solid white;
 }
 
-.blog-categories-container .blog-category-header {
+.blog-categories-container .blog-category__header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -311,7 +311,7 @@
 }
 
 @media(max-width: 500px) {
-    .blog-categories-container .blog-category-header {
+    .blog-categories-container .blog-category__header {
         flex-direction: column;
         align-items: flex-start;
     }
@@ -333,4 +333,9 @@
         column-gap: unset;
         row-gap: unset;
     }
+}
+
+.blog-category__button-wrapper{
+    text-align: center; 
+    margin-top: 30px;
 }
