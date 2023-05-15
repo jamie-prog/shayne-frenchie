@@ -36,11 +36,6 @@ culture-lifestyle
       <p class="sliding-banner__message">{{ section.settings.text | escape }}</p>
 
       <div class="blog-categories-list-container">
-        <a class="category-list-item button" href="{{blog.url | append: '?view=all'}}">
-          <div>
-            Read All
-          </div>
-        </a>
         <a class="category-list-item button" href="https://getfrenchie.com/blogs/news/tagged/sex-relationships">
           <div>
             Sex & Relationships
@@ -426,212 +421,12 @@ culture-lifestyle
         </a>
       </div>
 
-      {% if current_tags == blank %}
-        <div class="blog-category" data-category="latest-articles">
-          <div class="blog-category__header latest-articles">
-            <h2 class="blog-category-title">Latest Articles</h2>
-            <div class="category-list-header button button--secondary">
-              {%- comment -%}
-              <a>
-                <div>Explore Latest Articles</div>
-              </a>
-              {%- endcomment -%}
-            </div>
-          </div>
-          <div class="blog-articles latest-articles {% if section.settings.layout == 'collage' %}blog-articles--collage{% endif %}">
-            {%- for article in blog.articles limit:3-%}
-            <div class="blog-articles__article article">
-              {%- render 'article-card'
-              , article: article
-              , media_height: section.settings.image_height
-              , media_aspect_ratio: article.image.aspect_ratio
-              , show_image: section.settings.show_image
-              , show_date: section.settings.show_date
-              , show_author: section.settings.show_author
-              , show_excerpt: true
-              -%}
-            </div>
-            {%- endfor -%}
-          </div>
-        </div>
-  
-        <div class="blog-category">
-          <div class="blog-category__header sex-relationships">
-            <h2 class="blog-category-title">Sex & Relationships</h2>
-          </div>
-          <div class="blog-articles sex-relationships {% if section.settings.layout == 'collage' %}blog-articles--collage{% endif %}">
-            <div class="blog-category container">
-              {%- assign sr_first_counter = 0 -%}
-              {%- assign sr_first_index = 0 -%}
-              <div class="first">
-                {%- for article in blog.articles -%}
-                  {%- if article.tags contains 'sex & relationships' -%}
-                    {%- if sr_first_counter == 0 and sr_first_index == 0 -%}
-                    <div class="blog-articles__article article">
-                      {%- render 'article-card-v2'
-                      , article: article
-                      , media_height: section.settings.image_height
-                      , media_aspect_ratio: article.image.aspect_ratio
-                      , show_image: section.settings.show_image
-                      , show_date: section.settings.show_date
-                      , show_author: section.settings.show_author
-                      , show_excerpt: true
-                      -%}
-                    </div>
-                    {% assign sr_first_counter = sr_first_counter | plus:1 %}
-                    {% endif %}
-                  {% endif %}
-                {% endfor %}
-              </div>
-              <div class="second">
-                {%- for article in blog.articles -%}
-                  {%- if article.tags contains 'sex & relationships' -%}
-                    {%- if sr_first_counter < 4 and sr_first_index==0 -%} 
-                      {% assign sr_first_index=sr_first_index | plus:1 %}
-                    {%- elsif sr_first_counter < 4 and sr_first_index !=0 -%} 
-                      <div class="blog-articles__article article">
-                        {%- render 'article-card-v2'
-                        , article: article
-                        , media_height: section.settings.image_height
-                        , media_aspect_ratio: article.image.aspect_ratio
-                        , show_image: section.settings.show_image
-                        , show_date: section.settings.show_date
-                        , show_author: section.settings.show_author
-                        , show_excerpt: true
-                        -%}
-                      </div>
-                      {% assign sr_first_counter = sr_first_counter | plus:1 %}
-                    {% endif %}
-                  {% endif %}
-                {% endfor %}
-              </div>
-            </div>
-          </div>
-          <div class="blog-category__button-wrapper">
-            <a href="https://getfrenchie.com/blogs/news/tagged/sex-relationships" class="button button--secondary blog-category__read-more-button">Read More</a>
-          </div>
-        </div>
-  
-        <div class="blog-category">
-          <div class="blog-category__header health-beauty">
-            <h2 class="blog-category-title">Health & Beauty</h2>
-          </div>
-          <div class="blog-articles health-beauty {% if section.settings.layout == 'collage' %}blog-articles--collage{% endif %}">
-            <div class="blog-category container">
-              {%- assign sr_first_counter = 0 -%}
-              {%- assign sr_first_index = 0 -%}
-              <div class="first">
-                {%- for article in blog.articles -%}
-                  {%- if article.tags contains 'health & beauty' -%}
-                    {%- if sr_first_counter == 0 and sr_first_index == 0 -%}
-                      <div class="blog-articles__article article">
-                        {%- render 'article-card-v2'
-                        , article: article
-                        , media_height: section.settings.image_height
-                        , media_aspect_ratio: article.image.aspect_ratio
-                        , show_image: section.settings.show_image
-                        , show_date: section.settings.show_date
-                        , show_author: section.settings.show_author
-                        , show_excerpt: true
-                        -%}
-                      </div>
-                      {% assign sr_first_counter = sr_first_counter | plus:1 %}
-                    {% endif %}
-                  {% endif %}
-                {% endfor %}
-              </div>
-              <div class="second">
-                {%- for article in blog.articles -%}
-                  {%- if article.tags contains 'health & beauty' -%}
-                    {%- if sr_first_counter < 4 and sr_first_index==0 -%} 
-                      {% assign sr_first_index=sr_first_index | plus:1 %} 
-                    {%- elsif sr_first_counter < 4 and sr_first_index !=0 -%} 
-                      <div class="blog-articles__article article">
-                        {%- render 'article-card-v2'
-                        , article: article
-                        , media_height: section.settings.image_height
-                        , media_aspect_ratio: article.image.aspect_ratio
-                        , show_image: section.settings.show_image
-                        , show_date: section.settings.show_date
-                        , show_author: section.settings.show_author
-                        , show_excerpt: true
-                        -%}
-                      </div>
-                      {% assign sr_first_counter = sr_first_counter | plus:1 %}
-                    {% endif %}
-                  {% endif %}
-                {% endfor %}
-              </div>
-            </div>
-          </div>
-          <div class="blog-category__button-wrapper">
-            <a href="https://getfrenchie.com/blogs/news/tagged/health-beauty" class="button button--secondary blog-category__read-more-button">Read More</a>
-          </div>
-        </div>
-        
-        <div class="blog-category">
-          <div class="blog-category__header culture-lifestyle">
-            <h2 class="blog-category-title">Culture & Lifestyle</h2>
-          </div>
-          <div class="blog-articles culture-lifestyle {% if section.settings.layout == 'collage' %}blog-articles--collage{% endif %}">
-            <div class="blog-category container">
-              {%- assign sr_first_counter = 0 -%}
-              {%- assign sr_first_index = 0 -%}
-              <div class="first">
-                {%- for article in blog.articles -%}
-                  {%- if article.tags contains 'culture & lifestyle' -%}
-                    {%- if sr_first_counter == 0 and sr_first_index == 0 -%}
-                      <div class="blog-articles__article article">
-                        {%- render 'article-card-v2'
-                        , article: article
-                        , media_height: section.settings.image_height
-                        , media_aspect_ratio: article.image.aspect_ratio
-                        , show_image: section.settings.show_image
-                        , show_date: section.settings.show_date
-                        , show_author: section.settings.show_author
-                        , show_excerpt: true
-                        -%}
-                      </div>
-                      {% assign sr_first_counter = sr_first_counter | plus:1 %}
-                    {% endif %}
-                  {% endif %}
-                {% endfor %}
-              </div>
-              <div class="second">
-                {%- for article in blog.articles -%}
-                  {%- if article.tags contains 'culture & lifestyle' -%}
-                    {%- if sr_first_counter < 4 and sr_first_index==0 -%} 
-                      {% assign sr_first_index=sr_first_index | plus:1 %} 
-                    {%- elsif sr_first_counter < 4 and sr_first_index !=0 -%} 
-                      <div class="blog-articles__article article">
-                        {%- render 'article-card-v2'
-                        , article: article
-                        , media_height: section.settings.image_height
-                        , media_aspect_ratio: article.image.aspect_ratio
-                        , show_image: section.settings.show_image
-                        , show_date: section.settings.show_date
-                        , show_author: section.settings.show_author
-                        , show_excerpt: true
-                        -%}
-                      </div>
-                      {% assign sr_first_counter = sr_first_counter | plus:1 %}
-                    {% endif %}
-                  {% endif %}
-                {% endfor %}
-              </div>
-            </div>
-          </div>
-          <div class="blog-category__button-wrapper">
-            <a href="https://getfrenchie.com/blogs/news/tagged/culture-lifestyle" class="button button--secondary blog-category__read-more-button">Read More</a>
-          </div>
-        </div>
-      {% else %}
-        <div class="blog-filter blog__all-articles">
+      <div class="blog-filter blog__all-articles">
           {%- paginate blog.articles by 9 -%}
-            <h2 class="title--primary">{{ current_tags }}</h2>
-            <div class="blog-articles {% if section.settings.layout == 'collage' %}blog-articles--collage{% endif %}">
+          <h2 class="title--primary">All Posts</h2>
+          <div class="blog-articles {% if section.settings.layout == 'collage' %}blog-articles--collage{% endif %}">
               {%- for article in blog.articles -%}
-                <div class="blog-articles__article article">
+              <div class="blog-articles__article article">
                   {%- render 'article-card'
                   , article: article
                   , media_height: section.settings.image_height
@@ -641,16 +436,15 @@ culture-lifestyle
                   , show_author: section.settings.show_author
                   , show_excerpt: true
                   -%}
-                </div>
+              </div>
               {%- endfor -%}
-            </div>
+          </div>
 
-            {%- if paginate.pages > 1 -%}
-            {%- render 'pagination', paginate: paginate -%}
-            {%- endif -%}
+          {%- if paginate.pages > 1 -%}
+          {%- render 'pagination', paginate: paginate -%}
+          {%- endif -%}
           {%- endpaginate -%}
-        </div>
-      {% endif %}
+      </div>
     </div>
   </div>
 </div>
