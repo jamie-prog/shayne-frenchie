@@ -1,0 +1,195 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "blog_show_date": true,
+            "blog_show_author": true,
+            "blog_author_name": "Alice Childs",
+            "blog_reviewer_name": "",
+            "blog_show_readingtime": true
+          }
+        },
+        "featured_image": {
+          "type": "featured_image",
+          "settings": {
+            "image_height": "adapt"
+          }
+        },
+        "content": {
+          "type": "content",
+          "settings": {
+          }
+        },
+        "c8e6c6ac-9c7e-41ba-82f8-9097cf67fe7a": {
+          "type": "custom",
+          "settings": {
+            "custom_text_title": "It feels like… warm apple pie?",
+            "custom_text_body": "<p>Let’s face it, sex and masturbation don’t feel the same. Although some people prefer the feeling of self pleasure, others are trying to find ways to make touching themselves feel as similar to sex as possible. Whether you’ve done the p in v deed and are chasing that feeling, or haven’t and are curious to know, the cult film <em>American Pie <\/em>is not the place to get your sex education from. <\/p><p>Although the inside of a vagina has <em>some <\/em>similarities to a warm pie, please do not take advice from Jim and use an apple pie to masturbate. Why? Well we can think of a number of reasons, including potential burning of your intimate area, higher risk of infection (imagine you don’t get all the apple pie particles out) and of course the mess.<\/p><p>If you are looking for a more “real” feeling solo session, there are plenty of toys out there that you can use. As always, opt for some that are made from high grade silicone, making it easier for you to clean and reduce the mess.<\/p>"
+          }
+        },
+        "eb6c5f76-7358-431d-8f78-ca9dc17b4184": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/giphy_3.gif"
+          }
+        },
+        "dbbed86a-1223-4cd9-85eb-98b2175cb969": {
+          "type": "custom",
+          "settings": {
+            "custom_text_title": "Give yourself a (dead) hand",
+            "custom_text_body": "<p>This idea has been going around far before you and I were born, but it was made popular by Jay from <em>The Inbetweeners<\/em>. The idea behind the Dead Hand Gang is that you sit on your arm for 10-15 minutes, long enough to get a dead hand, then supposedly when you go to do the deed, it feels like someone else is touching you. <\/p><p>In theory, there is nothing wrong with this form of masturbation, and if this works for you then congrats. <\/p><p>However, for the majority of people, pins and needles will kick in during the solo session, which can make the process less enjoyable. Also 10-15 minutes can be a long time to wait if you’re ready to go right now!<\/p>"
+          }
+        },
+        "d4d10a93-2df5-4888-8a59-d22c39065105": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ezgif.com-video-to-gif.gif"
+          }
+        },
+        "b095f3fd-4d01-4d74-a645-afe88cb56c98": {
+          "type": "custom",
+          "settings": {
+            "custom_text_title": "Women don’t masturbate, that’s why we date.",
+            "custom_text_body": "<p>We love to see how <em>Sex Education<\/em> has broken the status quo when it comes to female self pleasure. Before, the only women on the screen that would masturbate were the ones hypersexualised, often portrayed as sex-crazy women. However, this coming-of-age show depicts masturbation as something everyone does, which is refreshing. <\/p><p>The taboos and reservations surrounding female self pleasure is seen a few times throughout the show, but this is most obvious when Aimee’s boyfriend asks her to tell him what she likes without doing what she thinks she needs to do to get him off. Aimee then seeks the help of Otis (the school’s unqualified sexpert) who suggests that she try masturbating to figure out what she likes. She’s shocked that Otis suggested that, saying that she’s never done that alone and always relies on boyfriend. This myth that women need a partner to get off is a common belief, I mean when most sex scenes and porn is made for the male viewer, it’s no wonder why! <\/p><p>However, as women we have all heard some variation of the words “you’ll find love when you love yourself” (which is a whole different tangent we can go on), but this is actually true for self pleasure, you will only find what works for you when you figure it out on your own!<\/p>"
+          }
+        },
+        "332cc4ac-4b9c-4112-aa8e-98c505d92339": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/b2zcvc751ox91.gif"
+          }
+        },
+        "066a72e6-84fd-4a5e-ad1d-501db7921626": {
+          "type": "custom",
+          "settings": {
+            "custom_text_title": "",
+            "custom_text_body": "<p>At the end of the day, self exploration and self pleasure is something all humans inherently do, and there’s nothing shameful or “yuck” (as Aimee from <em>Sex Education<\/em> originally thought) about it!  Spicing up your own solo play is a great way to figure out what you like and don’t like, as well as helping you get in tune with your own body. Whether this means using toys or simply trying a new position, there’s so much you can do (we do advise against using real food though). Happy masturbating!<\/p>"
+          }
+        },
+        "7ea6d6d8-985c-4808-a1e7-3c25bb2f2814": {
+          "type": "cta",
+          "disabled": true,
+          "settings": {
+            "cta-title": "Check this out",
+            "cta-image": "shopify:\/\/shop_images\/Frenchie-Lube-Restock-2.1.jpg",
+            "cta-link": "https:\/\/getfrenchie.com\/blogs\/news\/7-days-of-pleasure",
+            "cta-link-text": "Click Here"
+          }
+        },
+        "359f8fd3-f941-4321-b140-79749829b8d9": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/all_reviews_page\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": true,
+          "settings": {
+            "extra_wrapper_classes": "page-width page-width--narrow"
+          }
+        },
+        "e9695b54-795d-4a9a-a664-a7f431ca0122": {
+          "type": "advert",
+          "settings": {
+            "product_headline": "Try one of our kits to level up your solo session",
+            "product_1": "petit-plaris-bundle",
+            "product_button_text": "View Product",
+            "product_2": "la-machine-damour-ultime",
+            "product_button_text_2": "View Product",
+            "product_3": "",
+            "product_button_text_3": "View Product"
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "featured_image",
+        "content",
+        "c8e6c6ac-9c7e-41ba-82f8-9097cf67fe7a",
+        "eb6c5f76-7358-431d-8f78-ca9dc17b4184",
+        "dbbed86a-1223-4cd9-85eb-98b2175cb969",
+        "d4d10a93-2df5-4888-8a59-d22c39065105",
+        "b095f3fd-4d01-4d74-a645-afe88cb56c98",
+        "332cc4ac-4b9c-4112-aa8e-98c505d92339",
+        "066a72e6-84fd-4a5e-ad1d-501db7921626",
+        "7ea6d6d8-985c-4808-a1e7-3c25bb2f2814",
+        "359f8fd3-f941-4321-b140-79749829b8d9",
+        "e9695b54-795d-4a9a-a664-a7f431ca0122",
+        "share"
+      ],
+      "settings": {
+      }
+    },
+    "1658801499aa58f4de": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Our Best Sellers",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "frontpage",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "inverse",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+          }
+        },
+        "email-form": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "paragraph",
+        "email-form"
+      ],
+      "settings": {
+        "color_scheme": "accent-2",
+        "full_width": true,
+        "padding_top": 60,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1658801499aa58f4de",
+    "newsletter"
+  ]
+}

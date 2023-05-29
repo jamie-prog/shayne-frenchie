@@ -365,8 +365,14 @@
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
     {% render 'preorder-now' %}
-    <!--Gorgias Chat Widget Start--><script id="gorgias-chat-widget-install-v2" type="lazyload2" data-src="https://config.gorgias.chat/gorgias-chat-bundle-loader.js?applicationId=13115"></script>
-    <script id="gorgias-chat-shopify-install" type="lazyload2">!function(_){_.SHOPIFY_PERMANENT_DOMAIN="{{shop.permanent_domain}}",_.SHOPIFY_CUSTOMER_ID="{{customer.id}}",_.SHOPIFY_CUSTOMER_EMAIL="{{customer.email}}"}(window||{});</script><!--Gorgias Chat Widget End-->
+    
+<!--Gorgias Chat Widget Start-->
+<script id="gorgias-chat-widget-install-v3" 
+    src="https://config.gorgias.chat/bundle-loader/01GYCC8A3CDMKN17R5Z41GDKS7?source=shopify1click">
+</script>
+<script id="gorgias-chat-shopify-install">!function(_){_.SHOPIFY_PERMANENT_DOMAIN="{{shop.permanent_domain}}",_.SHOPIFY_CUSTOMER_ID="{{customer.id}}",_.SHOPIFY_CUSTOMER_EMAIL="{{customer.email}}"}(window||{});
+</script>
+<!--Gorgias Chat Widget End-->
     <!-- Begin Shopify-Afterpay JavaScript Snippet (v1.1.1) -->
     {% if cart.currency.iso_code == shop.currency %}
     <script type="text/javascript">
