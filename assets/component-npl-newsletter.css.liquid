@@ -1,0 +1,149 @@
+.npl-newsletter{
+    padding: 130px 30px;
+}
+.npl-container{
+    max-width: 1490px; 
+    margin: auto; 
+}
+
+.npl-newsletter__container{
+    background-color: rgba(235, 77, 92, 0.8);
+    background-image: url("//cdn.shopify.com/s/files/1/0351/0324/4426/t/52/assets/npl-newsletter-bg-rectangle.png?v=71173309865587079561685381168"); 
+    border-radius: 83px;
+    padding: 90px 140px; 
+    position: relative;
+}
+
+.npl-container.npl-newsletter--has-featured-icon .npl-newsletter__container{
+    margin-bottom: 136px;
+}
+
+.npl-newsletter__container:before{
+    content: ' ';
+    display: inline-block;
+    background: linear-gradient(98.24deg, #F0E4E5 5.73%, #E8ABAF 22.92%, #F1EFEF 100%);
+    filter: blur(100px);
+    transform: matrix(-0.63, -0.78, 0.98, -0.2, 0, 0) rotate(90deg);
+    width: 30%;
+    height: 50%;
+    opacity: 0.8;
+    position:absolute;
+    top: 25%;
+    right: 20%;
+}
+
+.npl-newsletter{
+    background-size: cover; 
+    background-position: center center; 
+}
+
+.npl-newsletter__content{
+    margin-bottom: 60px; 
+}
+
+.npl-newsletter__title{
+    color: #fff; 
+    font-family: "Inter", sans-serif;
+    font-weight: 600; 
+    font-size: 50px; 
+    letter-spacing: -2%;
+    line-height: 60.5px;
+    margin: 0;
+}
+
+.npl-newsletter__subcontent{
+    color: #E8ABAF;
+    font-family: "Inter", sans-serif; 
+    font-size: 20px; 
+    font-weight: 500; 
+    line-height: 1.5; 
+    margin: 0;
+}
+
+.npl-newsletter-form__field-wrapper .field:before, .npl-newsletter-form__field-wrapper .field:after{
+    display: none; 
+}
+
+.npl-newsletter-form__field-wrapper .field__input{
+    border-radius: 15px; 
+    height: 60px; 
+}
+
+.npl-newsletter-form__field-wrapper .field__label{
+    color: #181818;
+}
+
+.npl-newsletter-form__field-wrapper .field__input:not(:focus)~.field__label{
+    top: 50%; 
+    transform: translateY(-50%);
+}
+.npl-newsletter-form__field-wrapper .field__button{
+    height: 45px;
+    min-width: 200px;
+    max-width: initial;
+    padding: 10px 30px;
+    background-color: #18181B !important;
+    font-family: "Inter", sans-serif;
+    color: #fff;
+    font-weight: 400;
+    display: inline-block;
+    text-align: center;
+    width: auto;
+    top: 7.5px;
+    right: 7.5px;
+    border-radius: 10px;
+}
+
+.npl-newsletter__featured-icon-wrapper{
+    text-align: center;
+}
+
+@media only screen and (max-width: 1024px){
+    .npl-newsletter{
+        padding: 60px 30px; 
+    }
+    .npl-newsletter__container{
+        border-radius: 40px; 
+        padding: 60px 30px; 
+    }
+    .npl-container.npl-newsletter--has-featured-icon .npl-newsletter__container{
+        margin-bottom: 90px; 
+    }
+    .npl-newsletter__title{
+        font-size: 32px; 
+        line-height: 1.2;
+    }
+    .npl-newsletter__subcontent{
+        font-size: 16px; 
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .npl-container.npl-newsletter--has-featured-icon .npl-newsletter__container{
+        margin-bottom: 60px; 
+    }
+    .npl-newsletter__title{
+        font-size: 24px;
+    }
+    .npl-newsletter-form__field-wrapper .field{
+        display: block; 
+    }
+    .npl-newsletter-form__field-wrapper .field__input{
+        margin-bottom: 15px; 
+    }
+    .npl-newsletter-form__field-wrapper .field__input:not(:focus)~.field__label{
+        top: 15px; 
+        transform: initial; 
+        line-height: 30px; 
+    }
+    .npl-newsletter-form__field-wrapper .field__button{
+        min-width: auto; 
+    }
+    .npl-newsletter-form__field-wrapper .newsletter-form__button{
+        position: initial;
+        width: 100%;
+        height: 60px;
+        font-size: 20px;
+        border-radius: 15px;
+    }
+}
