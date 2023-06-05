@@ -28,6 +28,28 @@
     font-family: 'Inter', sans-serif;
 }
 
+.npl-section-subtitle{
+    font-family: "Inter", sans-serif;
+    font-size: 20px; 
+    font-weight: 500;
+    line-height: 1.5; 
+}
+
+.npl-section-subtitle--text-decoration-underline{
+    text-decoration: underline;
+}
+
+.npl-section-subtitle--align-left{
+    text-align: left;
+}
+
+.npl-section-subtitle--align-center{
+    text-align: center;
+}
+
+.npl-section-subtitle--align-right{
+    text-align: right;
+}
 
 .npl-section-heading{
     font-family: "Rama Gothic C", sans-serif; 
@@ -35,10 +57,18 @@
     font-weight: 700; 
     line-height: 1; 
     letter-spacing: 0.5%;
+    margin: 0;
 }
 
 .npl-heading--align-left{
     text-align: left; 
+}
+.npl-heading--align-center{
+    text-align: center;
+}
+
+.npl-heading--align-right{
+    text-align: right;
 }
 
 @media only screen and (max-width: 1023px){

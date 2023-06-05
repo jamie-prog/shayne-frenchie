@@ -116,6 +116,79 @@
         "padding_bottom": 0
       }
     },
+    "c7a0e7a5-8537-4a1e-84e8-dd90f6ed51c7": {
+      "type": "product-landing-section-heading",
+      "settings": {
+        "subtitle": "OUR DIFFERENCE",
+        "subtitle_color": "#E8ABAF",
+        "subtitle_decoration": "underline",
+        "subtitle_align": "center",
+        "title": "No costly doctor appoinment or trip to the pharmacy needed",
+        "title_color": "#EB4D5C",
+        "heading_align": "center",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "188b3f21-b4e6-4aa8-8245-84940c478946": {
+      "type": "product-landing-section-heading",
+      "settings": {
+        "subtitle": "OUR QUALITY",
+        "subtitle_color": "#E8ABAF",
+        "subtitle_decoration": "underline",
+        "subtitle_align": "center",
+        "title": "You simply can't find these in a store",
+        "title_color": "#EB4D5C",
+        "heading_align": "center",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "e702d949-9d17-441b-a1f3-a8bed2bde784": {
+      "type": "product-landing-section-heading",
+      "settings": {
+        "subtitle": "CUSTOMER REVIEWS",
+        "subtitle_color": "#e8abaf",
+        "subtitle_decoration": "underline",
+        "subtitle_align": "center",
+        "title": "We love to hear from you",
+        "title_color": "#eb4d5c",
+        "heading_align": "center",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "16860009006f2c0c6d": {
+      "type": "apps",
+      "blocks": {
+        "73006f96-96b0-4f65-9912-581d69eef0ca": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1430
+          }
+        }
+      },
+      "block_order": [
+        "73006f96-96b0-4f65-9912-581d69eef0ca"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "6e35f5ac-1aa8-473c-aeba-bf5c4f32590b": {
+      "type": "product-landing-section-heading",
+      "settings": {
+        "subtitle": "",
+        "subtitle_color": "#E8ABAF",
+        "subtitle_decoration": "underline",
+        "subtitle_align": "left",
+        "title": "Frequently Bought With",
+        "title_color": "#EB4D5C",
+        "heading_align": "left",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
     "6618dc7a-437c-472e-ac5c-afc83b6ff453": {
       "type": "product-landing-instructions",
       "blocks": {
@@ -175,6 +248,11 @@
   },
   "order": [
     "main",
+    "c7a0e7a5-8537-4a1e-84e8-dd90f6ed51c7",
+    "188b3f21-b4e6-4aa8-8245-84940c478946",
+    "e702d949-9d17-441b-a1f3-a8bed2bde784",
+    "16860009006f2c0c6d",
+    "6e35f5ac-1aa8-473c-aeba-bf5c4f32590b",
     "6618dc7a-437c-472e-ac5c-afc83b6ff453",
     "6402ab52-d9b6-41ec-b372-3b7392c4b543",
     "c0be0361-b68f-44fc-acd1-49c7e118d17b"

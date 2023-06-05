@@ -1,4 +1,4 @@
-.npl-section-heading{
+[data-section-type="npl-featured-articles"] .npl-section-heading{
     color: #EB4D5C;
     margin-bottom: 130px; 
 }
@@ -85,7 +85,7 @@
 }
 
 @media only screen and (max-width: 1023px){
-    .npl-section-heading{
+    [data-section-type="npl-featured-articles"] .npl-section-heading{
         margin-bottom: 80px;
     }
     .npl-featured-articles{
@@ -101,7 +101,7 @@
 }
 
 @media only screen and (max-width: 750px){
-    .npl-section-heading{
+    [data-section-type="npl-featured-articles"] .npl-section-heading{
         margin-bottom: 60px;
     }
 
@@ -141,7 +141,7 @@
 }
 
 @media only screen and (max-width: 480px){
-    .npl-section-heading{
+    [data-section-type="npl-featured-articles"] .npl-section-heading{
         margin-bottom: 30px;
     }
 }
