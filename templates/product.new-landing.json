@@ -116,6 +116,42 @@
         "padding_bottom": 0
       }
     },
+    "6618dc7a-437c-472e-ac5c-afc83b6ff453": {
+      "type": "product-landing-instructions",
+      "blocks": {
+        "7c0fdccb-78ad-47d1-9a67-f17906ce851d": {
+          "type": "instruction",
+          "settings": {
+            "instruction_title": "SPRAY",
+            "instruction_content": "Point the spray nozzle towards the underside of the head of the penis and spray one to several times. 2-3 sprays are needed for most people. Use a little more or less depending on your own penis sensitivity."
+          }
+        },
+        "13ba771c-d9fb-44de-bc32-3e701da7bd39": {
+          "type": "instruction",
+          "settings": {
+            "instruction_title": "APPLY",
+            "instruction_content": "In a circular motion, rub the underside of your penis head to apply the product. Remove any residue from your fingers with a damp tower or wipe."
+          }
+        },
+        "c45e0e2e-276d-4fad-98e1-734632135e87": {
+          "type": "instruction",
+          "settings": {
+            "instruction_title": "WAIT & WIPE",
+            "instruction_content": "Before you get to it, wait 15-20 minutes for L'Endurance to do its thing. After this time, use a damp towel or wipe to remove any excess residue from the penis to ensure it's comfortable for you and your partner."
+          }
+        }
+      },
+      "block_order": [
+        "7c0fdccb-78ad-47d1-9a67-f17906ce851d",
+        "13ba771c-d9fb-44de-bc32-3e701da7bd39",
+        "c45e0e2e-276d-4fad-98e1-734632135e87"
+      ],
+      "settings": {
+        "title": "Follow the instructions for use to <span class=\"npl-special-sign\"> power you up.<\/span>",
+        "description": "When used correctly, L'Endurance will not cause any discomfort for your partner and you. It is advised that any excess product is removed before play time. We recommend using our Oui Oui Wipes to ensure excess is removed.",
+        "bottom_text": "Now you're ready to play long and hard."
+      }
+    },
     "6402ab52-d9b6-41ec-b372-3b7392c4b543": {
       "type": "product-landing-featured-articles",
       "settings": {
@@ -139,6 +175,7 @@
   },
   "order": [
     "main",
+    "6618dc7a-437c-472e-ac5c-afc83b6ff453",
     "6402ab52-d9b6-41ec-b372-3b7392c4b543",
     "c0be0361-b68f-44fc-acd1-49c7e118d17b"
   ]

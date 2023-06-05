@@ -11,6 +11,14 @@
          url("RamaGothicC-Bold.svg") format("svg")
 }
 
+@font-face{
+    font-family: "Bellarina"; 
+    font-display: swap; 
+    src: url("Bellarina.woff") format("woff"), 
+         url("Bellarina.woff2") format("woff2"), 
+         url("Bellarina.ttf") format("TrueType"), 
+         url("Bellarina.svg") format("svg")
+}
 
 .npl-container{
     max-width: 1490px; 
@@ -43,4 +51,9 @@
     .npl-section-heading{
         font-size: 60px;
     }
+}
+
+.npl-special-sign{
+    font-family: "Bellarina";
+    font-weight: 400;
 }

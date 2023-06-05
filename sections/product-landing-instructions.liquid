@@ -1,0 +1,90 @@
+<style>
+    .npl-instructions{
+        position: relative;
+        background-color: #2A4A80;
+    }
+    .npl-instructions::before{
+        position: absolute; 
+        top: 0; 
+        left: 0; 
+        bottom: 0; 
+        right: 0;
+        width: 100%; 
+        height: 100%;
+        background-image: url("{{'Rectangle-tile.png' | asset_img_url: 'master'}}");
+        display: block; 
+        content: '';
+        opacity: 0.6;
+    }
+</style>
+<link rel="stylesheet" href="{{'component-npl-global.css' | asset_url }}">
+<link rel="stylesheet" href="{{'component-npl-instructions.css' | asset_url}}">
+<section data-section-id="{{section.id}}" data-section-type="npl-instructions" class="npl-instructions npl-instructions--{{section.id}}">
+    <div class="npl-container">
+        {% if section.settings.title != blank %}
+            <h3 class="npl-instructions__header">{{section.settings.title}}</h3>
+        {% endif %}
+        <div class="npl-instructions__main-content">
+            <div class="npl-instructions__desecription">{{section.settings.description}}</div>
+            {% if section.blocks.size > 0 %}
+                <div class="npl-instructions__table">
+                    {% for block in section.blocks %}
+                        <div class="npl-instruction__item">
+                            <h4 class="npl-instruction__title">{{block.settings.instruction_title}}</h4>
+                            <div class="npl-instruction__content">{{block.settings.instruction_content}}</div>
+                        </div>
+                    {% endfor %}
+                </div>
+            {% endif %}
+        </div>
+        {% if section.settings.bottom_text != blank %}
+            <div class="npl-instructions__bottom-text npl-special-sign">{{section.settings.bottom_text}}</div>
+        {% endif %}
+    </div>
+</section>
+
+{% schema %}
+    {
+        "name":"NPL Instructions",
+        "settings":[
+            {
+                "type": "text",
+                "id": "title",
+                "label": "Title"
+            },
+            {
+                "type": "textarea",
+                "id": "description",
+                "label": "Description"
+            },
+            {
+                "type": "textarea",
+                "id": "bottom_text",
+                "label": "Bottom Text"
+            }
+        ],
+        "blocks":[
+            {
+                "name":"Instruction", 
+                "type":"instruction",
+                "settings":[
+                    {
+                        "type": "text",
+                        "id": "instruction_title",
+                        "label": "Title"
+                    },
+                    {
+                        "type": "textarea",
+                        "id": "instruction_content",
+                        "label": "Content"
+                    }
+                ]
+            }
+        ],
+        "presets":[
+            {
+                "name":"NPL Instructions"
+            }
+        ]
+    }
+{% endschema %}
