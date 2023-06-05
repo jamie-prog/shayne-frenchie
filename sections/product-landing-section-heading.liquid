@@ -18,7 +18,7 @@
     color: {{section.settings.subtitle_color}};
 }
 {%- endstyle -%}
-
+<link rel="stylesheet" href="{{'component-npl-global.css' | asset_url}}">
 <section data-section-id="{{section.id}}" data-section-type="npl-section-heading" class="npl-section-heading--{{section.id}} section-{{section.id}}-padding">
     <div class="npl-container">
         {% if section.settings.subtitle != blank %}
