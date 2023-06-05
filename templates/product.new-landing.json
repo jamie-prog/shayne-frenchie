@@ -116,6 +116,17 @@
         "padding_bottom": 0
       }
     },
+    "6402ab52-d9b6-41ec-b372-3b7392c4b543": {
+      "type": "product-landing-featured-articles",
+      "settings": {
+        "title": "Read Our Blog - Le Journal",
+        "heading_align": "left",
+        "blog": "news",
+        "article_count": 3,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
     "c0be0361-b68f-44fc-acd1-49c7e118d17b": {
       "type": "product-landing-newsletter",
       "settings": {
@@ -128,6 +139,7 @@
   },
   "order": [
     "main",
+    "6402ab52-d9b6-41ec-b372-3b7392c4b543",
     "c0be0361-b68f-44fc-acd1-49c7e118d17b"
   ]
 }

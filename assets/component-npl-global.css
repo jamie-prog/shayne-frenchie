@@ -1,0 +1,46 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+@font-face{
+    font-family: "Rama Gothic C"; 
+    font-weight: 700; 
+    font-display: swap; 
+    src: url("RamaGothicC-Bold.woff") format("woff"), 
+         url("RamaGothicC-Bold.woff2") format("woff2"), 
+         url("RamaGothicC-Bold.ttf") format("TrueType"), 
+         url("RamaGothicC-Bold.svg") format("svg")
+}
+
+
+.npl-container{
+    max-width: 1490px; 
+    margin: auto; 
+    padding: 0 30px; 
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.npl-section-heading{
+    font-family: "Rama Gothic C", sans-serif; 
+    font-size: 150px; 
+    font-weight: 700; 
+    line-height: 1; 
+    letter-spacing: 0.5%;
+}
+
+.npl-heading--align-left{
+    text-align: left; 
+}
+
+@media only screen and (max-width: 1023px){
+    .npl-section-heading{
+        font-size: 100px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .npl-section-heading{
+        font-size: 60px;
+    }
+}

@@ -1,0 +1,134 @@
+{%- style -%}
+.section-{{ section.id }}-padding {
+  padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+  padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+}
+
+@media screen and (min-width: 750px) {
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top }}px;
+    padding-bottom: {{ section.settings.padding_bottom }}px;
+  }
+}
+{%- endstyle -%}
+<link rel="stylesheet" href="{{'component-npl-global.css' | asset_url}}">
+<link rel="stylesheet" href="{{'component-npl-featured-articles.css' | asset_url}}">
+<section data-section-id="{{section.id}}" data-section-type="npl-featured-articles" class="section-{{ section.id }}-padding">
+    <div class="npl-container">
+        {% if section.settings.title != blank %}
+            <div class="npl-section-heading npl-heading--align-{{section.settings.heading_align}}">{{section.settings.title | upcase}}</div>
+        {% endif %}
+        {% assign npl_featured_blog = section.settings.blog %}
+        {% if npl_featured_blog.articles_count > 0 %}
+            <div class="npl-featured-articles">
+                {% for npl_article in npl_featured_blog.articles, limit: section.settings.article_count %}
+                    {% assign npl_article = block.settings.article %}
+                    {% assign index_modulo = forloop.index | modulo: 2 %}
+                    {% if index_modulo == 0 %}
+                        {% assign image_pos = 'right' %}
+                    {% else %}
+                        {% assign image_pos = 'left' %}
+                    {% endif %}
+                    <div class="npl-featured-article npl-featured-article--image-{{image_pos}}">
+                        <div class="npl-article-item npl-article__image">
+                            {% if npl_article.image %}
+                                {{npl_article.image |image_url: width: 693 | image_tag: widths: '330, 480'}}
+                            {% else %}
+                                <div class="npl-article-placeholder-svg__container">
+                                    {{ 'lifestyle-1' | placeholder_svg_tag }}
+                                </div>
+                            {% endif %}
+                        </div>
+                        <div class="npl-article-item npl-article__content">
+                            <div class="npl-article__subheading">
+                                <span class="npl-article__publish-date">
+                                    {{ npl_article.published_at | time_tag: format: 'date' }}
+                                </span>
+                                <span class="npl-article__author">{{npl_article.metafields.custom.author | default: npl_article.author | upcase}}</span>
+                            </div>
+                            <h4 class="npl-article__title">{{npl_article.title}}</h4>
+                            <div class="npl-article__description">{{npl_article.excerpt_or_content | truncatewords: 30}}</div>
+                            <a href="{{npl_article.url}}" class="npl-article__read-more">LEARN MORE ></a>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        {% endif %}
+    </div>
+</section>
+
+{% schema %}
+    {
+        "name":"NPL Featured Articles", 
+        "settings":[
+            {
+                "type": "text",
+                "id": "title",
+                "label": "Title"
+            },
+            {
+                "type": "select",
+                "id": "heading_align",
+                "label": "Align Title",
+                "options": [
+                    {
+                    "value": "left",
+                    "label": "Left"
+                    },
+                    {
+                        "value":"center",
+                        "label":"Center"
+                    },
+                    {
+                        "value":"right",
+                        "label":"Right"
+                    }
+                ],
+                "default": "left"
+            },
+            {
+                "type": "blog",
+                "id": "blog",
+                "label": "Blog"
+            },
+            {
+                "type": "range",
+                "id": "article_count",
+                "min": 1,
+                "max": 10,
+                "step": 1,
+                "label": "Article Count",
+                "default": 3
+            },
+            {
+                "type": "header",
+                "content": "t:sections.all.padding.section_padding_heading"
+            },
+            {
+                "type": "range",
+                "id": "padding_top",
+                "min": 0,
+                "max": 100,
+                "step": 4,
+                "unit": "px",
+                "label": "t:sections.all.padding.padding_top",
+                "default": 36
+            },
+            {
+                "type": "range",
+                "id": "padding_bottom",
+                "min": 0,
+                "max": 100,
+                "step": 4,
+                "unit": "px",
+                "label": "t:sections.all.padding.padding_bottom",
+                "default": 36
+            }
+        ],
+        "presets":[
+            {
+                "name":"NPL Featured Articles"
+            }
+        ]
+    }
+{% endschema %}
