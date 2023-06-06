@@ -1,0 +1,103 @@
+{% style %}
+    .section-{{ section.id }}-padding {
+        padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+        padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+    }
+
+    @media screen and (min-width: 750px) {
+        .section-{{ section.id }}-padding {
+            padding-top: {{ section.settings.padding_top }}px;
+            padding-bottom: {{ section.settings.padding_bottom }}px;
+        }
+    }
+{% endstyle %}
+<link rel="stylesheet" href="{{'component-npl-unleash.css' | asset_url}}">
+<section data-section-type="NPL-unleash" data-section-id="{{section.id}}" class="npl-unleash-{{section.id}} section-{{section.id}}-padding">
+    <div class="npl-container">
+        <div class="npl-unleash">
+            <div class="npl-unleash-heading">
+                <h3 class="npl-unleash-title">{{section.settings.title}}</h3>
+                <p class="npl-unleash-subtitle">{{section.settings.subtitle}}</p>
+            </div>
+            {% if section.blocks.size > 0 %}
+                <div class="npl-unleash-params">
+                    {%- for block in section.blocks -%}
+                        <div class="npl-unleash-param">
+                            <span class="npl-unleash-amount">{{block.settings.amount}}</span>
+                            <span class="npl-unleash-type">{{block.settings.type}}</span>
+                        </div>
+                    {%- endfor -%}
+                </div>
+            {% endif %}
+        </div>
+    </div>
+</section>
+
+{% schema %}
+    {
+        "name":"NPL Unleash",
+        "settings":[
+            {
+                "type": "text",
+                "id": "title",
+                "label": "Title",
+                "default": "Unleash you full power"
+            },
+            {
+                "type": "text",
+                "id": "subtitle",
+                "label": "Subtitle",
+                "default": "Now you're ready to play long and hard."
+            },
+            {
+                "type": "header",
+                "content": "t:sections.all.padding.section_padding_heading"
+            },
+            {
+                "type": "range",
+                "id": "padding_top",
+                "min": 0,
+                "max": 100,
+                "step": 4,
+                "unit": "px",
+                "label": "t:sections.all.padding.padding_top",
+                "default": 36
+            },
+            {
+                "type": "range",
+                "id": "padding_bottom",
+                "min": 0,
+                "max": 100,
+                "step": 4,
+                "unit": "px",
+                "label": "t:sections.all.padding.padding_bottom",
+                "default": 36
+            }
+        ],
+        "blocks":[
+            {
+                "name":"Unleash Param",
+                "type":"text",
+                "settings":[
+                    {
+                        "type": "text",
+                        "id": "amount",
+                        "label": "Unleash Amount",
+                        "default": "98%"
+                    },
+                    {
+                        "type": "text",
+                        "id": "type",
+                        "label": "Type",
+                        "default": "Recommend it to A Friend"
+                    }
+                ]
+            }
+        ],
+        "presets":[
+            {
+                "name":"NPL Unleash"
+            }
+        ]
+    }
+{% endschema %}

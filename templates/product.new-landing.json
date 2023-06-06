@@ -101,6 +101,43 @@
         "padding_bottom": 0
       }
     },
+    "afc15b06-bf0a-4bb1-a660-4b4dc8ae8dd4": {
+      "type": "product-landing-unleash",
+      "blocks": {
+        "6e491938-6171-4a51-b0f4-fdc66b60420f": {
+          "type": "text",
+          "settings": {
+            "amount": "98%",
+            "type": "Sexual Satisfaction"
+          }
+        },
+        "55b4a229-dd0e-4a39-9474-85ca5af2b527": {
+          "type": "text",
+          "settings": {
+            "amount": "99%",
+            "type": "Recommend it to A Friend"
+          }
+        },
+        "1902e714-c741-4ae0-8668-c38d6ed60c7a": {
+          "type": "text",
+          "settings": {
+            "amount": "14K+",
+            "type": "Local customers"
+          }
+        }
+      },
+      "block_order": [
+        "6e491938-6171-4a51-b0f4-fdc66b60420f",
+        "55b4a229-dd0e-4a39-9474-85ca5af2b527",
+        "1902e714-c741-4ae0-8668-c38d6ed60c7a"
+      ],
+      "settings": {
+        "title": "Unleash you full power",
+        "subtitle": "Now you're ready to play long and hard.",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
     "feb71a9d-ebd8-41d1-b579-a90e68f2aec5": {
       "type": "product-landing-subscribe",
       "settings": {
@@ -348,6 +385,7 @@
   },
   "order": [
     "main",
+    "afc15b06-bf0a-4bb1-a660-4b4dc8ae8dd4",
     "feb71a9d-ebd8-41d1-b579-a90e68f2aec5",
     "c7a0e7a5-8537-4a1e-84e8-dd90f6ed51c7",
     "03e6dc9c-3479-4ce2-b000-df421e551350",
