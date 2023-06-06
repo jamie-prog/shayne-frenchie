@@ -1,0 +1,175 @@
+{% assign block_spacing_count = section.blocks.size  | minus: 1 %}
+{% assign npl_section_count = 1 %}
+{%- style -%}
+    .section-{{ section.id }}-padding {
+        padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+        padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+    }
+
+    @media screen and (min-width: 750px) {
+        .section-{{ section.id }}-padding {
+            padding-top: {{ section.settings.padding_top }}px;
+            padding-bottom: {{ section.settings.padding_bottom }}px;
+        }
+    }
+
+    .npl-difference-blocks::after{
+        height: {{ 150 | times: block_spacing_count}}px;
+    }
+
+    @media only screen and (max-width: 1024px){
+        .npl-difference-blocks::after{
+            height: {{ 105 | times: block_spacing_count}}px;
+        }
+    }
+
+    @media only screen and (max-width: 750px){
+        .npl-difference-blocks::after{
+            height: {{ 90 | times: block_spacing_count}}px;
+        }
+    }
+{%- endstyle -%}
+<link rel="stylesheet" href="{{'component-npl-global.css' | asset_url}}">
+<link rel="stylesheet" href="{{'component-npl-our-difference.css' | asset_url}}">
+<section data-section-type="NPL-our-difference" data-section-id="{{section.id}}" class="section-{{section.id}}-padding">
+    <div class="npl-container">
+        <npl-differences class="npl-difference-blocks" data-last-index = "{{section.blocks.size | minus: 1 }}" style="--total-block-size: {{section.blocks.size | minus: 1}}">
+            {% for block in section.blocks %}
+                <div class="npl-difference npl-difference-{{block.id}}" data-block-index="{{forloop.index0}}" style="--block-index: {{forloop.index0}}" {{block.shopify_attributes}} data-npl-difference-block>
+                    {% if block.settings.title != blank %}
+                        <h4 class="npl-difference__title">{{block.settings.title}}</h4>
+                    {% endif %}
+                    <div class="npl-difference__main-content">
+                        {% if block.settings.content != blank %}
+                            <div class="npl-difference__content">{{block.settings.content}}</div>
+                        {% endif %}
+                        {% if block.settings.image != blank %}
+                            <div class="npl-difference__image-wrapper">
+                                {% assign image_width = block.settings.image.width %}
+                                {{block.settings.image | image_url: width: 470 | image_tag }}
+                            </div>
+                        {% endif %}
+                    </div>
+                </div>
+                {% style %}
+                    .npl-difference-{{block.id}}{
+                        background-color: {{block.settings.background_color}};
+                        color: {{block.settings.content_color}};
+                    }
+                    .npl-difference-{{block.id}} .npl-difference__title{
+                        color: {{block.settings.content_color}};
+                    }
+                {% endstyle %}
+            {% endfor %}
+        </npl-differences>
+    </div>
+</section>
+
+<script>
+    class NplDifferenceBlocks extends HTMLElement{
+        constructor(){
+            super();
+            this.lastIndex = this.dataset.lastIndex;
+            this.differenceBlocks = this.querySelectorAll("[data-npl-difference-block]"); 
+            
+            this.addEventListener("click", (event)=>{
+                let selectedDifferBlock = event.target.closest("[data-npl-difference-block]");
+                let selectedBlockIndex = parseInt(selectedDifferBlock.dataset.blockIndex); 
+                this.differenceBlocks.forEach((diffBlock) => {
+                    let currentBlockIndex = parseInt(diffBlock.dataset.blockIndex);
+                    
+                    if(selectedBlockIndex >= currentBlockIndex){
+                        var newIndex = (this.lastIndex - selectedBlockIndex) + currentBlockIndex;
+                    } else{
+                        var newIndex = currentBlockIndex - selectedBlockIndex - 1;
+                    }
+
+                    diffBlock.dataset.blockIndex = newIndex;
+                    diffBlock.style.setProperty("--block-index", newIndex);
+                })
+            })
+        }
+    }
+
+    customElements.define("npl-differences", NplDifferenceBlocks);
+</script>
+
+{% schema %}
+    {
+        "name":"NPL - Our differences",
+        "settings":[
+            {
+                "type": "header",
+                "content": "t:sections.all.padding.section_padding_heading"
+            },
+            {
+                "type": "range",
+                "id": "padding_top",
+                "min": 0,
+                "max": 100,
+                "step": 4,
+                "unit": "px",
+                "label": "t:sections.all.padding.padding_top",
+                "default": 36
+            },
+            {
+                "type": "range",
+                "id": "padding_bottom",
+                "min": 0,
+                "max": 100,
+                "step": 4,
+                "unit": "px",
+                "label": "t:sections.all.padding.padding_bottom",
+                "default": 36
+            }
+        ],
+        "blocks":[
+            {
+                "name":"Difference",
+                "type":"difference",
+                "settings":[
+                    {
+                        "type": "header",
+                        "content": "Style"
+                    },
+                    {
+                        "type": "color",
+                        "id": "background_color",
+                        "label": "Background Color",
+                        "default": "#EB4D5C"
+                    },
+                    {
+                        "type": "color",
+                        "id": "content_color",
+                        "label": "Content Color",
+                        "default": "#fff"
+                    },
+                    {
+                        "type": "header",
+                        "content": "Content"
+                    },
+                    {
+                        "type": "text",
+                        "id": "title",
+                        "label": "Title"
+                    },
+                    {
+                        "type": "textarea",
+                        "id": "content",
+                        "label": "Content"
+                    },
+                    {
+                        "type": "image_picker",
+                        "id": "image",
+                        "label": "Image"
+                    }
+                ]
+            }
+        ],
+        "presets":[
+            {
+                "name":"NPL Our Differences"
+            }
+        ]
+    }
+{% endschema %}

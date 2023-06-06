@@ -1,0 +1,115 @@
+.npl-difference-blocks{
+    position: relative;
+}
+
+.npl-difference-blocks::after{
+    content: '';
+    display: inline-block; 
+    width: 100%;
+}
+
+.npl-difference{
+    border-radius: 30px; 
+    box-shadow: 5px 4px 8px 0px rgba(0,0,0,0.25);
+    padding: 50px 60px;
+    width: 100%;
+    position: absolute;
+    top: calc(150px * var(--block-index));
+    z-index: var(--block-index);
+    transition: all 0.8s;
+    cursor: pointer;
+}
+
+.npl-difference[data-block-index="0"]{
+    position: static;
+}
+
+
+.npl-difference__main-content{
+    display: flex; 
+    flex-wrap: wrap; 
+    align-items: flex-end;
+    column-gap: 40px;
+}
+
+.npl-difference__title{
+    font-size: 48px;
+    line-height: 1.2;
+    margin-top: 0px; 
+    margin-bottom: 60px; 
+    white-space: nowrap;
+    overflow-x: auto;   
+}
+
+.npl-difference__content{
+    flex: 1 1 calc(50% - 20px);
+    max-width: calc(50% - 20px);
+    font-size: 40px; 
+    font-weight: 500; 
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+}
+
+.npl-difference__image-wrapper{
+    flex: 1 1 calc(50% - 20px);
+    max-width: calc(50% - 20px);
+    text-align: center; 
+}
+
+.npl-difference__image-wrapper img{
+    max-width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width: 1024px){
+    .npl-difference{
+        padding: 30px 45px;
+        top: calc(105px * var(--block-index));
+    }
+
+    .npl-difference__title{
+        font-size: 36px;
+        margin-bottom: 30px;
+    }
+
+    .npl-difference__content{
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 750px){
+    .npl-difference{
+        top: calc(90px * var(--block-index));
+    }
+    .npl-difference__title{
+        font-size: 32px;
+    }
+    .npl-difference__content{
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .npl-difference{
+        padding: 30px;
+    }
+    .npl-difference__main-content{
+        column-gap: 0px; 
+        row-gap: 30px;
+        justify-content: center; 
+    }
+
+    .npl-difference__title{
+        font-size: 28px;
+    }
+
+    .npl-difference__content{
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+
+    .npl-difference__image-wrapper{
+        max-width: 200px;
+        flex: 1 1 200px;
+    }
+}

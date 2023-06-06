@@ -120,25 +120,69 @@
       "type": "product-landing-section-heading",
       "settings": {
         "subtitle": "OUR DIFFERENCE",
-        "subtitle_color": "#E8ABAF",
+        "subtitle_color": "#e8abaf",
         "subtitle_decoration": "underline",
         "subtitle_align": "center",
         "title": "No costly doctor appoinment or trip to the pharmacy needed",
-        "title_color": "#EB4D5C",
+        "title_color": "#eb4d5c",
         "heading_align": "center",
         "padding_top": 100,
         "padding_bottom": 100
+      }
+    },
+    "03e6dc9c-3479-4ce2-b000-df421e551350": {
+      "type": "product-landing-our-difference",
+      "blocks": {
+        "dc7a78a9-9008-4619-a196-bff0d98e64d6": {
+          "type": "difference",
+          "settings": {
+            "background_color": "#ffe9ea",
+            "content_color": "#ffffff",
+            "title": "Delays Ejaculation",
+            "content": "Reduces penile overstimulation so you stay hard longer",
+            "image": "shopify:\/\/shop_images\/TPE_Icons-02_white_cc404e05-e4b7-400f-b2db-bb0988a31fe3.png"
+          }
+        },
+        "00681ae2-0e12-4f66-a64a-74f244a5333a": {
+          "type": "difference",
+          "settings": {
+            "background_color": "#2a4a80",
+            "content_color": "#ffffff",
+            "title": "Easy and safe to use",
+            "content": "Spray on to play long. A couple of sprays is all it takes.",
+            "image": "shopify:\/\/shop_images\/TPE_Icons-01_white_3a7f2c64-7d3c-4b75-9c55-cb8cacee88f2.png"
+          }
+        },
+        "34d45ead-b5c2-4841-88eb-392197be8e0b": {
+          "type": "difference",
+          "settings": {
+            "background_color": "#eb4d5c",
+            "content_color": "#ffffff",
+            "title": "Clinically tested ingredients",
+            "content": "Proven ingredients that are regulatory approved and used by healthcare professionals around the world.",
+            "image": "shopify:\/\/shop_images\/TPE_Icons-03_white_1.png"
+          }
+        }
+      },
+      "block_order": [
+        "dc7a78a9-9008-4619-a196-bff0d98e64d6",
+        "00681ae2-0e12-4f66-a64a-74f244a5333a",
+        "34d45ead-b5c2-4841-88eb-392197be8e0b"
+      ],
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "188b3f21-b4e6-4aa8-8245-84940c478946": {
       "type": "product-landing-section-heading",
       "settings": {
         "subtitle": "OUR QUALITY",
-        "subtitle_color": "#E8ABAF",
+        "subtitle_color": "#e8abaf",
         "subtitle_decoration": "underline",
         "subtitle_align": "center",
         "title": "You simply can't find these in a store",
-        "title_color": "#EB4D5C",
+        "title_color": "#eb4d5c",
         "heading_align": "center",
         "padding_top": 100,
         "padding_bottom": 100
@@ -179,11 +223,11 @@
       "type": "product-landing-section-heading",
       "settings": {
         "subtitle": "",
-        "subtitle_color": "#E8ABAF",
+        "subtitle_color": "#e8abaf",
         "subtitle_decoration": "underline",
         "subtitle_align": "left",
         "title": "Frequently Bought With",
-        "title_color": "#EB4D5C",
+        "title_color": "#eb4d5c",
         "heading_align": "left",
         "padding_top": 100,
         "padding_bottom": 100
@@ -249,6 +293,7 @@
   "order": [
     "main",
     "c7a0e7a5-8537-4a1e-84e8-dd90f6ed51c7",
+    "03e6dc9c-3479-4ce2-b000-df421e551350",
     "188b3f21-b4e6-4aa8-8245-84940c478946",
     "e702d949-9d17-441b-a1f3-a8bed2bde784",
     "16860009006f2c0c6d",
