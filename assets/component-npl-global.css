@@ -12,6 +12,16 @@
 }
 
 @font-face{
+    font-family: "Rama Gothic C"; 
+    font-weight: 400; 
+    font-display: swap; 
+    src: url("RamaGothicC-Regular.woff") format("woff"), 
+         url("RamaGothicC-Regular.woff2") format("woff2"), 
+         url("RamaGothicC-Regular.ttf") format("TrueType"), 
+         url("RamaGothicC-Regular.svg") format("svg")
+}
+
+@font-face{
     font-family: "Bellarina"; 
     font-display: swap; 
     src: url("Bellarina.woff") format("woff"), 

@@ -1,0 +1,139 @@
+{% style %}
+  {% if section.settings.background != blank %}
+    .npl-subscribe-{{section.id}}:before{
+      background-image: url("{{section.settings.background | img_url: 'master'}}");
+      background-size: cover;
+      background-repeat: no-repeat;
+      content: '';
+      display: inline-block; 
+      height: 0; 
+      width: 100%;
+      padding-bottom: {{ 100 | divided_by: section.settings.background.aspect_ratio | floor}}%;
+    }
+    @media only screen and (max-width: 750px){
+      .npl-subscribe-{{section.id}}:before{
+        display: none; 
+      }
+      .npl-subscribe-{{section.id}}{
+        background-image: url("{{section.settings.background | img_url: 'master'}}");
+      }
+    }
+  {% endif %}
+
+  .npl-subscribe-{{section.id}} .npl-subscribe__heading, .npl-subscribe-{{section.id}} .npl-subscribe__subtitle{
+    color: {{section.settings.heading_color}};
+  }
+
+  .npl-subscribe-{{section.id}} .npl-subscribe__pricing{
+    color: {{section.settings.price_color}};
+  }
+
+  .npl-subscribe-{{section.id}} .npl-subscribe__content, .npl-subscribe-{{section.id}} .npl-subscribe__content *{
+    color: {{section.settings.content_color}};
+  }  
+
+{% endstyle %}
+<link rel="stylesheet" href="{{'component-npl-global.css' | asset_url}}">
+<link rel="stylesheet" href="{{'component-npl-subscribe.css' | asset_url}}">
+<section data-section-id="{{section.id}}" data-section-type="NPL-subscribe" class="npl-subscribe-{{section.id}} npl-subscribe-section">
+  <div class="npl-subscribe__wrapper">
+    <div class="npl-container">
+      <div class="npl-subscribe">
+        <h3 class="npl-subscribe__heading">{{section.settings.heading}}</h3>
+  
+        {% if section.settings.subtitle != blank %}
+          <p class="npl-section__subtitle npl-subscribe__subtitle">{{section.settings.subtitle}}</p>
+        {% endif %}
+  
+        <div class="npl-subscribe__pricing">{{section.settings.price | money_with_currency}}</div>
+        <div class="npl-subscribe__content">
+          {{section.settings.content}}
+        </div>
+        <div class="npl-subscribe__button-wrapper">
+          <a href="{{section.settings.btn_link}}" class="npl-button npl-subscribe__button">{{section.settings.btn_label | upcase}} {% render 'icon-arrow' %}</a>
+        </div>
+      </div>    
+    </div>
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name":"NPL subscribe",
+    "settings":[
+      {
+        "type": "image_picker",
+        "id": "background",
+        "label": "Background"
+      },
+      {
+        "type": "product",
+        "id": "product",
+        "label": "Product"
+      },
+      {
+        "type": "text",
+        "id": "heading",
+        "label": "Heading"
+      },
+      {
+        "type": "text",
+        "id": "subtitle",
+        "label": "Subtitle"
+      },
+      {
+        "type": "text",
+        "id": "price",
+        "label": "Price",
+        "default": "6500"
+      },
+      {
+        "type": "richtext",
+        "id": "content",
+        "label": "Subscribe Content"
+      },
+      {
+        "type": "header",
+        "content": "Subcribe Button"
+      },
+      {
+        "type": "text",
+        "id": "btn_label",
+        "label": "Label",
+        "default": "Subscribe & Save Now"
+      },
+      {
+        "type": "url",
+        "id": "btn_link",
+        "label": "Button URL"
+      },
+      {
+        "type": "header",
+        "content": "Section Style"
+      },
+      {
+        "type": "color",
+        "id": "heading_color",
+        "label": "Heading Color",
+        "default": "#fff"
+      },
+      {
+        "type": "color",
+        "id": "price_color",
+        "label": "Price Color",
+        "default": "#EB4D5C"
+      },
+      {
+        "type": "color",
+        "id": "content_color",
+        "label": "Content Color",
+        "default": "#E8ABAF"
+      }
+    ],
+    "presets":[
+      {
+        "name":"NPL Subscribe"
+      }
+    ]
+  }
+{% endschema %}

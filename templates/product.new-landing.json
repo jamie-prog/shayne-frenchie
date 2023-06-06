@@ -101,6 +101,22 @@
         "padding_bottom": 0
       }
     },
+    "feb71a9d-ebd8-41d1-b579-a90e68f2aec5": {
+      "type": "product-landing-subscribe",
+      "settings": {
+        "background": "shopify:\/\/shop_images\/b897342953ddf659b349c6b37db105cb.jpg",
+        "product": "",
+        "heading": "Spray On, Play Long",
+        "subtitle": "Subscribe to SAVE now!",
+        "price": "6500",
+        "content": "<p>ONLY FOR YOU<\/p><ul><li>FREE SHIPPING<\/li><li>FREE GIFT ON 3rd ORDER<\/li><\/ul>",
+        "btn_label": "Subscribe & Save Now",
+        "btn_link": "",
+        "heading_color": "#f7fbfa",
+        "price_color": "#eb4d5c",
+        "content_color": "#e8abaf"
+      }
+    },
     "c7a0e7a5-8537-4a1e-84e8-dd90f6ed51c7": {
       "type": "product-landing-section-heading",
       "settings": {
@@ -223,7 +239,7 @@
     "0a380d7b-3599-40ad-bd8e-03a4a88ab290": {
       "type": "product-landing-section-spliter",
       "settings": {
-        "color": "#EB4D5C",
+        "color": "#eb4d5c",
         "padding_top": 100,
         "padding_bottom": 100
       }
@@ -332,6 +348,7 @@
   },
   "order": [
     "main",
+    "feb71a9d-ebd8-41d1-b579-a90e68f2aec5",
     "c7a0e7a5-8537-4a1e-84e8-dd90f6ed51c7",
     "03e6dc9c-3479-4ce2-b000-df421e551350",
     "bbd0b0cb-93a4-42d7-9394-5f7eddfab2c1",

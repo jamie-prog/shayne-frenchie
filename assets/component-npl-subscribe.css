@@ -1,0 +1,90 @@
+.npl-subscribe-section{
+    position: relative; 
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+.npl-subscribe__wrapper{
+    position: absolute;
+    left: 0; 
+    bottom: 0; 
+    width: 100%;
+    padding-bottom: 150px;
+}
+.npl-subscribe__heading{
+    font-family: "Rama Gothic C", sans-serif; 
+    font-size: 200px; 
+    font-weight: 400;
+    line-height: 1; 
+    letter-spacing: 0.05em;
+    margin-top: 0px;
+    margin-bottom: 100px;
+}
+.npl-subscribe__subtitle{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.8;
+    letter-spacing: -0.02em;
+    margin-top: 0px;
+    margin-bottom: 35px;
+}
+.npl-subscribe__pricing{
+    font-family: "Rama Gothic C", sans-serif;
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 70px;
+}
+.npl-subscribe__content{
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+
+.npl-subscribe__content p{
+    margin: 0; 
+}
+
+.npl-subscribe__button.npl-button{
+    width: auto;
+}
+
+@media only screen and (max-width: 1024px){
+    .npl-subscribe__wrapper{
+        padding-bottom: 100px;
+    }
+    .npl-subscribe__heading{
+        font-size: 100px;
+        margin-bottom: 60px;
+    }
+    .npl-subscribe__pricing{
+        font-size: 72px; 
+        margin-bottom: 45px;
+    }
+
+}
+
+@media only screen and (max-width: 750px){
+    .npl-subscribe-section{
+        background-size: cover; 
+        background-position: center center; 
+    }
+    .npl-subscribe__wrapper{
+        position: static; 
+        padding-top: 60px; 
+        padding-bottom: 60px;
+    }
+    .npl-subscribe__button.npl-button{
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .npl-subscribe__button.npl-button{
+        width: 100%;
+        padding: 10px 20px; 
+        font-size: 14px; 
+    }
+    .npl-subscribe__button.npl-button svg{
+        width: 16px;
+    }
+}
