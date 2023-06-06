@@ -68,19 +68,6 @@
             "show_dynamic_checkout": false
           }
         },
-        "description": {
-          "type": "description",
-          "disabled": true,
-          "settings": {
-          }
-        },
-        "share": {
-          "type": "share",
-          "disabled": true,
-          "settings": {
-            "share_label": "Share"
-          }
-        },
         "9f238d3d-fd8e-49c0-b10d-07032ee13224": {
           "type": "text",
           "settings": {
@@ -101,8 +88,6 @@
         "quantity_selector",
         "4248f80c-d6ad-4276-add0-181b4a30fcd8",
         "buy_buttons",
-        "description",
-        "share",
         "9f238d3d-fd8e-49c0-b10d-07032ee13224"
       ],
       "settings": {
@@ -112,7 +97,7 @@
         "mobile_thumbnails": "hide",
         "hide_variants": false,
         "enable_video_looping": false,
-        "padding_top": 12,
+        "padding_top": 100,
         "padding_bottom": 0
       }
     },
@@ -196,6 +181,53 @@
         "padding_bottom": 100
       }
     },
+    "588d4df5-2275-46f0-b3e4-5a395cd09686": {
+      "type": "product-landing-quality",
+      "blocks": {
+        "57aefdb1-1875-49db-8589-f877957bc635": {
+          "type": "quality",
+          "settings": {
+            "heading": "The power you need   and nothing else.",
+            "subheading": "Always wanted to play longer and stay stronger?",
+            "description": "<p>L'Endurance has been formulated to make you last longer and perform better using proven ingredients. It has been designed to reduce overstimulation of the penis and helps to temporarily prolong time until ejaculation. It is for men who want to last longer, whether due to premature ejaculation or simply has a desire to be a love machine.<\/p>",
+            "image": "shopify:\/\/shop_images\/2022_01_30-Get_Frenchie.png",
+            "image_position": "right",
+            "cta_label": "BUY NOW",
+            "cta_link": "",
+            "show_arrow_icon": true
+          }
+        },
+        "78df2bdf-57df-4876-924a-804aca094f41": {
+          "type": "quality",
+          "settings": {
+            "heading": "Committed to activeingredients & safety",
+            "subheading": "Always wanted to play longer and stay stronger?",
+            "description": "<p>Our formula is a clinically tested-based delay spray with proven that are regulatory approved and used by healthcare professionals around the world.<\/p><p>To keep you and your partner safe, we invest in rigorous third-party lab testing to confirm our product composition. <\/p><p>When used as directed, L’ENDURANCE delay spray ensures that there is minimal to nil partner-transfer. Better for everyone.<\/p>",
+            "image": "shopify:\/\/shop_images\/Group_6299.png",
+            "image_position": "left",
+            "cta_label": "",
+            "cta_link": "",
+            "show_arrow_icon": true
+          }
+        }
+      },
+      "block_order": [
+        "57aefdb1-1875-49db-8589-f877957bc635",
+        "78df2bdf-57df-4876-924a-804aca094f41"
+      ],
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "0a380d7b-3599-40ad-bd8e-03a4a88ab290": {
+      "type": "product-landing-section-spliter",
+      "settings": {
+        "color": "#EB4D5C",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
     "e702d949-9d17-441b-a1f3-a8bed2bde784": {
       "type": "product-landing-section-heading",
       "settings": {
@@ -206,7 +238,7 @@
         "title": "We love to hear from you",
         "title_color": "#eb4d5c",
         "heading_align": "center",
-        "padding_top": 100,
+        "padding_top": 0,
         "padding_bottom": 100
       }
     },
@@ -304,6 +336,8 @@
     "03e6dc9c-3479-4ce2-b000-df421e551350",
     "bbd0b0cb-93a4-42d7-9394-5f7eddfab2c1",
     "188b3f21-b4e6-4aa8-8245-84940c478946",
+    "588d4df5-2275-46f0-b3e4-5a395cd09686",
+    "0a380d7b-3599-40ad-bd8e-03a4a88ab290",
     "e702d949-9d17-441b-a1f3-a8bed2bde784",
     "16860009006f2c0c6d",
     "6e35f5ac-1aa8-473c-aeba-bf5c4f32590b",

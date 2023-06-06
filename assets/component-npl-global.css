@@ -87,3 +87,103 @@
     font-family: "Bellarina";
     font-weight: 400;
 }
+
+.npl-block__title{
+    color: #2A4A80;
+    font-family: "Inter", sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    margin-top: 0; 
+    margin-bottom: 60px;
+}
+
+.npl-block__subtitle{
+    color: #2A4A80;
+    font-family: "Inter", sans-serif; 
+    font-size: 24px; 
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    margin-top: 0; 
+    margin-bottom: 60px; 
+}
+
+.npl-block__rte{
+    font-family: "Inter", sans-serif;
+    font-size: 24px; 
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: -0.02em;
+}
+
+.npl-button{
+    background-color: #EB4D5C;
+    border-radius: 56px;
+    color: #fff; 
+    display: inline-flex;
+    align-items: center; 
+    justify-content: center;
+    column-gap: 20px;
+    font-size: 36px;
+    font-weight: 700; 
+    line-height: 1; 
+    letter-spacing: 0.17em;
+    padding: 30px 60px;
+    height: 100px;
+    width: 600px;
+    max-width: 100%;
+    text-align: center;  
+    text-decoration: none;
+    transition: all 0.8s; 
+}
+
+.npl-button:hover{
+    opacity: 0.8;
+}
+
+.npl-button svg{
+    width: 36px;
+}
+
+@media only screen and (max-width: 1400px){
+    .npl-block__title{
+        margin-bottom: 40px;
+    }
+    .npl-block__subtitle{
+        margin-bottom: 40px;
+    }
+    .npl-button{
+        font-size: 28px;
+        padding: 20px 40px;
+        height: 60px;
+    }
+    .npl-button svg{
+        width: 28px;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    .npl-block__title{
+        font-size: 36px;
+    }
+    .npl-block__subtitle{
+        font-size: 20px;
+    }
+    .npl-block__rte{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .npl-block__title{
+        font-size: 30px;
+    }
+    .npl-block__subtitle{
+        font-size: 18px;
+    }
+    .npl-block__rte{
+        font-size: 18px;
+    }
+}
