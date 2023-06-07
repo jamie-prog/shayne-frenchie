@@ -1,7 +1,7 @@
 {
   "sections": {
     "main": {
-      "type": "main-product",
+      "type": "product-landing-main",
       "blocks": {
         "vendor": {
           "type": "text",
@@ -23,6 +23,11 @@
             "text_style": "subtitle"
           }
         },
+        "adc93b92-a9fb-4b56-98e5-836ad727f835": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        },
         "caption": {
           "type": "text",
           "settings": {
@@ -30,15 +35,11 @@
             "text_style": "subtitle"
           }
         },
-        "adc93b92-a9fb-4b56-98e5-836ad727f835": {
-          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "9f238d3d-fd8e-49c0-b10d-07032ee13224": {
+          "type": "text",
           "settings": {
-          }
-        },
-        "rating": {
-          "type": "rating",
-          "disabled": true,
-          "settings": {
+            "text": "{{ product.metafields.my_fields.details_ingredients.value }}",
+            "text_style": "body"
           }
         },
         "price": {
@@ -52,13 +53,13 @@
             "picker_type": "button"
           }
         },
-        "quantity_selector": {
-          "type": "quantity_selector",
+        "4248f80c-d6ad-4276-add0-181b4a30fcd8": {
+          "type": "shopify:\/\/apps\/yotpo-subscriptions\/blocks\/app-block\/ef25e582-ada5-4bb0-b4e7-f94e97ab1bb4",
           "settings": {
           }
         },
-        "4248f80c-d6ad-4276-add0-181b4a30fcd8": {
-          "type": "shopify:\/\/apps\/yotpo-subscriptions\/blocks\/app-block\/ef25e582-ada5-4bb0-b4e7-f94e97ab1bb4",
+        "quantity_selector": {
+          "type": "quantity_selector",
           "settings": {
           }
         },
@@ -67,28 +68,20 @@
           "settings": {
             "show_dynamic_checkout": false
           }
-        },
-        "9f238d3d-fd8e-49c0-b10d-07032ee13224": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.metafields.my_fields.details_ingredients.value }}",
-            "text_style": "body"
-          }
         }
       },
       "block_order": [
         "vendor",
         "title",
         "c274a99c-3363-4d6d-bc92-e6cae0ea6677",
-        "caption",
         "adc93b92-a9fb-4b56-98e5-836ad727f835",
-        "rating",
+        "caption",
+        "9f238d3d-fd8e-49c0-b10d-07032ee13224",
         "price",
         "variant_picker",
-        "quantity_selector",
         "4248f80c-d6ad-4276-add0-181b4a30fcd8",
-        "buy_buttons",
-        "9f238d3d-fd8e-49c0-b10d-07032ee13224"
+        "quantity_selector",
+        "buy_buttons"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -326,6 +319,24 @@
         "padding_bottom": 100
       }
     },
+    "84fa67e8-6a70-4333-a997-826131c9eb3b": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": true,
+        "columns_mobile": "1",
+        "padding_top": 0,
+        "padding_bottom": 100
+      }
+    },
     "6618dc7a-437c-472e-ac5c-afc83b6ff453": {
       "type": "product-landing-instructions",
       "blocks": {
@@ -396,6 +407,7 @@
     "e702d949-9d17-441b-a1f3-a8bed2bde784",
     "16860009006f2c0c6d",
     "6e35f5ac-1aa8-473c-aeba-bf5c4f32590b",
+    "84fa67e8-6a70-4333-a997-826131c9eb3b",
     "6618dc7a-437c-472e-ac5c-afc83b6ff453",
     "6402ab52-d9b6-41ec-b372-3b7392c4b543",
     "c0be0361-b68f-44fc-acd1-49c7e118d17b"

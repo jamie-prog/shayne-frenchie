@@ -1,5 +1,10 @@
 <link rel="stylesheet" href="{{ 'component-card.css' | asset_url }}" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="{{ 'component-price.css' | asset_url }}" media="print" onload="this.media='all'">
+{%- if section.settings.enable_quick_add -%}
+  <link rel="stylesheet" href="{{ 'quick-add.css' | asset_url }}" media="print" onload="this.media='all'">
+  <script src="{{ 'quick-add.js' | asset_url }}" defer="defer"></script>
+  <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
+{%- endif -%}
 <link rel="stylesheet" href="{{ 'section-product-recommendations.css' | asset_url }}" media="print" onload="this.media='all'">
 
 <noscript>{{ 'component-card.css' | asset_url | stylesheet_tag }}</noscript>
@@ -34,7 +39,8 @@
               media_aspect_ratio: section.settings.image_ratio,
               show_secondary_image: section.settings.show_secondary_image,
               show_vendor: section.settings.show_vendor,
-              show_rating: section.settings.show_rating
+              show_rating: section.settings.show_rating,
+              show_quick_add: section.settings.enable_quick_add
             %}
           </li>
         {% endfor %}
@@ -206,6 +212,12 @@
       "info": "t:sections.product-recommendations.settings.show_rating.info"
     },
     {
+      "type": "checkbox",
+      "id": "enable_quick_add",
+      "label": "Enable Quick Add Button",
+      "default": false
+    },
+    {
       "type": "header",
       "content": "t:sections.product-recommendations.settings.header_mobile.content"
     },
@@ -248,6 +260,14 @@
       "unit": "px",
       "label": "t:sections.all.padding.padding_bottom",
       "default": 36
+    }
+  ],
+  "enabled_on":{
+    "templates":["product"]
+  },
+  "presets":[
+    {
+      "name":"Product Recommendations"
     }
   ]
 }
