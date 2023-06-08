@@ -1,0 +1,40 @@
+{% if block.settings.top_spacing != 0 or block.settings.bottom_spacing != 0 %}
+    {% style %}
+        .npl-product-main-block-{{block.id}}{
+            padding-top: {{block.settings.top_spacing}}px;
+            padding-bottom: {{block.settings.bottom_spacing}}px;
+        }
+        
+        @media only screen and (max-width: 750px){
+            .npl-product-main-block-{{block.id}}{
+                {% if block.settings.top_spacing >= 60  %}
+                    padding-top: {{block.settings.top_spacing | times: 0.75 | floor }}px;
+                {% elsif block.settings.top_spacing >= 45 %}
+                    padding-top: 45px;
+                {% endif %}
+
+                {% if block.settings.bottom_spacing >= 60  %}
+                    padding-top: {{block.settings.top_spacing | times: 0.75 | floor }}px;
+                {% elsif block.settings.bottom_spacing >= 45 %}
+                    padding-top: 45px;
+                {% endif %}
+            }
+        }
+
+        @media only screen and (max-width: 480px){
+            .npl-product-main-block-{{block.id}}{
+                {% if block.settings.top_spacing >= 40 %}
+                    padding-top: {{block.settings.top_spacing | times: 0.75 | floor }}px;
+                {% elsif block.settings.top_spacing >= 40 %}
+                    padding-top: 30px;
+                {% endif %}
+
+                {% if block.settings.bottom_spacing >= 40  %}
+                    padding-top: {{block.settings.top_spacing | times: 0.75 | floor }}px;
+                {% elsif block.settings.bottom_spacing >= 45 %}
+                    padding-top: 30px;
+                {% endif %}
+            }
+        }
+    {% endstyle %}
+{% endif %}

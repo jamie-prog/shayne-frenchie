@@ -3,24 +3,33 @@
     "main": {
       "type": "product-landing-main",
       "blocks": {
-        "vendor": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "{{ product.vendor }}",
-            "text_style": "body"
-          }
-        },
         "title": {
           "type": "title",
           "settings": {
+            "top_spacing": 0,
+            "bottom_spacing": 0
+          }
+        },
+        "8ab83d6d-40b8-496c-86a6-619fbf6b4193": {
+          "type": "text",
+          "settings": {
+            "text": "for a longer lasting experience!",
+            "text_style": "sign",
+            "text_size": "medium",
+            "box_style": "normal",
+            "top_spacing": 0,
+            "bottom_spacing": 45
           }
         },
         "c274a99c-3363-4d6d-bc92-e6cae0ea6677": {
           "type": "text",
           "settings": {
-            "text": "{{ product.metafields.my_fields.product_short_description.value }}",
-            "text_style": "subtitle"
+            "text": "Maximizing Pleasure: The Benefits Of A Delay Spray For Sexual Satisfaction.",
+            "text_style": "body",
+            "text_size": "small",
+            "box_style": "rounded",
+            "top_spacing": 0,
+            "bottom_spacing": 45
           }
         },
         "adc93b92-a9fb-4b56-98e5-836ad727f835": {
@@ -28,54 +37,59 @@
           "settings": {
           }
         },
-        "caption": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
-          }
-        },
         "9f238d3d-fd8e-49c0-b10d-07032ee13224": {
           "type": "text",
           "settings": {
             "text": "{{ product.metafields.my_fields.details_ingredients.value }}",
-            "text_style": "body"
+            "text_style": "body",
+            "text_size": "medium",
+            "box_style": "normal",
+            "top_spacing": 45,
+            "bottom_spacing": 0
           }
         },
         "price": {
           "type": "price",
           "settings": {
+            "top_spacing": 0,
+            "bottom_spacing": 0
           }
         },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
-            "picker_type": "button"
+            "picker_type": "button",
+            "top_spacing": 0,
+            "bottom_spacing": 0
           }
         },
         "4248f80c-d6ad-4276-add0-181b4a30fcd8": {
           "type": "shopify:\/\/apps\/yotpo-subscriptions\/blocks\/app-block\/ef25e582-ada5-4bb0-b4e7-f94e97ab1bb4",
+          "disabled": true,
           "settings": {
           }
         },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
+            "top_spacing": 0,
+            "bottom_spacing": 0
           }
         },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": false
+            "show_dynamic_checkout": false,
+            "top_spacing": 0,
+            "bottom_spacing": 0
           }
         }
       },
       "block_order": [
-        "vendor",
         "title",
+        "8ab83d6d-40b8-496c-86a6-619fbf6b4193",
         "c274a99c-3363-4d6d-bc92-e6cae0ea6677",
         "adc93b92-a9fb-4b56-98e5-836ad727f835",
-        "caption",
         "9f238d3d-fd8e-49c0-b10d-07032ee13224",
         "price",
         "variant_picker",
@@ -86,7 +100,6 @@
       "settings": {
         "enable_sticky_info": true,
         "gallery_layout": "thumbnail_slider",
-        "media_size": "small",
         "mobile_thumbnails": "hide",
         "hide_variants": false,
         "enable_video_looping": false,
@@ -239,7 +252,7 @@
             "image": "shopify:\/\/shop_images\/2022_01_30-Get_Frenchie.png",
             "image_position": "right",
             "cta_label": "BUY NOW",
-            "cta_link": "",
+            "cta_link": "#MainProduct-template--16118187720890__main",
             "show_arrow_icon": true
           }
         },
