@@ -4,6 +4,7 @@ section[data-section-type="NPL-our-difference"] .npl-container{
 
 .npl-difference-blocks{
     position: relative;
+    display: block;
 }
 
 .npl-difference-blocks::after{
