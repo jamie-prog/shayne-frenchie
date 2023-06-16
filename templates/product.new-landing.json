@@ -65,7 +65,6 @@
         },
         "4248f80c-d6ad-4276-add0-181b4a30fcd8": {
           "type": "shopify:\/\/apps\/yotpo-subscriptions\/blocks\/app-block\/ef25e582-ada5-4bb0-b4e7-f94e97ab1bb4",
-          "disabled": true,
           "settings": {
           }
         },
@@ -151,10 +150,10 @@
         "product": "",
         "heading": "Spray On, Play Long",
         "subtitle": "Subscribe to SAVE now!",
-        "price": "6500",
+        "price": "8000",
         "content": "<p>ONLY FOR YOU<\/p><ul><li>FREE SHIPPING<\/li><li>FREE GIFT ON 3rd ORDER<\/li><\/ul>",
         "btn_label": "Subscribe & Save Now",
-        "btn_link": "",
+        "btn_link": "#shopify-block-4248f80c-d6ad-4276-add0-181b4a30fcd8",
         "heading_color": "#f7fbfa",
         "price_color": "#eb4d5c",
         "content_color": "#e8abaf"
@@ -388,6 +387,31 @@
     },
     "6402ab52-d9b6-41ec-b372-3b7392c4b543": {
       "type": "product-landing-featured-articles",
+      "blocks": {
+        "94a23807-4cde-4402-8c24-f08595d7064e": {
+          "type": "article",
+          "settings": {
+            "article": "news\/best-lubricant-for-menopause-dryness"
+          }
+        },
+        "32b10a8c-8f9d-4517-b65a-c581cf76a722": {
+          "type": "article",
+          "settings": {
+            "article": "news\/what-is-a-c-ring-how-do-you-use-it"
+          }
+        },
+        "ca4c9131-8e60-4c2a-8d5e-3541145c9997": {
+          "type": "article",
+          "settings": {
+            "article": "news\/desire-in-lockdown"
+          }
+        }
+      },
+      "block_order": [
+        "94a23807-4cde-4402-8c24-f08595d7064e",
+        "32b10a8c-8f9d-4517-b65a-c581cf76a722",
+        "ca4c9131-8e60-4c2a-8d5e-3541145c9997"
+      ],
       "settings": {
         "title": "Read Our Blog - Le Journal",
         "heading_align": "left",

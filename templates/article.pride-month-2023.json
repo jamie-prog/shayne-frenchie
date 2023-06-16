@@ -1,0 +1,218 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "blog_show_date": true,
+            "blog_show_author": true,
+            "blog_author_name": "",
+            "blog_reviewer_name": "",
+            "blog_show_readingtime": true
+          }
+        },
+        "featured_image": {
+          "type": "featured_image",
+          "settings": {
+            "image_height": "adapt"
+          }
+        },
+        "content": {
+          "type": "content",
+          "settings": {
+          }
+        },
+        "ee074a6d-bf70-4e15-a49a-73bca8881185": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_6487327_1.jpg"
+          }
+        },
+        "c8e6c6ac-9c7e-41ba-82f8-9097cf67fe7a": {
+          "type": "custom",
+          "settings": {
+            "custom_text_title": "",
+            "custom_text_body": "<p><strong>Name:<\/strong> Claudia<\/p><p><strong>Pronouns:<\/strong> She\/Her<\/p><p><strong>Can you share a moment where you felt an overwhelming sense of pride in your identity as an LGBTQIA+ person?<\/strong><\/p><p>I would have to say the announcement and win of the marriage equality vote on November 29 2017. A few of my friends and thousands of people were all standing in Prince Alfred Park in Sydney. When it was announced live that we had won the vote for Australia to legalise same sex marriage. The amount of love, tears and joy that we felt that day was indescribable. As we watched same sex partners that had been together for years cry tears of joy and kiss one another, so hopeful for the future and future generations to come. That was my ultimate feeling of pride!<\/p><p><strong>In your opinion, what is the most powerful thing that allies can do to support and uplift the LGBTQIA+ community?<\/strong><\/p><p>Being an ally to me is championing the LGBTIQ+ communities, being aware of inequality and calling it out where it exists and creating safe and inclusive spaces. Above all it means listening to the community's experiences and affirming and elevating their voices.<\/p><p><strong>If you could go back in time, what would you tell your younger self?<\/strong><\/p><p>My advice to my younger self is to not sweat the small stuff, to know that your sexuality doesn’t define who you are, it's actually quite a small part of you, and you are wonderful in every single way, with whoever you choose to love. But also remember, coming out isn’t like flicking a switch or moving to a new city. Coming out can be an evoking process of being honest with yourself, there is no rush and there also isn’t anything wrong with not wanting to label yourself either. Love is love and that’s all that matters! Be proud of who you are and do things at your own pace when you feel ready and comfortable to do so.<\/p><p>I’m very proud to be gay and thankful for my support network and accepting family. Some don’t have it as easy so always be gentle with others and yourself.<\/p>"
+          }
+        },
+        "8089a729-702c-4938-adb9-5718096d0766": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-06-06_at_3.35.20_pm.png"
+          }
+        },
+        "dbbed86a-1223-4cd9-85eb-98b2175cb969": {
+          "type": "custom",
+          "settings": {
+            "custom_text_title": "",
+            "custom_text_body": "<p><strong>Name:<\/strong> Zayn<\/p><p><strong>Pronouns:<\/strong> They\/Them<\/p><p><strong>Can you share a moment where you felt an overwhelming sense of pride in your identity as an LGBTQIA+ person?<\/strong><\/p><p>I felt a huge sense of pride the day I came out as non binary, and changed my name to one that feels more me. To be honest, until that day, it was like I was running in circles trying to figure out why my sense of self was such a mess. I'm glad I chose to follow my heart and be me, regardless of any repercussions that came with that.<\/p><p><strong>In your opinion, what is the most powerful thing that allies can do to support and uplift the LGBTQIA+ community?<\/strong><\/p><p>To have an open mind and remember we are all human.<\/p><p><strong>If you could go back in time, what would you tell your younger self?<\/strong><\/p><p>You don’t have to do what’s 'normal' to fit in. It's not your job to keep everyone happy, especially at the cost of your wellbeing. You don’t have to be scared to be authentic, the people that matter to you won’t switch up. You have a heart of gold and it shines bright. You are valued. You are so, so loved.<\/p>"
+          }
+        },
+        "a3d7aabd-0fd1-4e14-a508-820fb5f04093": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/EE5BFD2B-D30F-4E53-84DB-9EE64161BB54_1.jpg"
+          }
+        },
+        "b095f3fd-4d01-4d74-a645-afe88cb56c98": {
+          "type": "custom",
+          "settings": {
+            "custom_text_title": "",
+            "custom_text_body": "<p><strong>Name:<\/strong> Tash<\/p><p><strong>Pronouns:<\/strong> She\/Her<\/p><p><strong>Can you share a moment where you felt an overwhelming sense of pride in your identity as an LGBTQIA+ person?<\/strong><\/p><p>Any time I receive a DM from someone telling me I inspire them to live in a loud and proud way. It just moves me so much to think I could have that kind of impact simply by living in a wholly authentic way. Those messages always make my heart burst with pride.<\/p><p><strong>In your opinion, what is the most powerful thing that allies can do to support and uplift the LGBTQIA+ community?<\/strong><\/p><p>Employ us and allow us to represent ourselves. I think visibility is the most powerful tool. We want to feel seen, accepted and celebrated for who we are.<\/p><p><strong>If you could go back in time, what would you tell your younger self?<\/strong><\/p><p>Ok I'm going to pretend Ru Paul is holding a photo of baby me and asking me this question.<\/p><p>I know it feels like the worst thing in the world having people in primary school call you a lesbian but it is not a bad thing- even if you are (which, bb, you are.) There is absolutely nothing shameful about being attracted to women and it doesn't make you weird, lesser, or unlikeable. It is not connected to your worth. The only people that refer to homosexuality in a negative way are people who are scared or confused or ignorant, and these people's opinions don't matter to you.<\/p><p>You will learn to drop any shame you feel around being gay, and you will feel so comfortable in who you want to love.<\/p>"
+          }
+        },
+        "301fb508-492a-40e5-be45-beeb1b418527": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_0276.jpg"
+          }
+        },
+        "b424ff98-b233-44b1-97d7-aee086d4be1b": {
+          "type": "custom",
+          "settings": {
+            "custom_text_title": "",
+            "custom_text_body": "<p><strong>Name:<\/strong> Tushar<\/p><p><strong>Pronouns:<\/strong> He\/Him<\/p><p><strong>Can you share a moment where you felt an overwhelming sense of pride in your identity as an LGBTQIA+ person?<\/strong><\/p><p>Growing up in India, I always felt out of place in society. I felt ashamed of being different and a piece of me always felt missing. I decided to move to Australia for higher education and got to experience my first ever Mardi Gras. This was a feeling of liberation, joy and peace. I felt seen & heard and I realised this is how the world is supposed to be. Being a part of this event was truly the most special moment in my life. I felt like I finally belonged.<\/p><p><strong>In your opinion, what is the most powerful thing that allies can do to support and uplift the LGBTQIA+ community?<\/strong><\/p><p>The best thing an ally can do is come from a completely non-judgemental position and have an educated perspective of what it actually means to be an ally for the lgbtq+ community. Always standing up for what’s right, taking the opportunity to educate one another about the challenges and accepting everyone for who they are.<\/p><p><strong>If you could go back in time, what would you tell your younger self?<\/strong><\/p><p>I would definitely tell myself to be more fearless & true to myself. I would tell myself to trust my gut and take those risks and unleash the queer kid in me.<\/p>"
+          }
+        },
+        "e1298a72-9e69-49f1-877d-9cfb4c24f81e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image2_1.jpg"
+          }
+        },
+        "de2c6fd6-beff-4254-8025-ebc4b32bec6f": {
+          "type": "custom",
+          "settings": {
+            "custom_text_title": "",
+            "custom_text_body": "<p><strong>Name:<\/strong> Julia Rose<\/p><p><strong>Pronouns:<\/strong> They\/Them<\/p><p><strong>Can you share a moment where you felt an overwhelming sense of pride in your identity as an LGBTQIA+ person?<\/strong><\/p><p>It fills me with immense pride whenever queer people come together to honour and love one another. I’ve had the privilege of existing among several queer communities across Australia, and every time we celebrate together, or grieve together, or rage together, I’m reminded how incredibly generous and resilient we are.<\/p><p><strong>In your opinion, what is the most powerful thing that allies can do to support and uplift the LGBTQIA+ community?<\/strong><\/p><p>Be humble. Have open and honest conversations with us, honour our expertise, and take what you've learned to the people in your life who aren't quite allies yet. Do the work to unlearn unconscious biases even when it feels hard, and especially when it feels impossible. We — all of us — have access to such a deep well of love. In my opinion, the most powerful thing you can do is to genuinely and unconditionally love the queer people in your life and allow us to love you in return.<\/p><p><strong>If you could go back in time, what would you tell your younger self?<\/strong><\/p><p>You adorable little weirdo. You'll figure it out. I just wish I could see your face when you do.<\/p>"
+          }
+        },
+        "63e90928-ccf9-478f-b436-12032d8068d0": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-02-21_102651.png"
+          }
+        },
+        "823867e1-51ae-4581-92b3-fc7daaa6a216": {
+          "type": "advert",
+          "disabled": true,
+          "settings": {
+            "product_headline": "Spice up it up",
+            "product_1": "le-petit-lultimate-lovers-kit",
+            "product_button_text": "View Product",
+            "product_2": "",
+            "product_button_text_2": "View Product",
+            "product_3": "",
+            "product_button_text_3": "View Product"
+          }
+        },
+        "7ea6d6d8-985c-4808-a1e7-3c25bb2f2814": {
+          "type": "cta",
+          "disabled": true,
+          "settings": {
+            "cta-title": "Check this out",
+            "cta-image": "shopify:\/\/shop_images\/Frenchie-Lube-Restock-2.1.jpg",
+            "cta-link": "https:\/\/getfrenchie.com\/blogs\/news\/7-days-of-pleasure",
+            "cta-link-text": "Click Here"
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "featured_image",
+        "content",
+        "ee074a6d-bf70-4e15-a49a-73bca8881185",
+        "c8e6c6ac-9c7e-41ba-82f8-9097cf67fe7a",
+        "8089a729-702c-4938-adb9-5718096d0766",
+        "dbbed86a-1223-4cd9-85eb-98b2175cb969",
+        "a3d7aabd-0fd1-4e14-a508-820fb5f04093",
+        "b095f3fd-4d01-4d74-a645-afe88cb56c98",
+        "301fb508-492a-40e5-be45-beeb1b418527",
+        "b424ff98-b233-44b1-97d7-aee086d4be1b",
+        "e1298a72-9e69-49f1-877d-9cfb4c24f81e",
+        "de2c6fd6-beff-4254-8025-ebc4b32bec6f",
+        "63e90928-ccf9-478f-b436-12032d8068d0",
+        "823867e1-51ae-4581-92b3-fc7daaa6a216",
+        "7ea6d6d8-985c-4808-a1e7-3c25bb2f2814",
+        "share"
+      ],
+      "settings": {
+      }
+    },
+    "1658801499aa58f4de": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Our Best Sellers",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "frontpage",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "inverse",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+          }
+        },
+        "email-form": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "paragraph",
+        "email-form"
+      ],
+      "settings": {
+        "color_scheme": "accent-2",
+        "full_width": true,
+        "padding_top": 60,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1658801499aa58f4de",
+    "newsletter"
+  ]
+}

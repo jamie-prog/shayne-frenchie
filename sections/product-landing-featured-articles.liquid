@@ -19,9 +19,9 @@
             <div class="npl-section-heading npl-heading--align-{{section.settings.heading_align}}">{{section.settings.title | upcase}}</div>
         {% endif %}
         {% assign npl_featured_blog = section.settings.blog %}
-        {% if npl_featured_blog.articles_count > 0 %}
+        {% if section.blocks.size > 0 %}
             <div class="npl-featured-articles">
-                {% for npl_article in npl_featured_blog.articles, limit: section.settings.article_count %}
+                {% for block in section.blocks %}
                     {% assign npl_article = block.settings.article %}
                     {% assign index_modulo = forloop.index | modulo: 2 %}
                     {% if index_modulo == 0 %}
@@ -123,6 +123,19 @@
                 "unit": "px",
                 "label": "t:sections.all.padding.padding_bottom",
                 "default": 36
+            }
+        ],
+        "blocks":[
+            {
+                "name":"Featured Article", 
+                "type":"article",
+                "settings":[
+                    {
+                        "type": "article",
+                        "id": "article",
+                        "label": "Article"
+                    }
+                ]
             }
         ],
         "presets":[

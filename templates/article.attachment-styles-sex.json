@@ -1,0 +1,182 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "blog_show_date": true,
+            "blog_show_author": true,
+            "blog_author_name": "Yarden Grinberg",
+            "blog_reviewer_name": "",
+            "blog_show_readingtime": true
+          }
+        },
+        "featured_image": {
+          "type": "featured_image",
+          "settings": {
+            "image_height": "adapt"
+          }
+        },
+        "content": {
+          "type": "content",
+          "settings": {
+          }
+        },
+        "dbbed86a-1223-4cd9-85eb-98b2175cb969": {
+          "type": "custom",
+          "settings": {
+            "custom_text_title": "Understanding Attachment Styles",
+            "custom_text_body": "<p>There are three main attachment styles, secure, anxious, and avoidant. While these tend to be developed during childhood, your attachment style can also change due to a traumatic event as an adult. Things like being in an abusive (emotionally, mentally or physically)* platonic or romantic relationship, or suffering from mental health issues can all impact your attachment and can change it. Vice versa, you may have developed an anxious attachment when you were younger, and now are in a happy and healthy relationship and are feeling more secure. In relationships, attachment styles tend to be like a scale. When one person is too much on one side (e.g dismissive avoidant), this might make the other person more anxious. However, a person with a secure attachment style is balanced, which means that even though their partner might be more anxious or avoidant, if they continue working together they can eventually become secure.<\/p>"
+          }
+        },
+        "c8e6c6ac-9c7e-41ba-82f8-9097cf67fe7a": {
+          "type": "custom",
+          "settings": {
+            "custom_text_title": "Secure Attachment Style and Sex Life",
+            "custom_text_body": "<p>A person with a secure attachment style is one who is sure of themselves, they appreciate their own self worth and are content being themselves in relationships. People with secure attachment tend to be able to voice their feelings, ask for help and be trusting of others. This is shown in all relationships, including romantic and platonic. <\/p><p>People with secure attachment tend to commit to romantic relationships. They are good communicators and are easy to connect with. When it comes to sex, secure people prefer being in relationships. They enjoy expressing intimacy and love during sex, and they are comfortable with experimenting in the bedroom. <\/p>"
+          }
+        },
+        "823867e1-51ae-4581-92b3-fc7daaa6a216": {
+          "type": "advert",
+          "settings": {
+            "product_headline": "Experiment in the bedroom",
+            "product_1": "lultimate-lovers-kit",
+            "product_button_text": "View Product",
+            "product_2": "",
+            "product_button_text_2": "View Product",
+            "product_3": "",
+            "product_button_text_3": "View Product"
+          }
+        },
+        "b095f3fd-4d01-4d74-a645-afe88cb56c98": {
+          "type": "custom",
+          "settings": {
+            "custom_text_title": "Anxious Attachment Style and Sex Life",
+            "custom_text_body": "<p>Someone with an anxious attachment is usually quite needy. We won’t lie, we’ve been there before, analysing every message looking for hidden clues as to why they might be cheating on us, counting the minutes they took to reply and waiting one minute more to send our reply, and panicking at the disco when they are out with friends and we weren’t invited. Looking back, we cringe at the idea that we were that “desperate”, but truth be told, we just had a fear of abandonment. Those with anxious attachment issues tend to have trouble setting boundaries, and this often leads to codependency. Someone with this attachment style may have developed this in childhood, or has had relationships in the past that left them feeling unworthy of love and needing constant validation. Due to holding their value in others, anxious attachment people tend to fall in love easily and love bomb, I mean if I give you the world why wouldn’t you want to be with me?!<\/p><p>When it comes to sex, anxious people tend to engage in sexual activity to feel a sense of security and love. They have a hard time differentiating the act of sex with their self worth and attractiveness. Anxious women especially tend to use sex to feel closer to their partner, as they fear communicating may be “too much” and push them away. <\/p>"
+          }
+        },
+        "78762afc-7e79-4729-a670-dab119b1334d": {
+          "type": "custom",
+          "settings": {
+            "custom_text_title": "Avoidant Attachment Style and Sex Life",
+            "custom_text_body": "<p>At some point I am sure we have all experienced trying to convince a person why they should want a relationship with us. Truth is, these people tend to have a dismissive-avoidant style and don’t seek proximity and intimacy. For them, the easiest way to show this is by avoiding displays of emotions, and appearing distant and cold. People who have this attachment style are less likely to fall in love, and they don’t seem to believe in ‘happily ever after’. They don’t open up emotionally and tend to be less involved in relationships. This can result in sabotaging behaviour.<\/p><p>Due to not wanting to open up or be vulnerable, dismissive people tend to have fewer long-term relationships and would rather avoid sex or have short-term flings and casual sex. They are likely to watch porn as a substitute for intimacy and engage in emotion-free sex, or ‘friends with benefits’.<\/p>"
+          }
+        },
+        "ed874bfd-1fa6-444e-99b0-3f53c1f9043e": {
+          "type": "custom",
+          "settings": {
+            "custom_text_title": "Healing and Growth",
+            "custom_text_body": "<p>Knowing your attachment style is important to figuring out why you act a certain way in relationships, and also as to what you look for in a partner. If you tend to lean towards that anxious attachment style, perhaps you’ve been dating people who are more avoidant, which makes your anxiety worse. Just because you are a certain style, or you have certain tendencies since childhood doesn’t mean this can’t change. <\/p><p>A few ways to balance out your attachment style is by dating someone who has a more secure attachment style. These people can empathise with you, and can show you what a loving, safe relationship can look like. <\/p><p>Another way is through therapy. Whether you are already in a relationship and want to go to couples therapy, or are doing it for your own personal growth. A trained therapist can give you the tools you need to work through your attachment issue and help you get to a more secure space.<\/p><p><em>*If you are in an abusive relationship, please seek professional help immediately. <\/em><\/p>"
+          }
+        },
+        "63e90928-ccf9-478f-b436-12032d8068d0": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-02-21_102651.png"
+          }
+        },
+        "7ea6d6d8-985c-4808-a1e7-3c25bb2f2814": {
+          "type": "cta",
+          "disabled": true,
+          "settings": {
+            "cta-title": "Check this out",
+            "cta-image": "shopify:\/\/shop_images\/Frenchie-Lube-Restock-2.1.jpg",
+            "cta-link": "https:\/\/getfrenchie.com\/blogs\/news\/7-days-of-pleasure",
+            "cta-link-text": "Click Here"
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "featured_image",
+        "content",
+        "dbbed86a-1223-4cd9-85eb-98b2175cb969",
+        "c8e6c6ac-9c7e-41ba-82f8-9097cf67fe7a",
+        "823867e1-51ae-4581-92b3-fc7daaa6a216",
+        "b095f3fd-4d01-4d74-a645-afe88cb56c98",
+        "78762afc-7e79-4729-a670-dab119b1334d",
+        "ed874bfd-1fa6-444e-99b0-3f53c1f9043e",
+        "63e90928-ccf9-478f-b436-12032d8068d0",
+        "7ea6d6d8-985c-4808-a1e7-3c25bb2f2814",
+        "share"
+      ],
+      "settings": {
+      }
+    },
+    "1658801499aa58f4de": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Our Best Sellers",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "frontpage",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "inverse",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+          }
+        },
+        "email-form": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "paragraph",
+        "email-form"
+      ],
+      "settings": {
+        "color_scheme": "accent-2",
+        "full_width": true,
+        "padding_top": 60,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1658801499aa58f4de",
+    "newsletter"
+  ]
+}

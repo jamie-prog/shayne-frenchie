@@ -1256,6 +1256,16 @@
     font-size: 32px; 
   }
 
+  @media only screen and (max-width: 480px){
+    .npl-product-form__quantity .quantity{
+      font-size: 24px; 
+      padding: 10px 30px;
+    }
+    .npl-product-form__quantity .quantity__input{
+      font-size: 20px;
+    }
+  }
+
   .npl-product-form__quantity .quantity:before, .npl-product-form__quantity .quantity:after{
     display: none; 
   }
@@ -1287,6 +1297,12 @@
   @media only screen and (max-width: 1024px){
     .npl-product__button{
       font-size: 24px;
+    }
+  }
+
+  @media only screen and (max-width: 480px){
+    .npl-product__button{
+      font-size: 18px;
     }
   }
 
